@@ -1,12 +1,11 @@
 import './Default.css'
-import '../../pages/Page.css'
 
 import { useEffect, useState } from 'react'
 import {  Route, Routes, useLocation } from 'react-router-dom'
 
 // components
 import SayHallo from '../components/SayHallo/SayHallo';
-import Nav from '../components/Nav/Nav';
+import Navbar from '../components/NavBar/Navbar';
 import Home from '../pages/Home/Home';
 import NotFound from '../pages/NotFound/NotFound';
 import Footer from '../components/Footer/Footer';
@@ -24,7 +23,7 @@ export default function Default() {
 
     setTimeout(() => {
       setLoading(false);
-    }, 2000);
+    }, 9000);
   }, []);
 
   return (
@@ -35,7 +34,7 @@ export default function Default() {
         </div>
       ) : (
         <>
-          <Nav />
+          <Navbar />
 
           <Routes location={location}>
             <Route path="/" element={<Home />} />

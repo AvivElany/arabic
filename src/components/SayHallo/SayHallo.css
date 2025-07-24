@@ -1,13 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans+Hebrew:wght@100..800&display=swap');
+
 .SayHallo {
-    display: flex;
+    display: grid;
     justify-content: center;
     align-items: center;
     text-align: center;
     height: 100vh;
     width: 100vw;
-    font-family: Arial, Helvetica, sans-serif;
     font-size: 40px;
     font-weight: 800;
     color: #fff;
     background-color: black;
+}
+
+.SayHallo h1 {
+    margin: 0;
+    font-family: "Playpen Sans Hebrew", cursive;
+    font-weight: 700;
+    font-size: 50px;
+    color:green
+}
+
+@media (max-width: 600px) {
+    .SayHallo {
+        font-size: 30px;
+    }
+    .SayHallo h1 {
+        font-size: 40px;
+    }
+    .shabab {
+        display: block;
+        color: red;
+    }
 }

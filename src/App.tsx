@@ -1,4 +1,5 @@
 import './App.css'
+import { BrowserRouter } from 'react-router-dom'
 import Default from './Default/Default'
 
 /*interface IAppProps {
@@ -8,8 +9,10 @@ import Default from './Default/Default'
 export default function App(/*props: IAppProps*/) {
 
     return (
-        <div className='App'>
-            <Default />
-        </div>
+        <BrowserRouter>
+            <div className='App'>
+                <Default />
+            </div>
+        </BrowserRouter>
     )
 }

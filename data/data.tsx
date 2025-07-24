@@ -76,9 +76,11 @@ export const vocabulary = [
     
 ];
 
+
 export const arrest = [
-    { hebrew: "", taatik: "", arabic: "", english: "" },
+    { hebrew: "", taatik: "", arabic: "", english: "", notice: "" },
 ];
+
 
 export const suspect = [
     { hebrew: "עצור!", taatik: "וקף!", arabic: "وقف!", english: "stop!" },

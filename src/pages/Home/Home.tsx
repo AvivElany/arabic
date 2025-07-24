@@ -8,7 +8,7 @@ export default function Home(/*props: IHomeProps*/) {
 
     return (
         <div className='Home'>
-            Home
+            עמוד הבית - להוסיף פתיח וקומפוננטות בסיסיות
         </div>
     )
 }
