@@ -1,0 +1,38 @@
+.Meets {
+    width: 100%;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 15px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    font-family: "Assistant", sans-serif;
+    color: #666;}
+
+.theMeets {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(170px, 1fr));
+    gap: 20px;
+    padding:  0 20px 0 20px;
+    border-radius: 15px;
+}
+
+.meet-item {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-radius: 10px;
+    gap: 40px;
+}
+
+.meet-icon {
+    font-size: 2em;
+    color: #a15353;
+}
+
+.meet-info {
+    flex: 1;
+    font-weight: 700;
+    color: #333;
+    font-family: "Assistant", sans-serif;
+    font-size: 1.2em;
+
+}
