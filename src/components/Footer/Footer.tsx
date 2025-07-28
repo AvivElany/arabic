@@ -19,10 +19,8 @@ export default function Footer(/*props: IFooterProps*/) {
                 <div className="footer-part2">
                     <h3>ניווט מהיר</h3>
                 <ul>
-                    <li><a href="#home">דף הבית</a></li>
+                    <li><Link to="/">דף הבית</Link></li>
                     <li><a href="https://milon.madrasafree.com/" target='_blank'>מילון ערבי-עברי</a></li>
-                    <li><a href="#dictionary" target='_blank'>אוצר מילים</a></li>
-                    <li><a href="#quiz">תרגול</a></li>
                 </ul>
                 </div>
 
