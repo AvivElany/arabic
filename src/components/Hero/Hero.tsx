@@ -11,7 +11,7 @@ export default function Hero(/*props: IHeroProps*/) {
             <div className="hero-content">
                 <h1>ברוכים הבאים לאתר לימוד ערבית ללוחמי <span className='unit'>גדוד 9311</span></h1>
                 <p>למד לתקשר בצורה יעילה בשטח עם שיחונים פשוטים, אוצר מילים שימושי למבצעים, ותרגולים פיזיים מותאמים לכל פלוגה.</p>
-                <a href="#lessons" className="hero-button">התחל ללמוד עכשיו</a>
+                <a href="#Importance" className="hero-button">התחל ללמוד עכשיו</a>
             </div>
         </section>
     )

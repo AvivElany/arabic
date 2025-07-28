@@ -1,4 +1,3 @@
-import Title from '../Title/Title'
 import { motion } from "motion/react"
 
 import './Contact.css'
@@ -24,7 +23,7 @@ const fadeSubmit = {
     visible: {
         opacity: 1,
         x: 0,
-        transition: { duration: 0.8, ease: [0.25, 0.1, 0.25, 1], delay: 0.4 },
+        transition: { duration: 0.8, ease: "easeInOut", delay: 0.4 },
     }
 };
 
@@ -83,7 +82,7 @@ export default function Contact(/*props: I.ContactProps*/) {
 
     return (
         <div className='Contact'>
-            <Title title='צור קשר' />
+            <h1 className='Contact-title'>צור קשר</h1>
             <div className="contact-tabs">
                 <div className='Contact-image'>
             </div>

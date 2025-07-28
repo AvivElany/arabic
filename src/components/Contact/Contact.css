@@ -1,14 +1,14 @@
 :root {
-    --input-color: #f0ebeb;
+    --input-color: #b7f1b6;
     --label-color: #000;
     --button-color: #007BFF;
-    --contact-bg: rgba(56, 97, 119, 0.702);
+    --contact-bg: rgba(56, 119, 73, 0.702);
+    --form-bg: rgba(83, 157, 60, 0.8);
 }
 
 .Contact {
     justify-content: center;
     align-items: center;
-    border: 1px solid #000;
     border-radius: 8px;
     padding: 2rem;
     margin: 2rem auto;
@@ -21,6 +21,13 @@
     direction: rtl;
 }
 
+.Contact-title {
+    text-align: center;
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 1rem;
+}
+
 .contact-tabs {
     display: flex;
     justify-content: space-between;
@@ -28,25 +35,9 @@
     margin-bottom: 1rem;
 }
 
-.Contact-image {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.Contact-image img {
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(227, 223, 223, 0.1);
-}
-
 .about-paragraph {
     text-align: right;
     font-weight: 600;
-}
-
-.Contact-image img:hover {
-    transform: scale(1.05);
-    transition: transform 0.3s ease-in-out;
 }
 
 .Contact-form {
@@ -129,8 +120,7 @@
 
 @media (max-width: 850px) {
     .Contact {
-        width: 90%;
-        padding: 1rem;
+        width: 100vw;
     }
 
     .contact-tabs {
@@ -139,19 +129,10 @@
         gap: 15px;
     }
 
-    .Contact-image {
-        width: 100%;
-        margin-bottom: 1rem;
-    }
-
-    .Contact-image img:hover {
-        scale: 1;
-    }
-
     .Contact-form {
         padding: 15px;
         box-shadow: #ccc 0px 0px 5px;
         border-radius: 8px;
-        background-color: rgba(56, 82, 119, 0.7);
+        background-color: var(--form-bg);
     }
 }

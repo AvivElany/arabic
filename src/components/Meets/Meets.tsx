@@ -1,6 +1,7 @@
 import { FaCarSide, FaClipboardList, FaMapMarkedAlt, FaShieldAlt, FaWalking } from 'react-icons/fa'
 import './Meets.css'
 import { FaHandcuffs } from 'react-icons/fa6'
+import { Link } from 'react-router'
 
 /*interface IMeetsProps {
 
@@ -26,7 +27,9 @@ export default function Meets(/*props: IMeetsProps*/) {
                         <FaHandcuffs />
                     </div>
                     <div className="meet-info">
-                        מעצרים
+                        <Link to="/arrest" className="nav-link">
+                            מעצרים
+                        </Link>
                     </div>
                 </div>
                 <div className='meet-item'>
@@ -50,7 +53,9 @@ export default function Meets(/*props: IMeetsProps*/) {
                         <FaClipboardList />
                     </div>
                     <div className="meet-info">
-                        צ'קפוסט
+                        <Link to="/checkpost" className="nav-link">
+                            צ'קפוסט
+                        </Link>
                     </div>
                 </div>
                 <div className='meet-item'>
