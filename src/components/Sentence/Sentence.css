@@ -1,0 +1,30 @@
+.Sentence {
+    text-align: center;
+    margin: 15px;
+    background-color: rgb(204, 237, 153);
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.hebrew {
+    font-weight: bold;
+    color: blue
+}
+
+.taatik {
+    font-style: italic;
+    color: red
+}
+
+.arabic {
+    color: green;
+}
+
+.english {
+    color: black;
+}
+
+.notice {
+    color: red;
+    font-weight: bold;
+}

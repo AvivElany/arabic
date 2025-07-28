@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200..800&display=swap');
+
+.Summary {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 85vw;
+    font-family: "Assistant", sans-serif;
+    margin: 20px 0;
+    font-weight: bold;
+    color: #333;
+    letter-spacing: 2px;
+    font-size: 1rem;
+    line-height: 1.2;
+    margin-bottom: 10px;
+    text-align: center;
+}

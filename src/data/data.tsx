@@ -78,7 +78,7 @@ export const vocabulary = [
 
 
 export const arrest = [
-    { hebrew: "", taatik: "", arabic: "", english: "", notice: "" },
+    { hebrew: "ברסקי", taatik: "ברסקי", arabic: "בארסקיי", english: "Barsky", notice: "" },
 ];
 
 
