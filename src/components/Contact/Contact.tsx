@@ -1,4 +1,5 @@
 import { motion } from "motion/react"
+import type { Variants } from "motion/react"
 
 import './Contact.css'
 import { useState } from 'react';
@@ -9,7 +10,7 @@ import { useState } from 'react';
 
 // https://portfolio-server-witz.onrender.com/contact
 
-const fadeLabel = {
+const fadeLabel: Variants = {
     hidden: { opacity: 0, x: -200 },
     visible: {
         opacity: 1,
@@ -18,7 +19,7 @@ const fadeLabel = {
     }
 };
 
-const fadeSubmit = {
+const fadeSubmit: Variants = {
     hidden: { opacity: 0, x: 0, y: 0 },
     visible: {
         opacity: 1,
@@ -27,7 +28,7 @@ const fadeSubmit = {
     }
 };
 
-const fadeInput = {
+const fadeInput: Variants = {
     hidden: { opacity: 0, x: 200 },
     visible: {
         opacity: 1,
