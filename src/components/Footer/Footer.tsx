@@ -24,7 +24,7 @@ export default function Footer(/*props: IFooterProps*/) {
                 </div>
 
                 <div className="footer-part3">
-                    <img src="../../../public/picture/logo.jpg" alt="9311_unit_logo" className="symbol" />
+                    <img src="/picture/logo.jpg" alt="9311_unit_logo" className="symbol" />
                 </div>
             </div>
 

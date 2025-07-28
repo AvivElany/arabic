@@ -45,8 +45,9 @@
 }
 
 .symbol {
-    width: var(--full-proportion);
-    height: var(--full-proportion);
+    /* width: var(--full-proportion);
+    height: var(--full-proportion); */
+    width: 170px;
     margin: 0 auto;
     display: block;
     border-radius: 10px;

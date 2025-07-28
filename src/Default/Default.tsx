@@ -10,6 +10,9 @@ import Home from '../pages/Home/Home';
 import NotFound from '../pages/NotFound/NotFound';
 import Footer from '../components/Footer/Footer';
 import Top from '../components/Top/Top';
+import Namach from '../pages/Namach/Namach';
+import Arrest from '../pages/Arrest/Arrest';
+import Checkpost from '../pages/Checkpost/Checkpost';
 
 // pages
 
@@ -23,7 +26,7 @@ export default function Default() {
 
     setTimeout(() => {
       setLoading(false);
-    }, 9000);
+    }, 3500);
   }, []);
 
   return (
@@ -37,7 +40,10 @@ export default function Default() {
           <Navbar />
 
           <Routes location={location}>
-            <Route path="/" element={<Home />} />
+              <Route path="/" element={<Home />} />
+              <Route path="/namach" element={<Namach />} />
+              <Route path="/arrest" element={<Arrest />} />
+              <Route path="/checkpost" element={<Checkpost />} />
             
             <Route path="*" element={<NotFound />} />
           </Routes>

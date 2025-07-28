@@ -22,31 +22,16 @@ export default function Navbar(/*props: INavbarProps*/) {
                         <li className="nav-item">
                             <Link className="nav-link active" aria-current="page" to="#">עמוד הבית</Link>
                         </li>
-                        <li className="nav-item">
-                            <Link className="nav-link" to="#">נוהל מעצר חשוד</Link>
-                        </li>
-                        <li>
-                            <Link className="nav-link" to="#">מעצר</Link>
-                        </li>
-                        <li className="nav-item">
-                            <Link className="nav-link" to="#">חיפוש</Link>
-                        </li>
-                        <li className="nav-item">
-                            <Link className="nav-link" to="#">חיפוש רכב</Link>
-                        </li>
-                        <li className="nav-item">
-                            <Link className="nav-link" to="#">צ'קפוסט</Link>
-                        </li>
-                        {/* <li className="nav-item dropdown">
+                        <li className="nav-item dropdown">
                         <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            Categories
+                            מבצעי
                         </a>
                         <ul className="dropdown-menu dropdown-menu-up">
-                            <li><a className="dropdown-item" href="#">Action</a></li>
-                            <li><a className="dropdown-item" href="#">Another action</a></li>
-                            <li><a className="dropdown-item" href="#">Something else here</a></li>
+                            <li><Link className="nav-link" to="/Namach">נוהל מעצר חשוד</Link></li>
+                            <li><Link className="nav-link" to="/arrest">מעצר</Link></li>
+                            <li><Link className="nav-link" to="/Checkpost">צ'קפוסט</Link></li>
                         </ul>
-                        </li> */}
+                        </li>
                     </ul>
                 </div>
             </div>
