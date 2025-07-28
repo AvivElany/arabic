@@ -20,7 +20,9 @@ export default function Footer(/*props: IFooterProps*/) {
                     <h3>ניווט מהיר</h3>
                 <ul>
                     <li><Link to="/">דף הבית</Link></li>
-                    <li><a href="https://milon.madrasafree.com/" target='_blank'>מילון ערבי-עברי</a></li>
+                        <li><a href="https://milon.madrasafree.com/" target='_blank'>מילון ערבי-עברי</a></li>
+                        <li><a href='https://www.arabic-keyboard.org/' target='_blank'>מקלדת ערבית</a></li>
+                        <li><a href='https://he.wikipedia.org/wiki/%D7%A2%D7%A8%D7%91%D7%99%D7%AA' target='_blank'>ערבית - ויקיפדיה</a></li>
                 </ul>
                 </div>
 
