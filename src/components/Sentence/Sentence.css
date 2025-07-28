@@ -4,6 +4,7 @@
     background-color: rgb(204, 237, 153);
     border-radius: 15px;
     padding: 10px;
+    direction: rtl;
 }
 
 .hebrew {
@@ -22,6 +23,7 @@
 
 .english {
     color: black;
+    direction: ltr;
 }
 
 .notice {

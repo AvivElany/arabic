@@ -27,6 +27,11 @@
     margin-bottom: 30px;
 }
 
+.unit {
+    color: orange; /* Highlight color for 9311 */
+    font-weight: bold;
+}
+
 .hero-button {
     background-color: #facc15;
     color: #1a1a1a;

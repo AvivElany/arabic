@@ -20,7 +20,7 @@ export default function Navbar(/*props: INavbarProps*/) {
                 <div className="collapse navbar-collapse" id="navbarNavDropdown">
                     <ul className="navbar-nav">
                         <li className="nav-item">
-                            <Link className="nav-link active" aria-current="page" to="#">עמוד הבית</Link>
+                            <Link className="nav-link active" aria-current="page" to="/">עמוד הבית</Link>
                         </li>
                         <li><Link className="nav-link" to="/Namach">נוהל מעצר חשוד</Link></li>
                         <li><Link className="nav-link" to="/arrest">מעצר</Link></li>

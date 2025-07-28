@@ -13,6 +13,7 @@ import Top from '../components/Top/Top';
 import Namach from '../pages/Namach/Namach';
 import Arrest from '../pages/Arrest/Arrest';
 import Checkpost from '../pages/Checkpost/Checkpost';
+import Contact from '../components/Contact/Contact';
 
 // pages
 
@@ -44,7 +45,8 @@ export default function Default() {
               <Route path="/namach" element={<Namach />} />
               <Route path="/arrest" element={<Arrest />} />
               <Route path="/checkpost" element={<Checkpost />} />
-            
+              <Route path="/contact" element={<Contact />} />
+
             <Route path="*" element={<NotFound />} />
           </Routes>
           <Top />

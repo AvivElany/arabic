@@ -1,3 +1,4 @@
+import { Link } from 'react-router'
 import './Footer.css'
 
 /*interface IFooterProps {
@@ -10,7 +11,9 @@ export default function Footer(/*props: IFooterProps*/) {
         <div className="Footer">
             <div className='footer-parts'>
                 <div className="footer-part1">
-                    צד ימין
+                    הפרויקט נוצר באהבה גדולה ובהתנדבות ומיועד לכם ובשבילכם. גם אם הוא עזר במעט הוא מילא את ייעודו בהצלחה!<br />
+                    אם יש לכם שאלות, הערות, בקשות או סתם רוצים לדבר על ערבית, אתם מוזמנים לפנות אליי דרך הטופס צור קשר או דרך המייל <br />
+                    <Link to="contact" className="contact-link">צור קשר</Link>
                 </div>
 
                 <div className="footer-part2">

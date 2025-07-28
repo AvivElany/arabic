@@ -1,3 +1,4 @@
+import Contact from '../../components/Contact/Contact'
 import Dialect from '../../components/Dialect/Dialect'
 import Hero from '../../components/Hero/Hero'
 import Importance from '../../components/Importance/Importance'
@@ -16,6 +17,7 @@ export default function Home(/*props: IHomeProps*/) {
             <Importance />
             <Meets />
             <Dialect />
+            <Contact />
         </div>
     )
 }

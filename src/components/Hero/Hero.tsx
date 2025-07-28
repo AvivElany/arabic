@@ -4,12 +4,12 @@ import './Hero.css'
 
 }*/
 
-export default function Hero(/*props: IHero.HeroProps*/) {
+export default function Hero(/*props: IHeroProps*/) {
 
     return (
         <section className="hero">
             <div className="hero-content">
-                <h1>ברוכים הבאים למערכת ללימוד ערבית ללוחמים</h1>
+                <h1>ברוכים הבאים לאתר לימוד ערבית ללוחמי <span className='unit'>גדוד 9311</span></h1>
                 <p>למד לתקשר בצורה יעילה בשטח עם שיחונים פשוטים, אוצר מילים שימושי למבצעים, ותרגולים פיזיים מותאמים לכל פלוגה.</p>
                 <a href="#lessons" className="hero-button">התחל ללמוד עכשיו</a>
             </div>

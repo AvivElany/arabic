@@ -10,7 +10,7 @@ export default function Meets(/*props: IMeetsProps*/) {
 
     return (
         <div className='Meets'>
-            <h1>איפה השפה פוגשת אותנו?</h1>
+            <h1 dir='rtl'>איפה השפה הערבית פוגשת אותנו?</h1>
             <p>כאן תוכל למצוא מידע על מפגשים שונים.</p>
             <div className="theMeets">
                 <div className='meet-item'>

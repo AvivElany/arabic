@@ -145,36 +145,46 @@ export const vocabulary = [
 
 
 export const arrest = [
-    { hebrew: "פתחו את הדלת! כאן צבא ההגנה לישראל!", taatik: "איפתחו אל באב! הון ג'יש אל דפא'א אל-ישראילי!", arabic: "", english: "", notice: "" },
-    { hebrew: "מי בעל הבית?", taatik: "מין סאחב אל בית?", arabic: "", english: "", notice: "" },
-    { hebrew: "רכז לי את כל מי שנמצא בבית בחדר הארחה (כמו סלון)", taatik: "רכ'ז לי אל כל אילי מוג'ודין פי אל בית פי אל ע'רפת דיוף!", arabic: "", english: "", notice: "" },
-    { hebrew: "תביאו לי את כל הטלפונים וכל התעודות זהות לכאן!", taatik: "תג'יבו אלי כל אל טלפונאת וכל אל הווית להון!", arabic: "", english: "", notice: "" },
-    { hebrew: "תשבו פה / שם", taatik: "תוקעודו הון / הונכ", arabic: "", english: "", notice: "" },
+    { hebrew: "פתחו את הדלת! כאן צבא ההגנה לישראל!", taatik: "איפתחו אל באב! הון ג'יש אל דפא'א אל-ישראילי!", arabic: "", english: "Iftahu el-bab! hon jish el-difa'a el-israili!", notice: "לרוב מספיק להגיד פתחו את הדלת." },
+    { hebrew: "מי בעל הבית?", taatik: "מין סאחב אל בית?", arabic: "", english: "Min sahb el-beit?", notice: "" },
+    { hebrew: "רכז לי את כל מי שנמצא בבית בחדר הארחה (כמו סלון)", taatik: "רכ'ז לי אל כל אילי מוג'ודין פי אל בית פי אל ע'רפת דיוף!", arabic: "", english: "Rakez li el kul ili mujudin fi el-beit fi rurfet duiuf!", notice: "" },
+    { hebrew: "תביאו לי את כל הטלפונים וכל התעודות זהות לכאן!", taatik: "תג'יבו אלי כל אל טלפונאת וכל אל הווית להון!", arabic: "", english: "Jibu li kul el-telefonat wa kul el-hawiyat lehon!", notice: "" },
+    { hebrew: "תשבו פה / שם", taatik: "תוקעודו הון / הונכ", arabic: "", english: "Tuk'udu hon / honak", notice: "" },
 ];
 
 
 export const suspect = [
-    { hebrew: "עצור!", taatik: "וקף!", arabic: "وقف!", english: "stop!" },
-    { hebrew: "עצור במקומך!", taatik: "וקף מחלכ!", arabic: "وقف محلك!", english: "Stop in your position!" },
-    { hebrew: "הרם ידיך!", taatik: "אירפע אידכ!", arabic: "يرفع يديك!", english: "Put your hands up!" },
-    { hebrew: "הוצא הכל מהכיסים!", taatik: "איטלע כל אישי מן ג'בע!", arabic: "", english: "Empty your pocketsTake everything out of your pockets!" },
-    { hebrew: "הרם ידיך!", taatik: "אירפע אידכ!", arabic: "", english: "Put your hands up!" },
-    { hebrew: "הרם חולצה!", taatik: "אירפע בלוזכ!", arabic: "", english: "Take off your shirt!" },
-    { hebrew: "הורד מכנסיים!", taatik: "נזל בנתלון!", arabic: "", english: "Take off your pants!" },
-    { hebrew: "הסתובב!", taatik: "ליף!", arabic: "", english: "Turn around!!" },
-    { hebrew: "הסתובב שוב פעם!", taatik: "ליף כמאן מרה!", arabic: "", english: "Turn around again!" },
-    { hebrew: "התלבש!", taatik: "אילבאס!", arabic: "", english: "Get dressed!" }
+    { hebrew: "עצור!", taatik: "וקף!", arabic: "وقف!", english: "Wakef!" },
+    { hebrew: "עצור במקומך!", taatik: "וקף מחלכ!", arabic: "وقف محلك!", english: "Wakef mahalak!" },
+    { hebrew: "הרם ידיך למעלה!", taatik: "אירפע אידכ!", arabic: "يرفع يديك!", english: "Irfa idek la-fok!" },
+    { hebrew: "הוצא הכל מהכיסים!", taatik: "איטלע כל אישי מן ג'בע!", arabic: "", english: "Itla kul ishi min jabaa'!" },
+    { hebrew: "הרם חולצה!", taatik: "אירפע בלוזכ!", arabic: "", english: "Irfa blizak!" },
+    { hebrew: "הורד מכנסיים!", taatik: "נזל בנתלון!", arabic: "", english: "Nazel bantalon!" },
+    { hebrew: "הסתובב!", taatik: "ליף!", arabic: "", english: "Lif!" },
+    { hebrew: "הסתובב שוב פעם!", taatik: "ליף כמאן מרה!", arabic: "", english: "Lif kaman mara!" },
+    { hebrew: "התלבש!", taatik: "אילבאס!", arabic: "", english: "Ilbas!" }
 ]
 
 
 export const checkpost = [
-    { hebrew: "עצור!", taatik: "וקף!", arabic: "وقف!", english: "stop!" },
-    { hebrew: "עצור במקומך!", taatik: "וקף מחלכ!", arabic: "وقف محلك!", english: "Stop in your position!" },
-    { hebrew: "פתח את החלון!", taatik: "איפתח אל שבאכ!", arabic: "", english: "Open your window!" },
-    { hebrew: "הדלק את האור!", taatik: "אידווי א-דאו!", arabic: "", english: "Turn on the light!" },
-    { hebrew: "כבה מנוע!", taatik: "אידפי מוטור!", arabic: "وقف محلك!", english: "Stop your engine!" },
-    { hebrew: "הבא לי תעודה מזהה!", taatik: "העטיני הוויה!", arabic: "وقف محلك!", english: "Stop in your position!" },
-    { hebrew: "הבא לי תעודה מזהה!", taatik: "ג'יב אל הוויה!", arabic: "وقف محلك!", english: "Stop in your position!" },
-    { hebrew: "מאיפה אתה מגיע?", taatik: "מן ווין אינת בג'י?", arabic: "وقف محلك!", english: "Stop in your position!" },
-    { hebrew: "לאן אתה נוסע?", taatik: "לווין אינת סאפר?", arabic: "وقف محلك!", english: "Stop in your position!" },
+    { hebrew: "עצור!", taatik: "וקף!", arabic: "وقف!", english: "Wakef!" },
+    { hebrew: "עצור במקומך!", taatik: "וקף מחלכ!", arabic: "وقف محلك!", english: "Wakef mahalak!" },
+    { hebrew: "פתח את החלון!", taatik: "איפתח אל שבאכ!", arabic: "", english: "Iftahu el-shabak!" },
+    { hebrew: "הדלק את האור!", taatik: "אידווי א-דאו!", arabic: "", english: "Aidwi el-daw!" },
+    { hebrew: "כבה מנוע!", taatik: "אידפי מוטור!", arabic: "وقف محلك!", english: "Idfi el-motor!" },
+    { hebrew: "הבא לי תעודה מזהה!", taatik: "העטיני הוויה!", arabic: "أعطني هوية!", english: "haa'tini hawiya!" },
+    { hebrew: "הבא לי תעודה מזהה!", taatik: "ג'יב אל הוויה!", arabic: "جيب الهوية!", english: "Jib el-hawiya!" },
+    { hebrew: "מה השם שלך?", taatik: "שו אסמכ?", arabic: "ما اسمك؟", english: "Shu ismak?" },
+    { hebrew: "מאיפה אתה בא?", taatik: "מן ווין אינת בג'י?", arabic: "من أين أنت قادم؟", english: "Min wein inta baji?" },
+    { hebrew: "לאן אתה נוסע?", taatik: "ל-ווין אינת סאפר?", arabic: "إلى أين أنت ذاهب؟", english: "La-wein inta safr?" },
+    
+]
+
+export const mashtuba = [
+    { hebrew: "הבא לי רישיון רכב", taatik: "העטיני רוחסאת סיארה!", arabic: "أعطني رخصة سيارة!", english: "Haa'tini rukhsat sayara!" },
+    { hebrew: "למי שייך הרכב?", taatik: "למין תבע' אל סיארה?", arabic: "لمن تنتمي السيارة؟", english: "Liman tabea' el-sayara?" },
+    { hebrew: "הרכב הזה גנוב!", taatik: "אל סיארה הדי מסרוקה!", arabic: "هاي السيارة مسروقة!", english: "El-sayara hadi masruqa!" },
+    { hebrew: "סע איתי לכניסה לכפר!", taatik: "סאפר מעי אל מדחל אל-בלד!", arabic: "سافر معي عالمدخل للبلد!", english: "Safer ma'i el-madkhal el-balad!" }
+
+
 ]
