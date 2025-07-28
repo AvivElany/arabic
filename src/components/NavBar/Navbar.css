@@ -24,6 +24,12 @@
         align-items: center;
     }
 
+    .dark-light-mode-button {
+        border: none;
+        background-color: transparent;
+        height: 32px;
+    }
+
 
 @media (max-width: 991.98px) {
     .bottom-navbar .navbar-collapse {
