@@ -17,7 +17,7 @@ export default function Home(/*props: IHomeProps*/) {
             <Hero />
             <Importance />
             <Meets />
-            <Dialect />
+            {/* <Dialect /> */}
             <Contact />
             <Top />
         </div>
