@@ -2,6 +2,7 @@ import './Default.css'
 
 import { useEffect, useState } from 'react'
 import {  Route, Routes, useLocation } from 'react-router-dom'
+import { useScrollToTop } from '../hooks/useScrollToTop'
 
 // components
 import SayHallo from '../components/SayHallo/SayHallo';
@@ -14,6 +15,8 @@ import Namach from '../pages/Namach/Namach';
 import Arrest from '../pages/Arrest/Arrest';
 import Checkpost from '../pages/Checkpost/Checkpost';
 import Contact from '../components/Contact/Contact';
+import Headie from '../components/Headie/Headie';
+import ScrollToTopButton from '../components/ScrollToTop/ScrollToTop';
 
 // pages
 
@@ -22,7 +25,10 @@ export default function Default() {
   const location = useLocation();
   const [loading, setLoading] = useState(true);
 
-    useEffect(() => {
+  // Use the custom hook for scroll to top
+  useScrollToTop();
+
+  useEffect(() => {
     setLoading(true);
 
     setTimeout(() => {
@@ -37,7 +43,8 @@ export default function Default() {
           <SayHallo />
         </div>
       ) : (
-        <>
+          <>
+            <Headie />
           <Navbar />
 
           <Routes location={location}>
@@ -49,6 +56,7 @@ export default function Default() {
 
             <Route path="*" element={<NotFound />} />
           </Routes>
+          <ScrollToTopButton />
           <Top />
           <Footer />
         </>

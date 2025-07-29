@@ -1,5 +1,5 @@
 import Contact from '../../components/Contact/Contact'
-import Dialect from '../../components/Dialect/Dialect'
+/* import Dialect from '../../components/Dialect/Dialect' */
 import Hero from '../../components/Hero/Hero'
 import Importance from '../../components/Importance/Importance'
 import Meets from '../../components/Meets/Meets'

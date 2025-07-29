@@ -51,9 +51,9 @@ export default function Navbar(/*props: INavbarProps*/) {
                         <li className="nav-item">
                             <Link className="nav-link active" aria-current="page" to="/">עמוד הבית</Link>
                         </li>
-                        <li><Link className="nav-link" to="/Namach">נוהל מעצר חשוד</Link></li>
+                        <li><Link className="nav-link" to="/namach">נוהל מעצר חשוד</Link></li>
                         <li><Link className="nav-link" to="/arrest">מעצר חשוד</Link></li>
-                        <li><Link className="nav-link" to="/Checkpost">צ'קפוסט</Link></li>
+                        <li><Link className="nav-link" to="/checkpost">צ'קפוסט</Link></li>
                         <li><Link className="nav-link" to="/contact">צור קשר</Link></li>
                         {/* <li className="nav-item dropdown">
                         <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
