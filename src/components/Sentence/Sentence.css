@@ -5,25 +5,30 @@
     border-radius: 15px;
     padding: 10px;
     direction: rtl;
+    opacity: 0.7;
 }
 
 .hebrew {
     font-weight: bold;
-    color: blue
+    color: blue;
+    opacity: 1;
 }
 
 .taatik {
     font-style: italic;
-    color: red
+    color: red;
+    opacity: 1;
 }
 
 .arabic {
     color: green;
+    opacity: 1;
 }
 
 .english {
     color: black;
     direction: ltr;
+    opacity: 1;
 }
 
 .notice {

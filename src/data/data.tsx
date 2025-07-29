@@ -1,53 +1,48 @@
-/*
-{ hebrew: "", taatik: "", arabic: "", english: ""},
- */
-
-
 export const vocabulary = [
     {
         category: "תכולת בית",
         words: [
-            { hebrew: "בית", taatik: "beit", arabic: "بيت", english: "house" },
-            { hebrew: "כסף", taatik: "מסארי", arabic: "", english: "money" },
-            { hebrew: "מיטה", taatik: "takhteh", arabic: "تخت", english: "bed" },
-            { hebrew: "מזרון", taatik: "farsh", arabic: "فرش", english: "mattress" },
-            { hebrew: "ארון", taatik: "khazaneh", arabic: "خزانة", english: "closet" },
-            { hebrew: "שולחן", taatik: "taawleh", arabic: "طاولة", english: "table" },
-            { hebrew: "כיסא", taatik: "korsi", arabic: "كرسي", english: "chair" },
-            { hebrew: "ספה", taatik: "kanabeh", arabic: "كنبة", english: "sofa" },
-            { hebrew: "מנורה", taatik: "lamba", arabic: "لمبة", english: "lamp" },
-            { hebrew: "וילון", taatik: "bardeh", arabic: "بردة", english: "curtain" },
-            { hebrew: "שטיח", taatik: "sajjadeh", arabic: "سجادة", english: "carpet" },
-            { hebrew: "מקרר", taatik: "talaje", arabic: "تلاجة", english: "fridge" },
-            { hebrew: "תנור", taatik: "furun", arabic: "فرن", english: "oven" },
-            { hebrew: "כיריים", taatik: "ghaz", arabic: "غاز", english: "stove" },
-            { hebrew: "מיקרוגל", taatik: "maykru-ghal", arabic: "مايكروويف", english: "microwave" },
-            { hebrew: "קומקום", taatik: "ibreek", arabic: "ابريق", english: "kettle" },
-            { hebrew: "טלוויזיה", taatik: "talvizyon", arabic: "تلفزيون", english: "television" },
-            { hebrew: "מחשב", taatik: "kumbyuter", arabic: "كمبيوتر", english: "computer" },
-            { hebrew: "מכונת כביסה", taatik: "ghassaleh", arabic: "غسالة", english: "washing machine" },
-            { hebrew: "מראה", taatik: "mirayeh", arabic: "مراية", english: "mirror" },
-            { hebrew: "שירותים", taatik: "hammam ", arabic: "حمام", english: "toilet" },
-            { hebrew: "כיור", taatik: "mawasleh", arabic: "مغسلة", english: "sink" }
+            { hebrew: "בית", taatik: "בֵּיְת", arabic: "بيت", english: "house" },
+            { hebrew: "כסף", taatik: "מְסָארִי", arabic: "", english: "money" },
+            { hebrew: "מיטה", taatik: "תַּכְתֶה", arabic: "تخت", english: "bed" },
+            { hebrew: "מזרון", taatik: "פַרְש", arabic: "فرش", english: "mattress" },
+            { hebrew: "ארון", taatik: "חַזָנֶה", arabic: "خزانة", english: "closet" },
+            { hebrew: "שולחן", taatik: "טַאוְלֶה", arabic: "طاولة", english: "table" },
+            { hebrew: "כיסא", taatik: "כֻּרְסִי", arabic: "كرسي", english: "chair" },
+            { hebrew: "ספה", taatik: "כַנַבֶה", arabic: "كنبة", english: "sofa" },
+            { hebrew: "מנורה", taatik: "לַמְבָּה", arabic: "لمبة", english: "lamp" },
+            { hebrew: "וילון", taatik: "בַּרְדֶה", arabic: "بردة", english: "curtain" },
+            { hebrew: "שטיח", taatik: "סַג'אדֶה", arabic: "سجادة", english: "carpet" },
+            { hebrew: "מקרר", taatik: "תַלַאג'ֶה", arabic: "تلاجة", english: "fridge" },
+            { hebrew: "תנור", taatik: "פֻרְן", arabic: "فرن", english: "oven" },
+            { hebrew: "כיריים", taatik: "רַ'אז", arabic: "غاز", english: "stove" },
+            { hebrew: "מיקרוגל", taatik: "מַיכְרוּ-רַ'אל", arabic: "مايكروويف", english: "microwave" },
+            { hebrew: "קומקום", taatik: "אִבְרִיק", arabic: "ابريق", english: "kettle" },
+            { hebrew: "טלוויזיה", taatik: "תַלְוִיזְיוֹן", arabic: "تلفزيون", english: "television" },
+            { hebrew: "מחשב", taatik: "כֻמְבְּיוּטֶר", arabic: "كمبيوتر", english: "computer" },
+            { hebrew: "מכונת כביסה", taatik: "רַ'סָלֶה", arabic: "غسالة", english: "washing machine" },
+            { hebrew: "מראה", taatik: "מִרַאיֶה", arabic: "مراية", english: "mirror" },
+            { hebrew: "שירותים", taatik: "חַמָם", arabic: "حمام", english: "toilet" },
+            { hebrew: "כיור", taatik: "מַרְ'סְלֶה", arabic: "مغسلة", english: "sink" }
         ]
     },
     {
         category: "תכולת בית",
         words: [
-            { hebrew: "שלום", taatik: "salaam", arabic: "سلام", english: "hello / peace" },
-            { hebrew: "מה שלומך?", taatik: "keef halak", arabic: "كيف حالك؟", english: "how are you?" },
-            { hebrew: "אני בסדר", taatik: "ana mneeH", arabic: "أنا منيح", english: "I'm fine" },
-            { hebrew: "תודה", taatik: "shukran", arabic: "شكراً", english: "thank you" },
-            { hebrew: "בבקשה", taatik: "tfaddal", arabic: "تفضل", english: "please / go ahead" },
-            { hebrew: "כן", taatik: "aywa / naam", arabic: "ايوه / نعم", english: "yes" },
-            { hebrew: "לא", taatik: "la", arabic: "لا", english: "no" },
-            { hebrew: "איפה?", taatik: "weyn?", arabic: "وين؟", english: "where?" },
-            { hebrew: "מי?", taatik: "meen?", arabic: "مين؟", english: "who?" },
-            { hebrew: "מה?", taatik: "shu?", arabic: "شو؟", english: "what?" },
-            { hebrew: "למה?", taatik: "lesh?", arabic: "ليش؟", english: "why?" },
-            { hebrew: "עכשיו", taatik: "halla", arabic: "هلا", english: "now" },
-            { hebrew: "מהר", taatik: "bisur'a", arabic: "بسرعة", english: "quickly" },
-            { hebrew: "לשבת", taatik: "ug'ud", arabic: "اقعد", english: "sit down" },
+            { hebrew: "שלום", taatik: "סַלַאם", arabic: "سلام", english: "hello / peace" },
+            { hebrew: "מה שלומך?", taatik: "כִּיף חַלַק", arabic: "كيف حالك؟", english: "how are you?" },
+            { hebrew: "אני בסדר", taatik: "אַנַא מְנִיחַ", arabic: "أنا منيح", english: "I'm fine" },
+            { hebrew: "תודה", taatik: "שֻכְרַאן", arabic: "شكراً", english: "thank you" },
+            { hebrew: "בבקשה", taatik: "תְפַצ'אל", arabic: "تفضل", english: "please / go ahead" },
+            { hebrew: "כן", taatik: "אַיְוַה / נַעַם", arabic: "ايوه / نعم", english: "yes" },
+            { hebrew: "לא", taatik: "לַא", arabic: "لا", english: "no" },
+            { hebrew: "איפה?", taatik: "וֵיְן?", arabic: "وين؟", english: "where?" },
+            { hebrew: "מי?", taatik: "מִין?", arabic: "مين؟", english: "who?" },
+            { hebrew: "מה?", taatik: "שוּ?", arabic: "شو؟", english: "what?" },
+            { hebrew: "למה?", taatik: "לֵיש?", arabic: "ليش؟", english: "why?" },
+            { hebrew: "עכשיו", taatik: "הַלַא", arabic: "هلا", english: "now" },
+            { hebrew: "מהר", taatik: "בִסֻרְעָה", arabic: "بسرعة", english: "quickly" },
+            { hebrew: "לשבת", taatik: "אֻקְעֻד", arabic: "اقعد", english: "sit down" },
             { hebrew: "לקום", taatik: "qum", arabic: "قوم", english: "stand up" },
             { hebrew: "להראות לי", taatik: "farjiini", arabic: "فرجيني", english: "show me" },
             { hebrew: "אסור", taatik: "mamnu'", arabic: "ممنوع", english: "forbidden" },
@@ -58,50 +53,50 @@ export const vocabulary = [
     {
         category: "הרכב משפחה",
         words: [
-            { hebrew: "משפחה", taatik: "hele'", arabic: "عيلة", english: "family" },
-            { hebrew: "אבא", taatik: "abuu", arabic: "أبّو", english: "father" },
-            { hebrew: "אמא", taatik: "imm", arabic: "إم", english: "mother" },
-            { hebrew: "ילד", taatik: "walad", arabic: "ولد", english: "boy" },
-            { hebrew: "ילדה", taatik: "bint", arabic: "بنت", english: "girl" },
-            { hebrew: "אח", taatik: "akh", arabic: "أخ", english: "brother" },
-            { hebrew: "אחות", taatik: "ukht", arabic: "أخت", english: "sister" },
+            { hebrew: "משפחה", taatik: "עַיְלֶה", arabic: "عيلة", english: "family" },
+            { hebrew: "אבא", taatik: "אַבּוּ", arabic: "أبّو", english: "father" },
+            { hebrew: "אמא", taatik: "אִם", arabic: "إم", english: "mother" },
+            { hebrew: "ילד", taatik: "וַלַד", arabic: "ولد", english: "boy" },
+            { hebrew: "ילדה", taatik: "בִינְת", arabic: "بنت", english: "girl" },
+            { hebrew: "אח", taatik: "אַחַ", arabic: "أخ", english: "brother" },
+            { hebrew: "אחות", taatik: "אֻחְת", arabic: "أخت", english: "sister" },
         ]
     },
     {
         category: "מילות יחס",
         words: [
-            { hebrew: "על", taatik: "ala", arabic: "على", english: "on" },
-            { hebrew: "מתחת ל", taatik: "tahta", arabic: "تحت", english: "under" },
-            { hebrew: "ליד", taatik: "janb", arabic: "جنب", english: "next to" },
-            { hebrew: "מאחורי", taatik: "waraa'", arabic: "ورا", english: "behind" },
-            { hebrew: "לפני", taatik: "qabl", arabic: "قبل", english: "before" },
-            { hebrew: "אחרי", taatik: "ba'd", arabic: "بعد", english: "after" },
-            { hebrew: "בתוך", taatik: "fi al-dakhil", arabic: "", english: "inside" },
-            { hebrew: "מחוץ ל", taatik: "kharij min", arabic: "", english: "outside of" }
+            { hebrew: "על", taatik: "עַלַא", arabic: "على", english: "on" },
+            { hebrew: "מתחת ל", taatik: "תַחְתַ", arabic: "تحت", english: "under" },
+            { hebrew: "ליד", taatik: "ג'אנְב", arabic: "جنب", english: "next to" },
+            { hebrew: "מאחורי", taatik: "וַרַאאַ", arabic: "ورا", english: "behind" },
+            { hebrew: "לפני", taatik: "קַבְל", arabic: "قبل", english: "before" },
+            { hebrew: "אחרי", taatik: "בַעְד", arabic: "بعد", english: "after" },
+            { hebrew: "בתוך", taatik: "פִי אַל-דַאכִ'יל", arabic: "", english: "inside" },
+            { hebrew: "מחוץ ל", taatik: "חַארִג' מִין", arabic: "", english: "outside of" }
         ]
     },
     {
         category: "מילות תיאור",
         words: [
-            { hebrew: "גדול", taatik: "kabeer", arabic: "كبير", english: "big" },
-            { hebrew: "קטן", taatik: "sagheer", arabic: "صغير", english: "small" },
-            { hebrew: "חדש", taatik: "jadeed", arabic: "جديد", english: "new" },
-            { hebrew: "ישן", taatik: "qadeem", arabic: "قديم", english: "old" },
-            { hebrew: "יפה", taatik: "jameel", arabic: "جميل", english: "beautiful" },
-            { hebrew: "מהיר", taatik: "saree'", arabic: "", english: "fast" },
-            { hebrew: "איטי", taatik: "badee'", arabic: "", english: "slow" }
+            { hebrew: "גדול", taatik: "כַבִּיר", arabic: "كبير", english: "big" },
+            { hebrew: "קטן", taatik: "צַרִ'יר", arabic: "صغير", english: "small" },
+            { hebrew: "חדש", taatik: "ג'אדִיד", arabic: "جديد", english: "new" },
+            { hebrew: "ישן", taatik: "קַדִים", arabic: "قديم", english: "old" },
+            { hebrew: "יפה", taatik: "ג'אמִיל", arabic: "جميل", english: "beautiful" },
+            { hebrew: "מהיר", taatik: "סַרִיעַ", arabic: "", english: "fast" },
+            { hebrew: "איטי", taatik: "בַדִיעַ", arabic: "", english: "slow" }
         ]
     },
     {
         category: "זמנים",
         words: [
-            { hebrew: "שעה", taatik: "sa'ah", arabic: "ساعة", english: "hour" },
-            { hebrew: "דקה", taatik: "daqeeqah", arabic: "دقيقة", english: "minute" },
-            { hebrew: "שנייה", taatik: "thaniya", arabic: "ثانية", english: "second" },
-            { hebrew: "יום", taatik: "yawm", arabic: "يوم", english: "day" },
-            { hebrew: "שבוע", taatik: "usbuu'", arabic: "أسبوع", english: "week" },
-            { hebrew: "חודש", taatik: "shahr", arabic: "شهر", english: "month" },
-            { hebrew: "שנה", taatik: "sanah", arabic: "", english: "year" }
+            { hebrew: "שעה", taatik: "סַאעָה", arabic: "ساعة", english: "hour" },
+            { hebrew: "דקה", taatik: "דַקִיקָה", arabic: "دقيقة", english: "minute" },
+            { hebrew: "שנייה", taatik: "תַאנְיֶה", arabic: "ثانية", english: "second" },
+            { hebrew: "יום", taatik: "יַום", arabic: "يوم", english: "day" },
+            { hebrew: "שבוע", taatik: "אֻסְבּוּעַ", arabic: "أسبوع", english: "week" },
+            { hebrew: "חודש", taatik: "שַהְר", arabic: "شهر", english: "month" },
+            { hebrew: "שנה", taatik: "סַנַה", arabic: "", english: "year" }
         ]
     },
     {
@@ -121,22 +116,22 @@ export const vocabulary = [
     },
     {category: "מזג אוויר",
         words: [
-            { hebrew: "שמש", taatik: "shams", arabic: "شمس", english: "sun" },
-            { hebrew: "גשם", taatik: "matar", arabic: "مطر", english: "rain" },
-            { hebrew: "חם", taatik: "shuub", arabic: "شوب", english: "hot" },
-            { hebrew: "קר", taatik: "bared", arabic: "برد", english: "cold" },
-            { hebrew: "רוח", taatik: "riyah", arabic: "ريح", english: "wind" }
+            { hebrew: "שמש", taatik: "שַמְס", arabic: "شمس", english: "sun" },
+            { hebrew: "גשם", taatik: "מַטַר", arabic: "مطر", english: "rain" },
+            { hebrew: "חם", taatik: "שוּב", arabic: "شوب", english: "hot" },
+            { hebrew: "קר", taatik: "בַרֵד", arabic: "برد", english: "cold" },
+            { hebrew: "רוח", taatik: "רִיחַ", arabic: "ريح", english: "wind" }
         ]
     },
     {
         category: "מקומות",
         words: [
-            { hebrew: "בית חולים", taatik: "mustashfa", arabic: "مستشفى", english: "hospital" },
-            { hebrew: "בית ספר", taatik: "madraseh", arabic: "مدرسة", english: "school" },
-            { hebrew: "חנות", taatik: "dukkan", arabic: "دكّان", english: "shop" },
-            { hebrew: "כביש", taatik: "tareeq", arabic: "طريق", english: "road" },
-            { hebrew: "כניסה", taatik: "dakhleh", arabic: "دخلة", english: "entrance" },
-            { hebrew: "יציאה", taatik: "khuruj", arabic: "خروج", english: "exit" }
+            { hebrew: "בית חולים", taatik: "מֻסְתַשְפַא", arabic: "مستشفى", english: "hospital" },
+            { hebrew: "בית ספר", taatik: "מַדְרַסֶה", arabic: "مدرسة", english: "school" },
+            { hebrew: "חנות", taatik: "דֻכַּאן", arabic: "دكّان", english: "shop" },
+            { hebrew: "כביש", taatik: "טַרִיק", arabic: "طريق", english: "road" },
+            { hebrew: "כניסה", taatik: "דַחְלֶה", arabic: "دخلة", english: "entrance" },
+            { hebrew: "יציאה", taatik: "חֻרוּג'", arabic: "خروج", english: "exit" }
         ]
     },
 
@@ -145,46 +140,44 @@ export const vocabulary = [
 
 
 export const arrest = [
-    { hebrew: "פתחו את הדלת! כאן צבא ההגנה לישראל!", taatik: "איפתחו אל באב! הון ג'יש אל דפא'א אל-ישראילי!", arabic: "", english: "Iftahu el-bab! hon jish el-difa'a el-israili!", notice: "לרוב מספיק להגיד פתחו את הדלת." },
-    { hebrew: "מי בעל הבית?", taatik: "מין סאחב אל בית?", arabic: "", english: "Min sahb el-beit?", notice: "" },
-    { hebrew: "רכז לי את כל מי שנמצא בבית בחדר הארחה (כמו סלון)", taatik: "רכ'ז לי אל כל אילי מוג'ודין פי אל בית פי אל ע'רפת דיוף!", arabic: "", english: "Rakez li el kul ili mujudin fi el-beit fi rurfet duiuf!", notice: "" },
-    { hebrew: "תביאו לי את כל הטלפונים וכל התעודות זהות לכאן!", taatik: "תג'יבו אלי כל אל טלפונאת וכל אל הווית להון!", arabic: "", english: "Jibu li kul el-telefonat wa kul el-hawiyat lehon!", notice: "" },
-    { hebrew: "תשבו פה / שם", taatik: "תוקעודו הון / הונכ", arabic: "", english: "Tuk'udu hon / honak", notice: "" },
+    { hebrew: "פתחו את הדלת! כאן צבא ההגנה לישראל!", taatik: "אִפְתַחוּ אַל בַּאב! הוֹן ג'ֵיש אַל דִפַאעַ אַל-יִשְרַאִילִי!", arabic: "", english: "Iftahu el-bab! hon jish el-difa'a el-israili!", notice: "לרוב מספיק להגיד פתחו את הדלת." },
+    { hebrew: "מי בעל הבית?", taatik: "מִין צַאחֵב אַל בֵּיְת?", arabic: "", english: "Min sahb el-beit?", notice: "" },
+    { hebrew: "רכז לי את כל מי שנמצא בבית בחדר הארחה (כמו סלון)", taatik: "רַכ'ֵז לִי אַל כֻּל אִלִי מוֹג'וּדִין פִי אַל בֵּיְת פִי אַל רֻ'רְפַת דְיוּף!", arabic: "", english: "Rakez li el kul ili mujudin fi el-beit fi rurfet duiuf!", notice: "" },
+    { hebrew: "תביאו לי את כל הטלפונים וכל התעודות זהות לכאן!", taatik: "תְג'ִיבוּ אַלִי כֻּל אַל טֶלֶפוֹנַאת וְכֻּל אַל הַוִויַּאת לְהוֹן!", arabic: "", english: "Jibu li kul el-telefonat wa kul el-hawiyat lehon!", notice: "" },
+    { hebrew: "תשבו פה / שם", taatik: "תוּקְעוּדוּ הוֹן / הוֹנַאכ", arabic: "", english: "Tuk'udu hon / honak", notice: "" },
 ];
 
 
 export const suspect = [
-    { hebrew: "עצור!", taatik: "וקף!", arabic: "وقف!", english: "Wakef!" },
-    { hebrew: "עצור במקומך!", taatik: "וקף מחלכ!", arabic: "وقف محلك!", english: "Wakef mahalak!" },
-    { hebrew: "הרם ידיך למעלה!", taatik: "אירפע אידכ!", arabic: "يرفع يديك!", english: "Irfa idek la-fok!" },
-    { hebrew: "הוצא הכל מהכיסים!", taatik: "איטלע כל אישי מן ג'בע!", arabic: "", english: "Itla kul ishi min jabaa'!" },
-    { hebrew: "הרם חולצה!", taatik: "אירפע בלוזכ!", arabic: "", english: "Irfa blizak!" },
-    { hebrew: "הורד מכנסיים!", taatik: "נזל בנתלון!", arabic: "", english: "Nazel bantalon!" },
-    { hebrew: "הסתובב!", taatik: "ליף!", arabic: "", english: "Lif!" },
-    { hebrew: "הסתובב שוב פעם!", taatik: "ליף כמאן מרה!", arabic: "", english: "Lif kaman mara!" },
-    { hebrew: "התלבש!", taatik: "אילבאס!", arabic: "", english: "Ilbas!" }
+    { hebrew: "עצור!", taatik: "וַקֵף!", arabic: "وقف!", english: "Wakef!" },
+    { hebrew: "עצור במקומך!", taatik: "וַקֵף מַחַלַכ!", arabic: "وقف محلك!", english: "Wakef mahalak!" },
+    { hebrew: "הרם ידיך למעלה!", taatik: "אִרְפַע אִידֵכ!", arabic: "يرفع يديك!", english: "Irfa idek la-fok!" },
+    { hebrew: "הוצא הכל מהכיסים!", taatik: "אִטְלַע כֻּל אִישִי מִין ג'ַבַּאעַ!", arabic: "", english: "Itla kul ishi min jabaa'!" },
+    { hebrew: "הרם חולצה!", taatik: "אִרְפַע בְלוּזַכ!", arabic: "", english: "Irfa blizak!" },
+    { hebrew: "הורד מכנסיים!", taatik: "נַזֵל בַנְטַלוֹן!", arabic: "", english: "Nazel bantalon!" },
+    { hebrew: "הסתובב!", taatik: "לִיף!", arabic: "", english: "Lif!" },
+    { hebrew: "הסתובב שוב פעם!", taatik: "לִיף כַמַאן מַרַה!", arabic: "", english: "Lif kaman mara!" },
+    { hebrew: "התלבש!", taatik: "אִלְבַאס!", arabic: "", english: "Ilbas!" }
 ]
 
 
 export const checkpost = [
-    { hebrew: "עצור!", taatik: "וקף!", arabic: "وقف!", english: "Wakef!" },
-    { hebrew: "עצור במקומך!", taatik: "וקף מחלכ!", arabic: "وقف محلك!", english: "Wakef mahalak!" },
-    { hebrew: "פתח את החלון!", taatik: "איפתח אל שבאכ!", arabic: "", english: "Iftahu el-shabak!" },
-    { hebrew: "הדלק את האור!", taatik: "אידווי א-דאו!", arabic: "", english: "Aidwi el-daw!" },
-    { hebrew: "כבה מנוע!", taatik: "אידפי מוטור!", arabic: "وقف محلك!", english: "Idfi el-motor!" },
-    { hebrew: "הבא לי תעודה מזהה!", taatik: "העטיני הוויה!", arabic: "أعطني هوية!", english: "haa'tini hawiya!" },
-    { hebrew: "הבא לי תעודה מזהה!", taatik: "ג'יב אל הוויה!", arabic: "جيب الهوية!", english: "Jib el-hawiya!" },
-    { hebrew: "מה השם שלך?", taatik: "שו אסמכ?", arabic: "ما اسمك؟", english: "Shu ismak?" },
-    { hebrew: "מאיפה אתה בא?", taatik: "מן ווין אינת בג'י?", arabic: "من أين أنت قادم؟", english: "Min wein inta baji?" },
-    { hebrew: "לאן אתה נוסע?", taatik: "ל-ווין אינת סאפר?", arabic: "إلى أين أنت ذاهب؟", english: "La-wein inta safr?" },
+    { hebrew: "עצור!", taatik: "וַקֵף!", arabic: "وقف!", english: "Wakef!" },
+    { hebrew: "עצור במקומך!", taatik: "וַקֵף מַחַלַכ!", arabic: "وقف محلك!", english: "Wakef mahalak!" },
+    { hebrew: "פתח את החלון!", taatik: "אִפְתַח אַל שבַּאכ!", arabic: "", english: "Iftahu el-shubak!" },
+    { hebrew: "הדלק את האור!", taatik: "אִדְווִי אַל-דַאו!", arabic: "", english: "Aidwi el-daw!" },
+    { hebrew: "כבה מנוע!", taatik: "אִדְפִי מוֹטוֹר!", arabic: "وقف محلك!", english: "Idfi el-motor!" },
+    { hebrew: "הבא לי תעודה מזהה!", taatik: "הַעַטִינִי הַוִויַה!", arabic: "أعطني هوية!", english: "haa'tini hawiya!" },
+    { hebrew: "הבא לי תעודה מזהה!", taatik: "ג'ִיב אַל הַוִויַה!", arabic: "جيب الهوية!", english: "Jib el-hawiya!" },
+    { hebrew: "מה השם שלך?", taatik: "שוּ אִסְמַכ?", arabic: "ما اسمك؟", english: "Shu ismak?" },
+    { hebrew: "מאיפה אתה בא?", taatik: "מִין וֵיְן אִינְתַ בַּג'ִי?", arabic: "من أين أنت قادم؟", english: "Min wein inta baji?" },
+    { hebrew: "לאן אתה נוסע?", taatik: "לַ-וֵיְן אִינְתַ סַאפֵר?", arabic: "إلى أين أنت ذاهب؟", english: "La-wein inta safr?" },
     
 ]
 
 export const mashtuba = [
-    { hebrew: "הבא לי רישיון רכב", taatik: "העטיני רוחסאת סיארה!", arabic: "أعطني رخصة سيارة!", english: "Haa'tini rukhsat sayara!" },
-    { hebrew: "למי שייך הרכב?", taatik: "למין תבע' אל סיארה?", arabic: "لمن تنتمي السيارة؟", english: "Liman tabea' el-sayara?" },
-    { hebrew: "הרכב הזה גנוב!", taatik: "אל סיארה הדי מסרוקה!", arabic: "هاي السيارة مسروقة!", english: "El-sayara hadi masruqa!" },
-    { hebrew: "סע איתי לכניסה לכפר!", taatik: "סאפר מעי אל מדחל אל-בלד!", arabic: "سافر معي عالمدخل للبلد!", english: "Safer ma'i el-madkhal el-balad!" }
-
-
+    { hebrew: "הבא לי רישיון רכב", taatik: "הַעַטִינִי רֻחְסַאת סִיַארַה!", arabic: "أعطني رخصة سيارة!", english: "Haa'tini rukhsat sayara!" },
+    { hebrew: "למי שייך הרכב?", taatik: "לְמִין תַבַעַ אַל סִיַארַה?", arabic: "لمن تنتمي السيارة؟", english: "Liman tabea' el-sayara?" },
+    { hebrew: "הרכב הזה גנוב!", taatik: "אַל סִיַארַה הַדִי מַסְרוּקַה!", arabic: "هاي السيارة مسروقة!", english: "El-sayara hadi masruqa!" },
+    { hebrew: "סע איתי לכניסה לכפר!", taatik: "סַאפֵר מַעִי אַל-מַדְחַל אַל-בַלַד!", arabic: "سافر معي عالمدخل للبلد!", english: "Safer ma'i el-madkhal el-balad!" }
 ]
