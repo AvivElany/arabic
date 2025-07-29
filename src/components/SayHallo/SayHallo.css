@@ -11,11 +11,12 @@
     font-weight: 800;
     color: #fff;
     background-color: black;
+    direction: rtl;
 }
 
 .SayHallo h1 {
     margin: 0;
-    font-family: "Playpen Sans Hebrew", cursive;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: 700;
     font-size: 50px;
     color:green
@@ -27,6 +28,7 @@
     }
     .SayHallo h1 {
         font-size: 40px;
+        transform: translateY(-150px);
     }
     .shabab {
         display: block;

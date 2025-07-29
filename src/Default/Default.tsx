@@ -24,17 +24,22 @@ export default function Default() {
 
   const location = useLocation();
   const [loading, setLoading] = useState(true);
+  const [hasLoaded, setHasLoaded] = useState(false);
 
   // Use the custom hook for scroll to top
   useScrollToTop();
 
   useEffect(() => {
-    setLoading(true);
+    // Show loading screen only on first visit
+    if (!hasLoaded) {
+      setLoading(true);
 
-    setTimeout(() => {
-      setLoading(false);
-    }, 3500);
-  }, []);
+      setTimeout(() => {
+        setLoading(false);
+        setHasLoaded(true);
+      }, 3500);
+    }
+  }, [hasLoaded]);
 
   return (
     <div className='Default'>
