@@ -39,10 +39,10 @@ export default function Navbar(/*props: INavbarProps*/) {
     return (
         <nav className="navbar navbar-expand-lg bg-body-tertiary bottom-navbar" data-bs-theme='dark'>
             <div className="container-fluid">
-                <a className="navbar-brand" href="#">
+                <Link to="/" className="navbar-brand">
                     <img src="/picture/symbol_white.jpg" alt="9311_unit_logo" className="main-symbol" />
                     <h5 className="nav-name">פק"ל ערבית עם גדוד 9311</h5>
-                </a>
+                </Link>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon"></span>
                 </button>
