@@ -28,6 +28,7 @@
 }
 
 .unit {
+    display: block;
     color: orange; /* Highlight color for 9311 */
     font-weight: bold;
 }

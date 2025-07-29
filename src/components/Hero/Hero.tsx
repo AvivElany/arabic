@@ -66,14 +66,14 @@ export default function Hero(/*props: IHeroProps*/) {
                     whileHover={{ scale: 1.02 }}
                     transition={{ duration: 0.2 }}
                 >
-                    ברוכים הבאים לאתר לימוד ערבית ללוחמי <span className='unit'>גדוד 9311</span>
+                    סלאם עליכום לפק"ל שיחון ערבית ללוחמי<span className='unit'>גדוד 9311</span>
                 </motion.h1>
                 <motion.p 
                     variants={itemVariants}
                     whileHover={{ y: -2 }}
                     transition={{ duration: 0.2 }}
                 >
-                    למד לתקשר בצורה יעילה בשטח עם שיחונים פשוטים, אוצר מילים שימושי למבצעים, ותרגולים פיזיים מותאמים לכל פלוגה.
+                    בעזרת הפק"ל הייעודי נלמד לתקשר בצורה יעילה בשטח עם שיחונים פשוטים, אוצר מילים שימושי למבצעים, ותרגולים פיזיים מותאמים לכל פלוגה.
                 </motion.p>
                 <motion.a 
                     href="#Importance" 
