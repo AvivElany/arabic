@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom'
+import { useState } from 'react'
 import './Navbar.css'
 /* import { useEffect, useState } from 'react'
 import { BsFillMoonStarsFill, BsFillSunFill } from 'react-icons/bs' */
@@ -10,6 +11,16 @@ import { BsFillMoonStarsFill, BsFillSunFill } from 'react-icons/bs' */
 /* const elmDocument = document.querySelector('html') as HTMLHtmlElement */
 
 export default function Navbar(/*props: INavbarProps*/) {
+    const [isNavOpen, setIsNavOpen] = useState(false);
+
+    // Function to close the navbar when a link is clicked
+    const closeNavbar = () => {
+        setIsNavOpen(false);
+    };
+
+    const toggleNavbar = () => {
+        setIsNavOpen(!isNavOpen);
+    };
 
     /* const [theme, setTheme] = useState('dark') */
 
@@ -43,18 +54,18 @@ export default function Navbar(/*props: INavbarProps*/) {
                     <img src="/picture/symbol_white.jpg" alt="9311_unit_logo" className="main-symbol" />
                     <h5 className="nav-name">פק"ל ערבית עם גדוד 9311</h5>
                 </Link>
-                <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded={isNavOpen} aria-label="Toggle navigation" onClick={toggleNavbar}>
                 <span className="navbar-toggler-icon"></span>
                 </button>
-                <div className="collapse navbar-collapse" id="navbarNavDropdown">
+                <div className={`collapse navbar-collapse ${isNavOpen ? 'show' : ''}`} id="navbarNavDropdown">
                     <ul className="navbar-nav">
                         <li className="nav-item">
-                            <Link className="nav-link active" aria-current="page" to="/">עמוד הבית</Link>
+                            <Link className="nav-link active" aria-current="page" to="/" onClick={closeNavbar}>עמוד הבית</Link>
                         </li>
-                        <li><Link className="nav-link" to="/namach">נוהל מעצר חשוד</Link></li>
-                        <li><Link className="nav-link" to="/arrest">מעצר חשוד</Link></li>
-                        <li><Link className="nav-link" to="/checkpost">צ'קפוסט</Link></li>
-                        <li><Link className="nav-link" to="/contact">צור קשר</Link></li>
+                        <li><Link className="nav-link" to="/namach" onClick={closeNavbar}>נוהל מעצר חשוד</Link></li>
+                        <li><Link className="nav-link" to="/arrest" onClick={closeNavbar}>מעצר חשוד</Link></li>
+                        <li><Link className="nav-link" to="/checkpost" onClick={closeNavbar}>צ'קפוסט</Link></li>
+                        <li><Link className="nav-link" to="/contact" onClick={closeNavbar}>צור קשר</Link></li>
                         {/* <li className="nav-item dropdown">
                         <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             מבצעי
