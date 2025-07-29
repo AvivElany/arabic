@@ -1,20 +1,20 @@
 import { Link } from 'react-router-dom'
 import './Navbar.css'
-import { useEffect, useState } from 'react'
-import { BsFillMoonStarsFill, BsFillSunFill } from 'react-icons/bs'
+/* import { useEffect, useState } from 'react'
+import { BsFillMoonStarsFill, BsFillSunFill } from 'react-icons/bs' */
 
 /*interface INavbarProps {
 
 }*/
 
-const elmDocument = document.querySelector('html') as HTMLHtmlElement
+/* const elmDocument = document.querySelector('html') as HTMLHtmlElement */
 
 export default function Navbar(/*props: INavbarProps*/) {
 
-    const [theme, setTheme] = useState('dark')
+    /* const [theme, setTheme] = useState('dark') */
 
 
-    useEffect(()=>{
+    /* useEffect(()=>{
     const lsTheme = localStorage.getItem('theme')
 
     if (lsTheme) {
@@ -27,14 +27,14 @@ export default function Navbar(/*props: INavbarProps*/) {
       elmDocument.setAttribute('data-bs-theme','light')
       setTheme('light')
     }
-    },[])
+    },[]) */
 
-    const toggleTheme = () => {
+    /* const toggleTheme = () => {
         const newTheme = theme === 'light' ? 'dark' : 'light'; // Determine the new theme based on the current one
         setTheme(newTheme); // Update the state with the new theme
         elmDocument.setAttribute('data-bs-theme', newTheme); // Set the attribute based on the new theme
         localStorage.setItem('theme', newTheme)
-    }
+    } */
 
     return (
         <nav className="navbar navbar-expand-lg bg-body-tertiary bottom-navbar" data-bs-theme='dark'>
@@ -65,6 +65,8 @@ export default function Navbar(/*props: INavbarProps*/) {
                             <li><Link className="nav-link" to="/Checkpost">צ'קפוסט</Link></li>
                         </ul>
                         </li> */}
+
+                        {/* 
                         <li className="nav-link dmBtn">
                             <button type="button" className='dark-light-mode-button' onClick={() => toggleTheme()}>
                                 
@@ -75,7 +77,7 @@ export default function Navbar(/*props: INavbarProps*/) {
                                     <BsFillSunFill size={18} fill='#FFFFB0'/>
                                 }
                             </button>
-                        </li>
+                        </li> */}
                     </ul>
                 </div>
             </div>
