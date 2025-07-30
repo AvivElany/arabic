@@ -19,6 +19,7 @@ import Headie from '../components/Headie/Headie';
 import ScrollToTopButton from '../components/ScrollToTop/ScrollToTop';
 import Space from '../components/Space/Space';
 import Vocabulary from '../pages/Vocabulary/Vocabulary';
+import ArabicAlphabetTable from '../pages/ArabicAlphabetTable/ArabicAlphabetTable';
 
 // pages
 
@@ -60,6 +61,7 @@ export default function Default() {
               <Route path="/arrest" element={<Arrest />} />
               <Route path="/checkpost" element={<Checkpost />} />
               <Route path="/vocabulary" element={<Vocabulary />} />
+              <Route path="/arabic-alphabet" element={<ArabicAlphabetTable />} />
               <Route path="/contact" element={<Contact />} />
 
             <Route path="*" element={<NotFound />} />
