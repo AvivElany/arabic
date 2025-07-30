@@ -1,0 +1,158 @@
+.SectionTitle {
+    text-align: right;
+    margin: 1.5rem 0;
+    padding: 0.8rem;
+    display: block;
+}
+
+.SectionTitle__title {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #2e7d32;
+    margin: 0;
+    font-weight: 700;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: right;
+}
+
+.SectionTitle__subtitle {
+    color: #666;
+    margin: 0.5rem 0 0 0;
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: right;
+}
+
+/* גדלים שונים */
+.SectionTitle--small .SectionTitle__title {
+    font-size: 1.3rem;
+}
+
+.SectionTitle--small .SectionTitle__subtitle {
+    font-size: 0.85rem;
+}
+
+.SectionTitle--medium .SectionTitle__title {
+    font-size: 1.8rem;
+}
+
+.SectionTitle--medium .SectionTitle__subtitle {
+    font-size: 1rem;
+}
+
+.SectionTitle--large .SectionTitle__title {
+    font-size: 2.2rem;
+}
+
+.SectionTitle--large .SectionTitle__subtitle {
+    font-size: 1.1rem;
+}
+
+/* אנימציה */
+.SectionTitle {
+    animation: fadeInUp 0.6s ease-out;
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* רספונסיביות משופרת למובייל */
+@media (max-width: 768px) {
+    .SectionTitle {
+        margin: 1rem 0;
+        padding: 0.6rem;
+    }
+    
+    .SectionTitle--small .SectionTitle__title {
+        font-size: 1.2rem;
+    }
+    
+    .SectionTitle--small .SectionTitle__subtitle {
+        font-size: 0.8rem;
+    }
+    
+    .SectionTitle--medium .SectionTitle__title {
+        font-size: 1.6rem;
+    }
+    
+    .SectionTitle--medium .SectionTitle__subtitle {
+        font-size: 0.9rem;
+    }
+    
+    .SectionTitle--large .SectionTitle__title {
+        font-size: 1.9rem;
+    }
+    
+    .SectionTitle--large .SectionTitle__subtitle {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .SectionTitle {
+        margin: 0.8rem 0;
+        padding: 0.4rem;
+    }
+    
+    .SectionTitle--small .SectionTitle__title {
+        font-size: 1.1rem;
+    }
+    
+    .SectionTitle--small .SectionTitle__subtitle {
+        font-size: 0.75rem;
+    }
+    
+    .SectionTitle--medium .SectionTitle__title {
+        font-size: 1.4rem;
+    }
+    
+    .SectionTitle--medium .SectionTitle__subtitle {
+        font-size: 0.85rem;
+    }
+    
+    .SectionTitle--large .SectionTitle__title {
+        font-size: 1.7rem;
+    }
+    
+    .SectionTitle--large .SectionTitle__subtitle {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 360px) {
+    .SectionTitle {
+        margin: 0.6rem 0;
+        padding: 0.3rem;
+    }
+    
+    .SectionTitle--small .SectionTitle__title {
+        font-size: 1rem;
+    }
+    
+    .SectionTitle--small .SectionTitle__subtitle {
+        font-size: 0.7rem;
+    }
+    
+    .SectionTitle--medium .SectionTitle__title {
+        font-size: 1.3rem;
+    }
+    
+    .SectionTitle--medium .SectionTitle__subtitle {
+        font-size: 0.8rem;
+    }
+    
+    .SectionTitle--large .SectionTitle__title {
+        font-size: 1.5rem;
+    }
+    
+    .SectionTitle--large .SectionTitle__subtitle {
+        font-size: 0.85rem;
+    }
+}

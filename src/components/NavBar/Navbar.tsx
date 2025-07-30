@@ -65,6 +65,7 @@ export default function Navbar(/*props: INavbarProps*/) {
                         <li><Link className="nav-link" to="/namach" onClick={closeNavbar}>נוהל מעצר חשוד</Link></li>
                         <li><Link className="nav-link" to="/arrest" onClick={closeNavbar}>מעצר חשוד</Link></li>
                         <li><Link className="nav-link" to="/checkpost" onClick={closeNavbar}>צ'קפוסט</Link></li>
+                        <li><Link className="nav-link" to="/vocabulary" onClick={closeNavbar}>אוצר מילים</Link></li>
                         <li><Link className="nav-link" to="/contact" onClick={closeNavbar}>צור קשר</Link></li>
                         {/* <li className="nav-item dropdown">
                         <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">

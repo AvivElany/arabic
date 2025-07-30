@@ -18,6 +18,7 @@ import Contact from '../components/Contact/Contact';
 import Headie from '../components/Headie/Headie';
 import ScrollToTopButton from '../components/ScrollToTop/ScrollToTop';
 import Space from '../components/Space/Space';
+import Vocabulary from '../pages/Vocabulary/Vocabulary';
 
 // pages
 
@@ -58,6 +59,7 @@ export default function Default() {
               <Route path="/namach" element={<Namach />} />
               <Route path="/arrest" element={<Arrest />} />
               <Route path="/checkpost" element={<Checkpost />} />
+              <Route path="/vocabulary" element={<Vocabulary />} />
               <Route path="/contact" element={<Contact />} />
 
             <Route path="*" element={<NotFound />} />

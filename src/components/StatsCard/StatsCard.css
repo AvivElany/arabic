@@ -1,0 +1,109 @@
+.StatsCard {
+    background: linear-gradient(135deg, #ffffff 0%, #f8f9fa 100%);
+    border-radius: 12px;
+    padding: 1.5rem;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+    border: 2px solid #e3f2fd;
+    transition: all 0.3s ease;
+    text-align: center;
+    min-height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.StatsCard:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.15);
+}
+
+.StatsCard__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.StatsCard__icon {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.StatsCard__title {
+    margin: 0;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #424242;
+}
+
+.StatsCard__value {
+    margin: 0;
+    font-size: 2rem;
+    font-weight: 700;
+    color: #1976d2;
+}
+
+/* צבעים שונים */
+.StatsCard--primary {
+    border-color: #2196f3;
+}
+
+.StatsCard--primary .StatsCard__value {
+    color: #1976d2;
+}
+
+.StatsCard--secondary {
+    border-color: #9c27b0;
+}
+
+.StatsCard--secondary .StatsCard__value {
+    color: #7b1fa2;
+}
+
+.StatsCard--success {
+    border-color: #4caf50;
+}
+
+.StatsCard--success .StatsCard__value {
+    color: #388e3c;
+}
+
+.StatsCard--warning {
+    border-color: #ff9800;
+}
+
+.StatsCard--warning .StatsCard__value {
+    color: #f57c00;
+}
+
+/* אנימציה */
+.StatsCard {
+    animation: fadeInScale 0.6s ease-out;
+}
+
+@keyframes fadeInScale {
+    from {
+        opacity: 0;
+        transform: scale(0.9);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+/* רספונסיביות */
+@media (max-width: 768px) {
+    .StatsCard {
+        padding: 1rem;
+        min-height: 100px;
+    }
+    
+    .StatsCard__value {
+        font-size: 1.5rem;
+    }
+    
+    .StatsCard__title {
+        font-size: 0.9rem;
+    }
+}
