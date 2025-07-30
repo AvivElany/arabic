@@ -1,6 +1,6 @@
 import './App.css'
 import { BrowserRouter } from 'react-router-dom'
-import Default from './components/Default/Default'
+import Default from './Default/Default'
 
 /*interface IAppProps {
 

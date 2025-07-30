@@ -2,22 +2,22 @@ import './Default.css'
 
 import { useEffect, useState } from 'react'
 import {  Route, Routes, useLocation } from 'react-router-dom'
-import { useScrollToTop } from '../../hooks/useScrollToTop'
+import { useScrollToTop } from '../hooks/useScrollToTop'
 
 // components
-import SayHallo from '../SayHallo/SayHallo';
-import Navbar from '../NavBar/Navbar';
-import Home from '../../pages/Home/Home';
-import NotFound from '../../pages/NotFound/NotFound';
-import Footer from '../Footer/Footer';
-import Top from '../Top/Top';
-import Namach from '../../pages/Namach/Namach';
-import Arrest from '../../pages/Arrest/Arrest';
-import Checkpost from '../../pages/Checkpost/Checkpost';
-import Contact from '../Contact/Contact';
-import Headie from '../Headie/Headie';
-import ScrollToTopButton from '../ScrollToTop/ScrollToTop';
-import Space from '../Space/Space';
+import SayHallo from '../components/SayHallo/SayHallo';
+import Navbar from '../components/NavBar/Navbar';
+import Home from '../pages/Home/Home';
+import NotFound from '../pages/NotFound/NotFound';
+import Footer from '../components/Footer/Footer';
+import Top from '../components/Top/Top';
+import Namach from '../pages/Namach/Namach';
+import Arrest from '../pages/Arrest/Arrest';
+import Checkpost from '../pages/Checkpost/Checkpost';
+import Contact from '../components/Contact/Contact';
+import Headie from '../components/Headie/Headie';
+import ScrollToTopButton from '../components/ScrollToTop/ScrollToTop';
+import Space from '../components/Space/Space';
 
 // pages
 
