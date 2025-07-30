@@ -32,7 +32,7 @@ export default function Footer(/*props: IFooterProps*/) {
             </div>
 
             <div className="footer-credits">
-                <p>כל הזכויות שמורות לאביב אילני | © {new Date().getFullYear()}</p>
+                <p>כל הזכויות שמורות ל<a href='https://portfolio-avivelanys.vercel.app/' target='_blank' className='god'>אביב אילני פיתוח פולסטאק</a> | © {new Date().getFullYear()}</p>
             </div>
         </div>
     )

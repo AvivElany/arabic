@@ -3,6 +3,7 @@ import Contact from '../../components/Contact/Contact'
 import Hero from '../../components/Hero/Hero'
 import Importance from '../../components/Importance/Importance'
 import Meets from '../../components/Meets/Meets'
+import Space from '../../components/Space/Space'
 import Top from '../../components/Top/Top'
 import './Home.css'
 
@@ -20,6 +21,7 @@ export default function Home(/*props: IHomeProps*/) {
             {/* <Dialect /> */}
             <Contact />
             <Top />
+            <Space />
         </div>
     )
 }

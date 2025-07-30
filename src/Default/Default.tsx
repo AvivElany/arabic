@@ -17,6 +17,7 @@ import Checkpost from '../pages/Checkpost/Checkpost';
 import Contact from '../components/Contact/Contact';
 import Headie from '../components/Headie/Headie';
 import ScrollToTopButton from '../components/ScrollToTop/ScrollToTop';
+import Space from '../components/Space/Space';
 
 // pages
 
@@ -63,7 +64,8 @@ export default function Default() {
           </Routes>
           <ScrollToTopButton />
           <Top />
-          <Footer />
+            <Footer />
+            <Space />
         </>
       )}
     </div>
