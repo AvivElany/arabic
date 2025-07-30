@@ -66,7 +66,7 @@ export default function Hero(/*props: IHeroProps*/) {
                     whileHover={{ scale: 1.02 }}
                     transition={{ duration: 0.2 }}
                 >
-                    סלאם עליכום לפק"ל שיחון ערבית ללוחמי<span className='unit'>גדוד 9311</span>
+                    <span className='greeting'>סַלָאם עֲלֵיכֻם</span> וברוכים הבאים לפק"ל שיחון ערבית<span className='unit'>ללוחמי גדוד 9311</span>
                 </motion.h1>
                 <motion.p 
                     variants={itemVariants}
