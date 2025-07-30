@@ -1,4 +1,3 @@
-import { Link } from 'react-router'
 import './Footer.css'
 
 /*interface IFooterProps {
@@ -11,15 +10,12 @@ export default function Footer(/*props: IFooterProps*/) {
         <div className="Footer">
             <div className='footer-parts'>
                 <div className="footer-part1">
-                    הפרויקט נוצר באהבה גדולה ובהתנדבות ומיועד לכם ובשבילכם. גם אם הוא עזר במעט הוא מילא את ייעודו בהצלחה!<br />
-                    אם יש לכם שאלות, הערות, בקשות או סתם רוצים לדבר על ערבית, אתם מוזמנים לפנות אליי דרך הטופס צור קשר או דרך המייל <br />
-                    <Link to="contact" className="contact-link">צור קשר</Link>
+                    הפרויקט נוצר באהבה גדולה ובהתנדבות ומיועד לכם ובשבילכם. <br/> גם אם הוא עזר במעט הוא מילא את ייעודו בהצלחה!<br />
                 </div>
 
                 <div className="footer-part2">
                     <h3>ניווט מהיר</h3>
                 <ul>
-                    <li><Link to="/">דף הבית</Link></li>
                     <li><a href="https://milon.madrasafree.com/" target='_blank'>מילון ערבי-עברי</a></li>
                     <li><a href='https://www.arabic-keyboard.org/' target='_blank'>מקלדת ערבית</a></li>
                     <li><a href='https://he.wikipedia.org/wiki/%D7%A2%D7%A8%D7%91%D7%99%D7%AA' target='_blank'>ערבית - ויקיפדיה</a></li>
@@ -32,7 +28,7 @@ export default function Footer(/*props: IFooterProps*/) {
             </div>
 
             <div className="footer-credits">
-                <p>כל הזכויות שמורות ל<a href='https://portfolio-avivelanys.vercel.app/' target='_blank' className='god'>אביב אילני פיתוח פולסטאק</a> | © {new Date().getFullYear()}</p>
+                <p>כל הזכויות שמורות ל<a href='https://portfolio-avivelanys.vercel.app/' target='_blank' className='god'>אביב אילני מפתח פולסטאק</a> | © {new Date().getFullYear()}</p>
             </div>
         </div>
     )

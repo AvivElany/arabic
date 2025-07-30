@@ -3,6 +3,7 @@ import type { Variants } from "motion/react"
 
 import './Contact.css'
 import { useState } from 'react';
+import { ImHappy } from "react-icons/im";
 
 /*interface I.ContactProps {
 
@@ -38,7 +39,12 @@ const fadeInput: Variants = {
 };
 
 export default function Contact(/*props: I.ContactProps*/) {
-    const [formData, setFormData] = useState({ name: '', phone: '', email: '', message: '' });
+    const [formData, setFormData] = useState({
+        name: '',
+        phone: '',
+        email: '',
+        message: ''
+    });
 
     const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
         setFormData({ ...formData, [e.target.name]: e.target.value });
@@ -58,7 +64,7 @@ export default function Contact(/*props: I.ContactProps*/) {
         const formData = new FormData(form)
 
         try {
-            const response = await fetch('https://formspree.io/f/xwpoeovv', {
+            const response = await fetch('https://formspree.io/f/xldllrpj', {
                 method: 'POST',
                 body: formData,
                 headers: {
@@ -84,109 +90,121 @@ export default function Contact(/*props: I.ContactProps*/) {
     return (
         <div className='Contact'>
             <h1 className='Contact-title'>צור קשר</h1>
-            <div className="contact-tabs">
-                <div className='Contact-image'>
-            </div>
+            <p className="contact-paragragh">אם יש לכם שאלות, הערות, בקשות או סתם רוצים לדבר על ערבית, אתם מוזמנים לפנות אליי ואחזור בהקדם</p>
                 {isSent ?
                     <motion.div
                         className='Contact-message'>
-                        {loading && <div className='Contact-message'>שולח...</div>}
-                        ההודעה נשלחה בהצלחה</motion.div>
+                            
+                    חִילוּ! <br />
+                    ההודעה נשלחה בהצלחה!&ensp;<br />
+
+                    ארְג'ַע עַלֵיכ בִסֻרְעָה <ImHappy />
+                    </motion.div>
                     :
                     <form className='Contact-form' onSubmit={handleSubmit}>
-                        <motion.label
+                        <motion.div
                             variants={fadeLabel}
-                            className="about-paragraph"
                             initial="hidden"
                             whileInView="visible"
-                            viewport={{ once: true }}
-                            htmlFor="name">
-                            שם מלא:
-                        </motion.label>
-                        <motion.input
-                            variants={fadeInput}
-                            className="about-paragraph"
-                            initial="hidden"
-                            whileInView="visible"
-                            viewport={{ once: true }}
-                            type="text"
-                            id="name"
-                            name="name"
-                            required
-                            value={formData.name}
-                            onChange={handleChange} /><br />
-                        <motion.label
+                            viewport={{ once: true }}>
+                            <label htmlFor="name">שם מלא:</label>
+                            <motion.input
+                                variants={fadeInput}
+                                initial="hidden"
+                                whileInView="visible"
+                                viewport={{ once: true }}
+                                type="text"
+                                id="name"
+                                name="name"
+                                required
+                                disabled={loading}
+                                value={formData.name}
+                                onChange={handleChange}
+                                placeholder="הכנס את שמך המלא"
+                            />
+                        </motion.div>
+
+                        <motion.div
                             variants={fadeLabel}
-                            className="about-paragraph"
                             initial="hidden"
                             whileInView="visible"
-                            viewport={{ once: true }}
-                            htmlFor="phone">
-                            טלפון:
-                        </motion.label>
-                        <motion.input
-                            variants={fadeInput}
-                            className="about-paragraph"
-                            initial="hidden"
-                            whileInView="visible"
-                            viewport={{ once: true }}
-                            type="tel"
-                            id="phone"
-                            name="phone"
-                            required
-                            value={formData.phone}
-                            onChange={handleChange} /><br />
-                        <motion.label
+                            viewport={{ once: true }}>
+                            <label htmlFor="phone">טלפון:</label>
+                            <motion.input
+                                variants={fadeInput}
+                                initial="hidden"
+                                whileInView="visible"
+                                viewport={{ once: true }}
+                                type="tel"
+                                id="phone"
+                                name="phone"
+                                required
+                                disabled={loading}
+                                value={formData.phone}
+                                onChange={handleChange}
+                                placeholder="050-1234567"
+                            />
+                        </motion.div>
+
+                        <motion.div
                             variants={fadeLabel}
-                            className="about-paragraph"
                             initial="hidden"
                             whileInView="visible"
-                            viewport={{ once: true }}
-                            htmlFor="email">
-                            מייל:
-                        </motion.label>
-                        <motion.input
-                            variants={fadeInput}
-                            className="about-paragraph"
-                            initial="hidden"
-                            whileInView="visible"
-                            viewport={{ once: true }}
-                            type="email"
-                            id="email"
-                            name="email"
-                            required
-                            value={formData.email}
-                            onChange={handleChange} />
-                        <motion.label
+                            viewport={{ once: true }}>
+                            <label htmlFor="email">כתובת מייל:</label>
+                            <motion.input
+                                variants={fadeInput}
+                                initial="hidden"
+                                whileInView="visible"
+                                viewport={{ once: true }}
+                                type="email"
+                                id="email"
+                                name="email"
+                                required
+                                disabled={loading}
+                                value={formData.email}
+                                onChange={handleChange}
+                                placeholder="example@email.com"
+                            />
+                        </motion.div>
+
+                        <motion.div
                             variants={fadeLabel}
-                            className="about-paragraph message-label"
                             initial="hidden"
                             whileInView="visible"
-                            viewport={{ once: true }} htmlFor="message">
-                            הודעה:
-                        </motion.label>
-                        <motion.textarea
-                            variants={fadeInput}
-                            className="about-paragraph"
-                            initial="hidden"
-                            whileInView="visible"
-                            viewport={{ once: true }}
-                            id="message"
-                            name="message" required
-                            value={formData.message}
-                            onChange={handleChange} ></motion.textarea>
+                            viewport={{ once: true }}>
+                            <label htmlFor="message">הודעה:</label>
+                            <motion.textarea
+                                variants={fadeInput}
+                                initial="hidden"
+                                whileInView="visible"
+                                viewport={{ once: true }}
+                                id="message"
+                                name="message"
+                                required
+                                disabled={loading}
+                                value={formData.message}
+                                onChange={handleChange}
+                                placeholder="כתוב כאן את הודעתך..."
+                            />
+                        </motion.div>
+
                         <motion.button
                             variants={fadeSubmit}
-                            className="about-paragraph-btn"
                             initial="hidden"
                             whileInView="visible"
                             viewport={{ once: true }}
-                            type="submit">
-                            שלח
+                            type="submit"
+                            disabled={loading}>
+                            {loading ? 'שולח...' : 'שלח הודעה'}
                         </motion.button>
-                        {isError && <div className='Contact-message'>שגיאה בשליחת ההודעה</div>}
+
+                        {isError && (
+                            <div className='Contact-message error'>
+                                אירעה שגיאה בשליחת ההודעה. אנא נסה שנית.
+                            </div>
+                        )}
                     </form>}
             </div>
-        </div>
     )
 }

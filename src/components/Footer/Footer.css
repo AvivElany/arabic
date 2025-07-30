@@ -44,8 +44,11 @@
     display: inline;
     margin: 0 5px;
     color: #f80505;
-    margin: 0;
     letter-spacing: 0.5px;
+}
+
+.footer-credits p a {
+    font-weight: bold;
 }
 
 .symbol {
@@ -54,7 +57,7 @@
     width: 170px;
     margin: 0 auto;
     display: block;
-    border-radius: 10px;
+    border-radius: 15px;
 }
 
 
