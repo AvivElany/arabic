@@ -25,7 +25,7 @@ export const vocabulary = [
             { hebrew: "כיור", taatik: "מַרְ'סְלֶה", arabic: "مغسلة", english: "sink" }
         ]
     },
-    {category: "חמשת הממים",
+    {category: "מילות השאלה הבסיסיות",
         words: [
             { hebrew: "מי?", taatik: "מִין?", arabic: "مين؟", english: "who?" },
             { hebrew: "מה?", taatik: "שוּ?", arabic: "شو؟", english: "what?" },
