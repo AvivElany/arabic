@@ -1,6 +1,5 @@
 export const vocabulary = [
-    {
-        category: "תכולת בית",
+    {category: "תכולת בית",
         words: [
             { hebrew: "בית", taatik: "בֵּיְת", arabic: "بيت", english: "house" },
             { hebrew: "כסף", taatik: "מְסָארִי", arabic: "", english: "money" },
@@ -26,9 +25,18 @@ export const vocabulary = [
             { hebrew: "כיור", taatik: "מַרְ'סְלֶה", arabic: "مغسلة", english: "sink" }
         ]
     },
-    {
-        category: "תכולת בית",
+    {category: "חמשת הממים",
         words: [
+            { hebrew: "מי?", taatik: "מִין?", arabic: "مين؟", english: "who?" },
+            { hebrew: "מה?", taatik: "שוּ?", arabic: "شو؟", english: "what?" },
+            { hebrew: "מתי?", taatik: "אֵימְתַא?", arabic: "إيمتى؟", english: "when?" },
+            { hebrew: "למה?", taatik: "לֵיש?", arabic: "ليش؟", english: "why?" },
+            { hebrew: "איפה?", taatik: "וֵיְן?", arabic: "وين؟", english: "where?" }
+        ]
+    },
+    {category: "שאלות בסיסיות",
+        words: [
+            
             { hebrew: "שלום", taatik: "סַלַאם", arabic: "سلام", english: "hello / peace" },
             { hebrew: "מה שלומך?", taatik: "כִּיף חַלַק", arabic: "كيف حالك؟", english: "how are you?" },
             { hebrew: "אני בסדר", taatik: "אַנַא מְנִיחַ", arabic: "أنا منيح", english: "I'm fine" },
@@ -36,22 +44,17 @@ export const vocabulary = [
             { hebrew: "בבקשה", taatik: "תְפַצ'אל", arabic: "تفضل", english: "please / go ahead" },
             { hebrew: "כן", taatik: "אַיְוַה / נַעַם", arabic: "ايوه / نعم", english: "yes" },
             { hebrew: "לא", taatik: "לַא", arabic: "لا", english: "no" },
-            { hebrew: "איפה?", taatik: "וֵיְן?", arabic: "وين؟", english: "where?" },
-            { hebrew: "מי?", taatik: "מִין?", arabic: "مين؟", english: "who?" },
-            { hebrew: "מה?", taatik: "שוּ?", arabic: "شو؟", english: "what?" },
-            { hebrew: "למה?", taatik: "לֵיש?", arabic: "ليش؟", english: "why?" },
             { hebrew: "עכשיו", taatik: "הַלַא", arabic: "هلا", english: "now" },
             { hebrew: "מהר", taatik: "בִסֻרְעָה", arabic: "بسرعة", english: "quickly" },
-            { hebrew: "לשבת", taatik: "אֻקְעֻד", arabic: "اقعد", english: "sit down" },
-            { hebrew: "לקום", taatik: "qum", arabic: "قوم", english: "stand up" },
-            { hebrew: "להראות לי", taatik: "farjiini", arabic: "فرجيني", english: "show me" },
-            { hebrew: "אסור", taatik: "mamnu'", arabic: "ممنوع", english: "forbidden" },
-            { hebrew: "מותר", taatik: "maashi", arabic: "ماشي", english: "allowed / okay" },
-            { hebrew: "לא הבנתי", taatik: "mish fahem", arabic: "مش فاهم", english: "I didn’t understand" }
+            { hebrew: "שב", taatik: "אֻקְעֻד", arabic: "اقعد", english: "sit down" },
+            { hebrew: "קום", taatik: "קֻום", arabic: "قوم", english: "stand up" },
+            { hebrew: "הראה לי", taatik: "farjiini", arabic: "فرجيني", english: "show me" },
+            { hebrew: "אסור", taatik: "ממנוע'", arabic: "ممنوع", english: "forbidden" },
+            { hebrew: "מותר", taatik: "מאשי", arabic: "ماشي", english: "allowed / okay" },
+            { hebrew: "לא הבנתי", taatik: "מש פאהם", arabic: "مش فاهم", english: "I didn’t understand" }
         ]
     },
-    {
-        category: "הרכב משפחה",
+    {category: "הרכב משפחה",
         words: [
             { hebrew: "משפחה", taatik: "עַיְלֶה", arabic: "عيلة", english: "family" },
             { hebrew: "אבא", taatik: "אַבּוּ", arabic: "أبّو", english: "father" },
@@ -62,8 +65,7 @@ export const vocabulary = [
             { hebrew: "אחות", taatik: "אֻחְת", arabic: "أخت", english: "sister" },
         ]
     },
-    {
-        category: "מילות יחס",
+    {category: "מילות יחס",
         words: [
             { hebrew: "על", taatik: "עַלַא", arabic: "على", english: "on" },
             { hebrew: "מתחת ל", taatik: "תַחְתַ", arabic: "تحت", english: "under" },
@@ -75,8 +77,7 @@ export const vocabulary = [
             { hebrew: "מחוץ ל", taatik: "חַארִג' מִין", arabic: "", english: "outside of" }
         ]
     },
-    {
-        category: "מילות תיאור",
+    {category: "מילות תיאור",
         words: [
             { hebrew: "גדול", taatik: "כַבִּיר", arabic: "كبير", english: "big" },
             { hebrew: "קטן", taatik: "צַרִ'יר", arabic: "صغير", english: "small" },
@@ -87,8 +88,7 @@ export const vocabulary = [
             { hebrew: "איטי", taatik: "בַדִיעַ", arabic: "", english: "slow" }
         ]
     },
-    {
-        category: "זמנים",
+    {category: "זמנים",
         words: [
             { hebrew: "שעה", taatik: "סַאעָה", arabic: "ساعة", english: "hour" },
             { hebrew: "דקה", taatik: "דַקִיקָה", arabic: "دقيقة", english: "minute" },
@@ -99,19 +99,18 @@ export const vocabulary = [
             { hebrew: "שנה", taatik: "סַנַה", arabic: "", english: "year" }
         ]
     },
-    {
-        category: "זמנים",
+    {category: "זמנים",
         words: [
-            { hebrew: "בוקר", taatik: "suboH", arabic: "صباح", english: "morning" },
-            { hebrew: "ערב", taatik: "masa", arabic: "مسا", english: "evening" },
-            { hebrew: "לילה", taatik: "layleh", arabic: "ليلة", english: "night" },
-            { hebrew: "היום", taatik: "il-yom", arabic: "اليوم", english: "today" },
-            { hebrew: "מחר", taatik: "bukra", arabic: "بكرة", english: "tomorrow" },
-            { hebrew: "אתמול", taatik: "imbareH", arabic: "امبارح", english: "yesterday" },
-            { hebrew: "לפני שבוע", taatik: "qabl usbuu'", arabic: "قبل أسبوع", english: "a week ago" },
-            { hebrew: "בעוד שבוע", taatik: "ba'd usbuu'", arabic: "بعد أسبوع", english: "in a week" },
-            { hebrew: "לפני חודש", taatik: "qabl shahr", arabic: "قبل شهر", english: "a month ago" },
-            { hebrew: "בעוד חודש", taatik: "ba'd shahr", arabic: "بعد شهر", english: "in a month" },
+            { hebrew: "בוקר", taatik: "סבאח", arabic: "صباح", english: "morning" },
+            { hebrew: "ערב", taatik: "מסא", arabic: "مسا", english: "evening" },
+            { hebrew: "לילה", taatik: "לילה", arabic: "ليلة", english: "night" },
+            { hebrew: "היום", taatik: "אל-יום", arabic: "اليوم", english: "today" },
+            { hebrew: "מחר", taatik: "בכרה", arabic: "بكرة", english: "tomorrow" },
+            { hebrew: "אתמול", taatik: "אמבארח", arabic: "امبارح", english: "yesterday" },
+            { hebrew: "לפני שבוע", taatik: "קבל אסבוע'", arabic: "قبل أسبوع", english: "a week ago" },
+            { hebrew: "בעוד שבוע", taatik: "בעד אסבוע'", arabic: "بعد أسبوع", english: "in a week" },
+            { hebrew: "לפני חודש", taatik: "קבל שהר", arabic: "قبل شهر", english: "a month ago" },
+            { hebrew: "בעוד חודש", taatik: "בעד שהר", arabic: "بعد شهر", english: "in a month" },
         ]
     },
     {category: "מזג אוויר",
@@ -123,8 +122,7 @@ export const vocabulary = [
             { hebrew: "רוח", taatik: "רִיחַ", arabic: "ريح", english: "wind" }
         ]
     },
-    {
-        category: "מקומות",
+    {category: "מקומות",
         words: [
             { hebrew: "בית חולים", taatik: "מֻסְתַשְפַא", arabic: "مستشفى", english: "hospital" },
             { hebrew: "בית ספר", taatik: "מַדְרַסֶה", arabic: "مدرسة", english: "school" },
@@ -153,7 +151,7 @@ export const suspect = [
     { hebrew: "עצור במקומך!", taatik: "וַקֵף מַחַלַכ!", arabic: "وقف محلك!", english: "Wakef mahalak!" },
     { hebrew: "הרם ידיך למעלה!", taatik: "אִרְפַע אִידֵכ!", arabic: "يرفع يديك!", english: "Irfa idek la-fok!" },
     { hebrew: "הוצא הכל מהכיסים!", taatik: "אִטְלַע כֻּל אִישִי מִין ג'ַבַּאעַ!", arabic: "", english: "Itla kul ishi min jabaa'!" },
-    { hebrew: "הרם חולצה!", taatik: "אִרְפַע בְלוּזַכ!", arabic: "", english: "Irfa blizak!" },
+    { hebrew: "הרם חולצה!", taatik: "אִרְפַע בְלוּזַכ!", arabic: "", english: "Irfa bluzak!" },
     { hebrew: "הורד מכנסיים!", taatik: "נַזֵל בַנְטַלוֹן!", arabic: "", english: "Nazel bantalon!" },
     { hebrew: "הסתובב!", taatik: "לִיף!", arabic: "", english: "Lif!" },
     { hebrew: "הסתובב שוב פעם!", taatik: "לִיף כַמַאן מַרַה!", arabic: "", english: "Lif kaman mara!" },
