@@ -90,7 +90,7 @@ export default function ArabicAlphabetTable() {
 
             {/* הסבר על הצורות השונות */}
             <div className="forms-explanation">
-                <h3>💡 הסבר על הצורות השונות של האותיות</h3>
+                <h3><span className='letter-explanation-symbol'>💡</span> הסבר על הצורות השונות של האותיות</h3>
                 <div className="explanation-grid">
                     <div className="explanation-item">
                         <h4>🔹 צורה בודדת</h4>

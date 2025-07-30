@@ -211,6 +211,10 @@
     font-size: 1.5rem;
 }
 
+.letter-explanation-symbol {
+    display: block;
+}
+
 .explanation-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -292,7 +296,7 @@
     }
     
     .arabic-letter {
-        font-size: 1.5rem;
+        font-size: 1.8rem;
     }
     
     .letter-row:hover {
@@ -335,7 +339,7 @@
     }
     
     .arabic-letter {
-        font-size: 1.3rem;
+        font-size: 1.8rem;
     }
     
     .forms-explanation h3 {
