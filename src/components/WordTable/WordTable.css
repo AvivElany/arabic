@@ -100,6 +100,7 @@
 }
 
 .WordTable__cell--english {
+    direction: ltr;
     color: #424242;
     font-weight: 400;
 }
