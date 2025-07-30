@@ -66,7 +66,7 @@ export default function Dialect() {
                         <tr>
                             <td>בדואים</td>
                             <td>ג' (כמו ג'ימ)</td>
-                            <td>قال → גאל</td>
+                            <td>قال → ג'אל</td>
                         </tr>
                         <tr>
                             <td>מצרים</td>
