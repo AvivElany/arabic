@@ -74,7 +74,8 @@ export default function Contact() {
                 method: 'POST',
                 body: formData,
                 headers: {
-                    Accept: 'application/json',
+                    'Accept': 'application/json',
+                    'X-Requested-With': 'XMLHttpRequest'
                 },
             });
 
@@ -255,10 +256,6 @@ export default function Contact() {
                     >
                         {loading ? 'שולח...' : 'שלח הודעה'}
                     </motion.button>
-                    
-                    <div id="submit-help" className="submit-help">
-                        ההודעה תישלח תוך 24 שעות
-                    </div>
 
                     {isError && (
                         <div role="alert" aria-live="assertive" className='Contact-message error'>
