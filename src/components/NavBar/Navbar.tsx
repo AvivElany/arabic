@@ -62,8 +62,8 @@ export default function Navbar(/*props: INavbarProps*/) {
                         <li className="nav-item">
                             <Link className="nav-link active" aria-current="page" to="/" onClick={closeNavbar}>עמוד הבית</Link>
                         </li>
-                        <li><Link className="nav-link" to="/namach" onClick={closeNavbar}>נוהל מעצר חשוד</Link></li>
-                        <li><Link className="nav-link" to="/arrest" onClick={closeNavbar}>מעצר חשוד</Link></li>
+                        <li><Link className="nav-link" to="/suspect" onClick={closeNavbar}>נוהל מעצר חשוד</Link></li>
+                        <li><Link className="nav-link" to="/arrest" onClick={closeNavbar}>מעצר מבוקש</Link></li>
                         <li><Link className="nav-link" to="/checkpost" onClick={closeNavbar}>צ'קפוסט</Link></li>
                         <li><Link className="nav-link" to="/vocabulary" onClick={closeNavbar}>אוצר מילים</Link></li>
                         <li><Link className="nav-link" to="/arabic-alphabet" onClick={closeNavbar}>אלפבית ערבי</Link></li>
@@ -73,7 +73,7 @@ export default function Navbar(/*props: INavbarProps*/) {
                             מבצעי
                         </a>
                         <ul className="dropdown-menu dropdown-menu-up">
-                            <li><Link className="nav-link" to="/Namach">נוהל מעצר חשוד</Link></li>
+                            <li><Link className="nav-link" to="/Suspect">נוהל מעצר חשוד</Link></li>
                             <li><Link className="nav-link" to="/arrest">מעצר</Link></li>
                             <li><Link className="nav-link" to="/Checkpost">צ'קפוסט</Link></li>
                         </ul>

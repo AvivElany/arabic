@@ -1,5 +1,5 @@
 import './Vocabulary.css'
-import { vocabulary } from '../../data/data'
+import { vocabulary } from '../../data/vocabulary'
 import SectionTitle from '../../components/SectionTitle/SectionTitle'
 import WordTable from '../../components/WordTable/WordTable'
 import SearchFilter from '../../components/SearchFilter/SearchFilter'

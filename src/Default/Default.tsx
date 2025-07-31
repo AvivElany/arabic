@@ -11,15 +11,14 @@ import Home from '../pages/Home/Home';
 import NotFound from '../pages/NotFound/NotFound';
 import Footer from '../components/Footer/Footer';
 import Top from '../components/Top/Top';
-import Namach from '../pages/Namach/Namach';
 import Arrest from '../pages/Arrest/Arrest';
 import Checkpost from '../pages/Checkpost/Checkpost';
 import Contact from '../components/Contact/Contact';
-import Headie from '../components/Headie/Headie';
 import ScrollToTopButton from '../components/ScrollToTop/ScrollToTop';
 import Space from '../components/Space/Space';
 import Vocabulary from '../pages/Vocabulary/Vocabulary';
 import ArabicAlphabetTable from '../pages/ArabicAlphabetTable/ArabicAlphabetTable';
+import Suspect from '../pages/Suspect/Suspect';
 
 // pages
 
@@ -52,12 +51,11 @@ export default function Default() {
         </div>
       ) : (
           <>
-            <Headie />
-          <Navbar />
+            <Navbar />
 
-          <Routes location={location}>
+            <Routes location={location}>
               <Route path="/" element={<Home />} />
-              <Route path="/namach" element={<Namach />} />
+              <Route path="/suspect" element={<Suspect />} />
               <Route path="/arrest" element={<Arrest />} />
               <Route path="/checkpost" element={<Checkpost />} />
               <Route path="/vocabulary" element={<Vocabulary />} />
@@ -65,13 +63,13 @@ export default function Default() {
               <Route path="/contact" element={<Contact />} />
 
             <Route path="*" element={<NotFound />} />
-          </Routes>
-          <ScrollToTopButton />
-          <Top />
+            </Routes>
+            <ScrollToTopButton />
+            <Top />
             <Footer />
             <Space />
-        </>
-      )}
+          </>
+        )}
     </div>
   )
 }

@@ -2,7 +2,7 @@ import Summary from '../../components/Summary/Summary'
 import Title from '../../components/Title/Title'
 import './Checkpost.css'
 import Board from '../../components/Board/Board'
-import { checkpost, mashtuba } from '../../data/data'
+import { checkpost, mashtuba } from '../../data/checkpost'
 
 /*interface ICheckpostProps {
 
