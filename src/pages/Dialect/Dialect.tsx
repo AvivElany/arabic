@@ -59,17 +59,12 @@ export default function Dialect() {
                             <td>قال → קאל</td>
                         </tr>
                         <tr>
-                            <td>עזה</td>
-                            <td>أ (א) או כ</td>
-                            <td>قال → אאל / כאל</td>
-                        </tr>
-                        <tr>
                             <td>בדואים</td>
                             <td>ג' (כמו ג'ימ)</td>
                             <td>قال → ג'אל</td>
                         </tr>
                         <tr>
-                            <td>מצרים</td>
+                            <td>עזה ומצרים</td>
                             <td>ג</td>
                             <td>قال → גאל</td>
                         </tr>

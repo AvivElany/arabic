@@ -19,6 +19,7 @@ import Space from '../components/Space/Space';
 import Vocabulary from '../pages/Vocabulary/Vocabulary';
 import ArabicAlphabetTable from '../pages/ArabicAlphabetTable/ArabicAlphabetTable';
 import Suspect from '../pages/Suspect/Suspect';
+import CombatInterrogation from '../pages/CombatInterrogation/CombatInterrogation';
 
 // pages
 
@@ -60,6 +61,7 @@ export default function Default() {
               <Route path="/checkpost" element={<Checkpost />} />
               <Route path="/vocabulary" element={<Vocabulary />} />
               <Route path="/arabic-alphabet" element={<ArabicAlphabetTable />} />
+              <Route path="/combat-interrogation" element={<CombatInterrogation />} />
               <Route path="/contact" element={<Contact />} />
 
             <Route path="*" element={<NotFound />} />
