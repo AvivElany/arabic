@@ -67,7 +67,7 @@ export default function Navbar(/*props: INavbarProps*/) {
                         <li><Link className="nav-link" to="/checkpost" onClick={closeNavbar}>צ'קפוסט</Link></li>
                         <li><Link className="nav-link" to="/vocabulary" onClick={closeNavbar}>אוצר מילים</Link></li>
                         <li><Link className="nav-link" to="/arabic-alphabet" onClick={closeNavbar}>אלפבית ערבי</Link></li>
-                        <li><Link className="nav-link" to="/combat-interrogation" onClick={closeNavbar}>מבוא לתשאול קרבי</Link></li>
+                        {/* <li><Link className="nav-link" to="/combat-interrogation" onClick={closeNavbar}>מבוא לתשאול קרבי</Link></li> */}
                         <li><Link className="nav-link" to="/DevPage" onClick={closeNavbar}>אודות</Link></li>
                         <li><Link className="nav-link" to="/contact" onClick={closeNavbar}>צור קשר</Link></li>
                         {/* <li className="nav-item dropdown">
