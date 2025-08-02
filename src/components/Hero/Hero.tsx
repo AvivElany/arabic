@@ -1,13 +1,15 @@
 import './Hero.css'
 import { motion, useInView } from 'framer-motion'
 import type { Variants } from 'framer-motion'
-import { useRef } from 'react'
+import { useRef, useState } from 'react'
 
 /*interface IHeroProps {
 
 }*/
 
 export default function Hero(/*props: IHeroProps*/) {
+
+    const [developing, setDeveloping] = useState(true);
     const ref = useRef(null);
     const isInView = useInView(ref, { once: false, amount: 0.3 });
 
@@ -68,6 +70,19 @@ export default function Hero(/*props: IHeroProps*/) {
                 >
                     <span className='greeting'>סַלָאם עֲלֵיכֻם</span> וברוכים הבאים לפק"ל שיחון ערבית<span className='unit'>ללוחמי גדוד 9311</span>
                 </motion.h1>
+                {developing && (
+                    <motion.div 
+                        className="developing"
+                        initial={{ opacity: 0, y: -20 }}
+                        animate={{ opacity: 1, y: 0 }}
+                        transition={{ duration: 0.5, delay: 1 }}
+                        whileHover={{ scale: 1.05 }}
+                    >
+                        <span className="developing-icon">🚧</span>
+                        <span className="developing-text">המערכת במהלך פיתוח ושיפורים נוספים</span>
+                        <span className="developing-icon">🚧</span>
+                    </motion.div>
+                )}
                 <motion.p 
                     variants={itemVariants}
                     whileHover={{ y: -2 }}
