@@ -1,7 +1,7 @@
 import './Hero.css'
 import { motion, useInView } from 'framer-motion'
 import type { Variants } from 'framer-motion'
-import { useRef, useState } from 'react'
+import { useRef } from 'react'
 
 /*interface IHeroProps {
 
@@ -9,7 +9,7 @@ import { useRef, useState } from 'react'
 
 export default function Hero(/*props: IHeroProps*/) {
 
-    const [developing, setDeveloping] = useState(true);
+    const developing = true;
     const ref = useRef(null);
     const isInView = useInView(ref, { once: false, amount: 0.3 });
 
