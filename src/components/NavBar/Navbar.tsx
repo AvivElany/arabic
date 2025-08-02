@@ -18,12 +18,6 @@ export default function Navbar(/*props: INavbarProps*/) {
         setIsNavOpen(false);
     };
 
-    // Function to close only the dropdown but keep navbar open
-    const closeDropdown = () => {
-        // Bootstrap will handle closing the dropdown automatically
-        // We don't need to close the navbar here
-    };
-
     const toggleNavbar = () => {
         setIsNavOpen(!isNavOpen);
     };
@@ -76,16 +70,16 @@ export default function Navbar(/*props: INavbarProps*/) {
                         <li><Link className="nav-link" to="/combat-interrogation" onClick={closeNavbar}>מבוא לתשאול קרבי</Link></li>
                         <li><Link className="nav-link" to="/DevPage" onClick={closeNavbar}>אודות</Link></li>
                         <li><Link className="nav-link" to="/contact" onClick={closeNavbar}>צור קשר</Link></li>
-                        <li className="nav-item dropdown">
+                        {/* <li className="nav-item dropdown">
                         <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             מבצעי
                         </a>
                         <ul className="dropdown-menu dropdown-menu-up">
-                            <li><Link className="nav-link" to="/Suspect" onClick={closeDropdown}>נוהל מעצר חשוד</Link></li>
-                            <li><Link className="nav-link" to="/arrest" onClick={closeDropdown}>מעצר</Link></li>
-                            <li><Link className="nav-link" to="/Checkpost" onClick={closeDropdown}>צ'קפוסט</Link></li>
+                            <li><Link className="nav-link" to="/Suspect">נוהל מעצר חשוד</Link></li>
+                            <li><Link className="nav-link" to="/arrest">מעצר</Link></li>
+                            <li><Link className="nav-link" to="/Checkpost">צ'קפוסט</Link></li>
                         </ul>
-                        </li>
+                        </li> */}
 
                         {/* 
                         <li className="nav-link dmBtn">
