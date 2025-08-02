@@ -151,10 +151,11 @@
 /* Skills Tags */
 .skills-tags {
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
     gap: 0.5rem;
     margin-bottom: 1.5rem;
-    justify-content: flex-start;
 }
 
 .skill-tag {
@@ -273,10 +274,6 @@
     
     .contact-links {
         grid-template-columns: 1fr;
-    }
-    
-    .skills-tags {
-        justify-content: flex-start;
     }
     
     .quick-stats {
