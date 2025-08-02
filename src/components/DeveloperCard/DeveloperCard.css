@@ -1,10 +1,18 @@
-/* Developer Card - כרטיסיית מפתח קומפקטית */
+:root {
+    --bg-main-color: #3b82f6;
+    --bg-secondary-color: #ffffff;
+    --accent-color: #f59e0b;
+    --background-color: #ffffff;
+    --text-color: #1e293b;
+    --border-color: rgba(148, 163, 184, 0.1);
+}
+
 .developer-card {
     direction: rtl;
     font-family: 'Segoe UI', 'Tahoma', 'Geneva', 'Verdana', sans-serif;
     max-width: 400px;
     margin: 0 auto;
-    background: linear-gradient(135deg, #ffffff 0%, #f8fafc 100%);
+    background: linear-gradient(135deg, var(--bg-main-color) 0%, var(--bg-secondary-color) 50%, var(--bg-secondary-color) 100%);
     border-radius: 20px;
     padding: 2rem;
     box-shadow: 
@@ -157,12 +165,13 @@
     font-size: 0.8rem;
     font-weight: 500;
     box-shadow: 0 2px 4px rgba(59, 130, 246, 0.3);
-    transition: all 0.3s ease;
+    transition: all 0.5s ease;
 }
 
 .skill-tag:hover {
     transform: translateY(-2px);
     box-shadow: 0 4px 8px rgba(59, 130, 246, 0.4);
+    background: linear-gradient(135deg, #5f1259 0%, #645828 100%);
 }
 
 /* Current Project */

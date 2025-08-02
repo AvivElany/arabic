@@ -46,14 +46,14 @@ export default function DeveloperCard(/*props: IDeveloperCardProps*/) {
 
             {/* Skills Tags */}
             <div className='skills-tags'>
-                <span className='skill-tag'>CSS3</span>
-                <span className='skill-tag'>JavaScript</span>
-                <span className='skill-tag'>TypeScript</span>
                 <span className='skill-tag'>React.JS</span>
-                <span className='skill-tag'>UI/UX</span>
-                <span className='skill-tag'>MongoDB</span>
-                <span className='skill-tag'>Express</span>
+                <span className='skill-tag'>TypeScript</span>
+                <span className='skill-tag'>JavaScript</span>
+                <span className='skill-tag'>CSS3</span>
                 <span className='skill-tag'>Node.JS</span>
+                <span className='skill-tag'>Express</span>
+                <span className='skill-tag'>MongoDB</span>
+                <span className='skill-tag'>UI/UX</span>
             </div>
 
             {/* Current Project */}

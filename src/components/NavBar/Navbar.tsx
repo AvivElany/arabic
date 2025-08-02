@@ -18,6 +18,12 @@ export default function Navbar(/*props: INavbarProps*/) {
         setIsNavOpen(false);
     };
 
+    // Function to close only the dropdown but keep navbar open
+    const closeDropdown = () => {
+        // Bootstrap will handle closing the dropdown automatically
+        // We don't need to close the navbar here
+    };
+
     const toggleNavbar = () => {
         setIsNavOpen(!isNavOpen);
     };
@@ -75,9 +81,9 @@ export default function Navbar(/*props: INavbarProps*/) {
                             מבצעי
                         </a>
                         <ul className="dropdown-menu dropdown-menu-up">
-                            <li><Link className="nav-link" to="/Suspect">נוהל מעצר חשוד</Link></li>
-                            <li><Link className="nav-link" to="/arrest">מעצר</Link></li>
-                            <li><Link className="nav-link" to="/Checkpost">צ'קפוסט</Link></li>
+                            <li><Link className="nav-link" to="/Suspect" onClick={closeDropdown}>נוהל מעצר חשוד</Link></li>
+                            <li><Link className="nav-link" to="/arrest" onClick={closeDropdown}>מעצר</Link></li>
+                            <li><Link className="nav-link" to="/Checkpost" onClick={closeDropdown}>צ'קפוסט</Link></li>
                         </ul>
                         </li>
 
