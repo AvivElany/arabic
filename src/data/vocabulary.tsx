@@ -1,37 +1,37 @@
 export const vocabulary = [
     {category: "תכולת בית",
         words: [
-            { hebrew: "בית", taatik: "בֵּיְת", arabic: "بيت", english: "house" },
-            { hebrew: "כסף", taatik: "מְסָארִי", arabic: "", english: "money" },
-            { hebrew: "מיטה", taatik: "תַּכְתֶה", arabic: "تخت", english: "bed" },
+            { hebrew: "בית", taatik: "בֵּית", arabic: "بيت", english: "house" },
+            { hebrew: "כסף", taatik: "מַסָארִי", arabic: "مصاري", english: "money" },
+            { hebrew: "מיטה", taatik: "תַּחְתֶּ'ה", arabic: "تخت", english: "bed" },
             { hebrew: "מזרון", taatik: "פַרְש", arabic: "فرش", english: "mattress" },
-            { hebrew: "ארון", taatik: "חַזָנֶה", arabic: "خزانة", english: "closet" },
+            { hebrew: "ארון", taatik: "חַ'זָאנֶה", arabic: "خزانة", english: "closet" },
             { hebrew: "שולחן", taatik: "טַאוְלֶה", arabic: "طاولة", english: "table" },
             { hebrew: "כיסא", taatik: "כֻּרְסִי", arabic: "كرسي", english: "chair" },
-            { hebrew: "ספה", taatik: "כַנַבֶה", arabic: "كنبة", english: "sofa" },
+            { hebrew: "ספה", taatik: "כַּנַבֶּה", arabic: "كنبة", english: "sofa" },
             { hebrew: "מנורה", taatik: "לַמְבָּה", arabic: "لمبة", english: "lamp" },
-            { hebrew: "וילון", taatik: "בַּרְדֶה", arabic: "بردة", english: "curtain" },
-            { hebrew: "שטיח", taatik: "סַג'אדֶה", arabic: "سجادة", english: "carpet" },
-            { hebrew: "מקרר", taatik: "תַלַאג'ֶה", arabic: "تلاجة", english: "fridge" },
+            { hebrew: "וילון", taatik: "בַּרְדֶּה", arabic: "بردة", english: "curtain" },
+            { hebrew: "שטיח", taatik: "סַגַّ'אדֶה", arabic: "سجادة", english: "carpet" },
+            { hebrew: "מקרר", taatik: "תַלַّאגֶ'ה", arabic: "تلاجة", english: "fridge" },
             { hebrew: "תנור", taatik: "פֻרְן", arabic: "فرن", english: "oven" },
-            { hebrew: "כיריים", taatik: "רַ'אז", arabic: "غاز", english: "stove" },
-            { hebrew: "מיקרוגל", taatik: "מַיכְרוּ-רַ'אל", arabic: "مايكروويف", english: "microwave" },
-            { hebrew: "קומקום", taatik: "אִבְרִיק", arabic: "ابريق", english: "kettle" },
-            { hebrew: "טלוויזיה", taatik: "תַלְוִיזְיוֹן", arabic: "تلفزيون", english: "television" },
-            { hebrew: "מחשב", taatik: "כֻמְבְּיוּטֶר", arabic: "كمبيوتر", english: "computer" },
-            { hebrew: "מכונת כביסה", taatik: "רַ'סָלֶה", arabic: "غسالة", english: "washing machine" },
-            { hebrew: "מראה", taatik: "מִרַאיֶה", arabic: "مراية", english: "mirror" },
-            { hebrew: "שירותים", taatik: "חַמָם", arabic: "حمام", english: "toilet" },
-            { hebrew: "כיור", taatik: "מַרְ'סְלֶה", arabic: "مغسلة", english: "sink" }
+            { hebrew: "כיריים", taatik: "עַ'אז", arabic: "غاز", english: "stove" },
+            { hebrew: "מיקרוגל", taatik: "מַיְכְּרוֹוֵוִיף", arabic: "مايكروويف", english: "microwave" },
+            { hebrew: "קומקום", taatik: "אִבְּרִיק", arabic: "إبريق", english: "kettle" },
+            { hebrew: "טלוויזיה", taatik: "תַלְפֵזְיוֹן", arabic: "تلفزيون", english: "television" },
+            { hebrew: "מחשב", taatik: "כּוֹמְבְּיוּטֵר", arabic: "كمبيوتر", english: "computer" },
+            { hebrew: "מכונת כביסה", taatik: "עַ'ַ'סַّאלֶה", arabic: "غسالة", english: "washing machine" },
+            { hebrew: "מראה", taatik: "מִרְיַאיֶה", arabic: "مراية", english: "mirror" },
+            { hebrew: "שירותים", taatik: "חַמַّאם", arabic: "حمّام", english: "toilet" },
+            { hebrew: "כיור", taatik: "מַעְ'סַלֶה", arabic: "مغسلة", english: "sink" }
         ]
     },
     {category: "מילות השאלה הבסיסיות",
         words: [
             { hebrew: "מי?", taatik: "מִין?", arabic: "مين؟", english: "who?" },
-            { hebrew: "מה?", taatik: "שוּ?", arabic: "شو؟", english: "what?" },
+            { hebrew: "מה?", taatik: "שׁוּ?", arabic: "شو؟", english: "what?" },
             { hebrew: "מתי?", taatik: "אֵימְתַא?", arabic: "إيمتى؟", english: "when?" },
-            { hebrew: "למה?", taatik: "לֵיש?", arabic: "ليش؟", english: "why?" },
-            { hebrew: "איפה?", taatik: "וֵיְן?", arabic: "وين؟", english: "where?" }
+            { hebrew: "למה?", taatik: "לֵישׁ?", arabic: "ليش؟", english: "why?" },
+            { hebrew: "איפה?", taatik: "וֵין?", arabic: "وين؟", english: "where?" }
         ]
     },
     {category: "שאלות בסיסיות",
@@ -59,22 +59,22 @@ export const vocabulary = [
             { hebrew: "משפחה", taatik: "עַיְלֶה", arabic: "عيلة", english: "family" },
             { hebrew: "אבא", taatik: "אַבּוּ", arabic: "أبّو", english: "father" },
             { hebrew: "אמא", taatik: "אִם", arabic: "إم", english: "mother" },
-            { hebrew: "ילד", taatik: "וַלַד", arabic: "ولد", english: "boy" },
-            { hebrew: "ילדה", taatik: "בִינְת", arabic: "بنت", english: "girl" },
-            { hebrew: "אח", taatik: "אַחַ", arabic: "أخ", english: "brother" },
-            { hebrew: "אחות", taatik: "אֻחְת", arabic: "أخت", english: "sister" },
+            { hebrew: "ילד", taatik: "וַלַד", arabic: "ولد", english: "boy / child" },
+            { hebrew: "ילדה", taatik: "בִּנְת", arabic: "بنت", english: "girl" },
+            { hebrew: "אח", taatik: "אַח'", arabic: "أخ", english: "brother" },
+            { hebrew: "אחות", taatik: "אֻחְ'ת", arabic: "أخت", english: "sister" }
         ]
     },
     {category: "מילות יחס",
         words: [
-            { hebrew: "על", taatik: "עַלַא", arabic: "على", english: "on" },
-            { hebrew: "מתחת ל", taatik: "תַחְתַ", arabic: "تحت", english: "under" },
-            { hebrew: "ליד", taatik: "ג'אנְב", arabic: "جنب", english: "next to" },
-            { hebrew: "מאחורי", taatik: "וַרַאאַ", arabic: "ورا", english: "behind" },
-            { hebrew: "לפני", taatik: "קַבְל", arabic: "قبل", english: "before" },
-            { hebrew: "אחרי", taatik: "בַעְד", arabic: "بعد", english: "after" },
-            { hebrew: "בתוך", taatik: "פִי אַל-דַאכִ'יל", arabic: "", english: "inside" },
-            { hebrew: "מחוץ ל", taatik: "חַארִג' מִין", arabic: "", english: "outside of" }
+           { hebrew: "על", taatik: "עַלַא", arabic: "على", english: "on / about" },
+            { hebrew: "מתחת ל", taatik: "תַחְתַ'", arabic: "تحت", english: "under" },
+            { hebrew: "ליד", taatik: "גַ'נֶבּ", arabic: "جنب", english: "next to" },
+            { hebrew: "מאחורי", taatik: "וַרַא", arabic: "ورا", english: "behind" },
+            { hebrew: "לפני", taatik: "קַבֶּל", arabic: "قبل", english: "before / in front of" },
+            { hebrew: "אחרי", taatik: "בַּעְד", arabic: "بعد", english: "after" },
+            { hebrew: "בתוך", taatik: "גֻּוַּאת", arabic: "جوات", english: "inside" },
+            { hebrew: "מחוץ ל", taatik: "בַּרַّא", arabic: "برا", english: "outside of" }
         ]
     },
     {category: "מילות תיאור",
@@ -84,42 +84,42 @@ export const vocabulary = [
             { hebrew: "חדש", taatik: "ג'אדִיד", arabic: "جديد", english: "new" },
             { hebrew: "ישן", taatik: "קַדִים", arabic: "قديم", english: "old" },
             { hebrew: "יפה", taatik: "ג'אמִיל", arabic: "جميل", english: "beautiful" },
-            { hebrew: "מהיר", taatik: "סַרִיעַ", arabic: "", english: "fast" },
-            { hebrew: "איטי", taatik: "בַדִיעַ", arabic: "", english: "slow" }
+            { hebrew: "מהיר", taatik: "סַרִיעַ", arabic: "سريع", english: "fast" },
+            { hebrew: "איטי", taatik: "בַדִיעַ", arabic: "بطيء", english: "slow" }
         ]
     },
     {category: "זמנים",
         words: [
-            { hebrew: "שעה", taatik: "סַאעָה", arabic: "ساعة", english: "hour" },
-            { hebrew: "דקה", taatik: "דַקִיקָה", arabic: "دقيقة", english: "minute" },
-            { hebrew: "שנייה", taatik: "תַאנְיֶה", arabic: "ثانية", english: "second" },
-            { hebrew: "יום", taatik: "יַום", arabic: "يوم", english: "day" },
+            { hebrew: "שעה", taatik: "סַאעַה", arabic: "ساعة", english: "hour" },
+            { hebrew: "דקה", taatik: "דַקִּיקַה", arabic: "دقيقة", english: "minute" },
+            { hebrew: "שנייה", taatik: "תַ'אנְיֶה", arabic: "ثانية", english: "second" },
+            { hebrew: "יום", taatik: "יוֹם", arabic: "يوم", english: "day" },
             { hebrew: "שבוע", taatik: "אֻסְבּוּעַ", arabic: "أسبوع", english: "week" },
             { hebrew: "חודש", taatik: "שַהְר", arabic: "شهر", english: "month" },
-            { hebrew: "שנה", taatik: "סַנַה", arabic: "", english: "year" }
+            { hebrew: "שנה", taatik: "סַנַה", arabic: "سنة", english: "year" }
         ]
     },
     {category: "זמנים",
         words: [
-            { hebrew: "בוקר", taatik: "סבאח", arabic: "صباح", english: "morning" },
-            { hebrew: "ערב", taatik: "מסא", arabic: "مسا", english: "evening" },
-            { hebrew: "לילה", taatik: "לילה", arabic: "ليلة", english: "night" },
-            { hebrew: "היום", taatik: "אל-יום", arabic: "اليوم", english: "today" },
-            { hebrew: "מחר", taatik: "בכרה", arabic: "بكرة", english: "tomorrow" },
-            { hebrew: "אתמול", taatik: "אמבארח", arabic: "امبارح", english: "yesterday" },
-            { hebrew: "לפני שבוע", taatik: "קבל אסבוע'", arabic: "قبل أسبوع", english: "a week ago" },
-            { hebrew: "בעוד שבוע", taatik: "בעד אסבוע'", arabic: "بعد أسبوع", english: "in a week" },
-            { hebrew: "לפני חודש", taatik: "קבל שהר", arabic: "قبل شهر", english: "a month ago" },
-            { hebrew: "בעוד חודש", taatik: "בעד שהר", arabic: "بعد شهر", english: "in a month" },
+            { hebrew: "בוקר", taatik: "צַבַּאח", arabic: "صباح", english: "morning" },
+            { hebrew: "ערב", taatik: "מַסַאא'", arabic: "مسا", english: "evening" },
+            { hebrew: "לילה", taatik: "לֵיל", arabic: "ليل", english: "night" },
+            { hebrew: "היום", taatik: "אִלְיוֹם", arabic: "اليوم", english: "today" },
+            { hebrew: "מחר", taatik: "בֻּכְּרַה", arabic: "بكرة", english: "tomorrow" },
+            { hebrew: "אתמול", taatik: "אִמְבַּארֵח", arabic: "امبارح", english: "yesterday" },
+            { hebrew: "לפני שבוע", taatik: "קַבֶּל אֻסְבּוּעַ", arabic: "قبل أسبوع", english: "a week ago" },
+            { hebrew: "בעוד שבוע", taatik: "בַּעְד אֻסְבּוּעַ", arabic: "بعد أسبوع", english: "in a week" },
+            { hebrew: "לפני חודש", taatik: "קַבֶּל שַהְר", arabic: "قبل شهر", english: "a month ago" },
+            { hebrew: "בעוד חודש", taatik: "בַּעְד שַהְר", arabic: "بعد شهر", english: "in a month" }
         ]
     },
     {category: "מזג אוויר",
         words: [
             { hebrew: "שמש", taatik: "שַמְס", arabic: "شمس", english: "sun" },
             { hebrew: "גשם", taatik: "מַטַר", arabic: "مطر", english: "rain" },
-            { hebrew: "חם", taatik: "שוּב", arabic: "شوب", english: "hot" },
-            { hebrew: "קר", taatik: "בַרֵד", arabic: "برد", english: "cold" },
-            { hebrew: "רוח", taatik: "רִיחַ", arabic: "ريح", english: "wind" }
+            { hebrew: "חם", taatik: "שׁוּב", arabic: "شوب", english: "hot (weather)" },
+            { hebrew: "קר", taatik: "בַּרְד", arabic: "برد", english: "cold (weather)" },
+            { hebrew: "רוח", taatik: "רִיַאח", arabic: "رياح", english: "wind" }
         ]
     },
     {category: "מקומות",
