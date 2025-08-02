@@ -76,7 +76,7 @@ export default function Hero(/*props: IHeroProps*/) {
                     בעזרת הפק"ל הייעודי נלמד לתקשר בצורה יעילה בשטח עם שיחונים פשוטים, אוצר מילים שימושי למבצעים, ותרגולים פיזיים מותאמים לכל פלוגה.
                 </motion.p>
                 <motion.a 
-                    href="#Importance" 
+                    href="#Dialect" 
                     className="hero-button"
                     variants={buttonVariants}
                     whileHover="hover"

@@ -20,6 +20,7 @@ import Vocabulary from '../pages/Vocabulary/Vocabulary';
 import ArabicAlphabetTable from '../pages/ArabicAlphabetTable/ArabicAlphabetTable';
 import Suspect from '../pages/Suspect/Suspect';
 import CombatInterrogation from '../pages/CombatInterrogation/CombatInterrogation';
+import DevPage from '../pages/DevPage/DevPage';
 
 // pages
 
@@ -62,6 +63,7 @@ export default function Default() {
               <Route path="/vocabulary" element={<Vocabulary />} />
               <Route path="/arabic-alphabet" element={<ArabicAlphabetTable />} />
               <Route path="/combat-interrogation" element={<CombatInterrogation />} />
+              <Route path="/DevPage" element={<DevPage />} />
               <Route path="/contact" element={<Contact />} />
 
             <Route path="*" element={<NotFound />} />

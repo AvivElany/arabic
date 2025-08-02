@@ -67,9 +67,10 @@ export default function Navbar(/*props: INavbarProps*/) {
                         <li><Link className="nav-link" to="/checkpost" onClick={closeNavbar}>צ'קפוסט</Link></li>
                         <li><Link className="nav-link" to="/vocabulary" onClick={closeNavbar}>אוצר מילים</Link></li>
                         <li><Link className="nav-link" to="/arabic-alphabet" onClick={closeNavbar}>אלפבית ערבי</Link></li>
-                        {/* <li><Link className="nav-link" to="/combat-interrogation" onClick={closeNavbar}>מבוא לתשאול קרבי</Link></li> */}
+                        <li><Link className="nav-link" to="/combat-interrogation" onClick={closeNavbar}>מבוא לתשאול קרבי</Link></li>
+                        <li><Link className="nav-link" to="/DevPage" onClick={closeNavbar}>אודות</Link></li>
                         <li><Link className="nav-link" to="/contact" onClick={closeNavbar}>צור קשר</Link></li>
-                        {/* <li className="nav-item dropdown">
+                        <li className="nav-item dropdown">
                         <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             מבצעי
                         </a>
@@ -78,7 +79,7 @@ export default function Navbar(/*props: INavbarProps*/) {
                             <li><Link className="nav-link" to="/arrest">מעצר</Link></li>
                             <li><Link className="nav-link" to="/Checkpost">צ'קפוסט</Link></li>
                         </ul>
-                        </li> */}
+                        </li>
 
                         {/* 
                         <li className="nav-link dmBtn">

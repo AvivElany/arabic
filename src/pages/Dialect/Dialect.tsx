@@ -2,7 +2,7 @@ import './Dialect.css'
 
 export default function Dialect() {
     return (
-        <div className="dialect-container">
+        <div id='Dialect' className="dialect-container">
             <h1><span className='dialect-symbol'>🌍</span> ניבים ולהגים בשפה הערבית</h1>
 
             <section>
