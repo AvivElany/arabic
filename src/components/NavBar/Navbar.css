@@ -79,6 +79,13 @@
     display: block;
 }
 
+.homePage {
+    color: #fff;
+    font-weight: bold;
+    background-color: #2c3629;
+    border-radius: 8px 8px 0 0;
+}   
+
 .bottom-navbar .nav-link {
     color: #fff;
     padding: 7px 15px;

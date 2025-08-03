@@ -10,7 +10,6 @@ import Navbar from '../components/NavBar/Navbar';
 import Home from '../pages/Home/Home';
 import NotFound from '../pages/NotFound/NotFound';
 import Footer from '../components/Footer/Footer';
-import Top from '../components/Top/Top';
 import Arrest from '../pages/Arrest/Arrest';
 import Checkpost from '../pages/Checkpost/Checkpost';
 import Contact from '../components/Contact/Contact';
@@ -69,7 +68,6 @@ export default function Default() {
             <Route path="*" element={<NotFound />} />
             </Routes>
             <ScrollToTopButton />
-            <Top />
             <Footer />
             <Space />
           </>

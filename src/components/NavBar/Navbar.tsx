@@ -60,7 +60,7 @@ export default function Navbar(/*props: INavbarProps*/) {
                 <div className={`collapse navbar-collapse ${isNavOpen ? 'show' : ''}`} id="navbarNavDropdown">
                     <ul className="navbar-nav">
                         <li className="nav-item ">
-                            <Link className="nav-link active" aria-current="page" to="/" onClick={closeNavbar}>עמוד הבית</Link>
+                            <Link className="nav-link active homePage" aria-current="page" to="/" onClick={closeNavbar}>עמוד הבית</Link>
                         </li>
                         <li><Link className="nav-link" to="/DevPage" onClick={closeNavbar}>אודות</Link></li>
                         <li><Link className="nav-link" to="/suspect" onClick={closeNavbar}>נוהל מעצר חשוד</Link></li>
@@ -68,7 +68,7 @@ export default function Navbar(/*props: INavbarProps*/) {
                         <li><Link className="nav-link" to="/checkpost" onClick={closeNavbar}>צ'קפוסט</Link></li>
                         <li><Link className="nav-link" to="/vocabulary" onClick={closeNavbar}>אוצר מילים</Link></li>
                         <li><Link className="nav-link" to="/arabic-alphabet" onClick={closeNavbar}>אלפבית ערבי</Link></li>
-                        {/* <li><Link className="nav-link" to="/combat-interrogation" onClick={closeNavbar}>מבוא לתשאול קרבי</Link></li> */}
+                        <li><Link className="nav-link" to="/combat-interrogation" onClick={closeNavbar}>מבוא לתשאול קרבי</Link></li>
                         <li><Link className="nav-link" to="/contact" onClick={closeNavbar}>צור קשר</Link></li>
                         {/* <li className="nav-item dropdown">
                         <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
