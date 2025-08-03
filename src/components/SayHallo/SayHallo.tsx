@@ -11,29 +11,19 @@ export default function SayHallo(/*props: ISayHalloProps*/) {
     const isInView = useInView(ref, { once: false, amount: 0.3 });
     const [displayedText, setDisplayedText] = useState('');
     const [showCursor, setShowCursor] = useState(true);
-    const [showShabab, setShowShabab] = useState(false);
-    const mainText = 'אהלן וסהלן ';
-    const shababText = 'יא שבאב';
+    const mainText = 'אַהְלַן וַסַהְלַן';
     
     useEffect(() => {
         if (isInView) {
             // Reset animation when component comes into view
             setDisplayedText('');
             setShowCursor(true);
-            setShowShabab(false);
             
             let index = 0;
             const timer = setInterval(() => {
                 if (index <= mainText.length) {
                     setDisplayedText(mainText.slice(0, index));
                     index++;
-                } else {
-                    clearInterval(timer);
-                    setShowCursor(false);
-                    // הצגת "יא שבאב" אחרי השלמת הטקסט הראשי
-                    setTimeout(() => {
-                        setShowShabab(true);
-                    }, 300);
                 }
             }, 150); // מהירות הקלדה - 150ms בין כל אות
 
@@ -55,20 +45,6 @@ export default function SayHallo(/*props: ISayHalloProps*/) {
             />
             <h1 className={showCursor ? 'typing-animation' : ''}>
                 {displayedText}
-                {showShabab && (
-                    <motion.span 
-                        className='shabab'
-                        initial={{ opacity: 0, scale: 0.5 }}
-                        animate={{ opacity: 1, scale: 1 }}
-                        transition={{ 
-                            duration: 0.8, 
-                            ease: "backOut",
-                            type: "spring" 
-                        }}
-                    >
-                        {shababText}
-                    </motion.span>
-                )}
             </h1>
         </motion.div>
     )
