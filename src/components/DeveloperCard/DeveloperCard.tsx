@@ -20,7 +20,11 @@ export default function DeveloperCard(/*props: IDeveloperCardProps*/) {
                 <div className='profile-info'>
                     <h2 className='developer-name'>Aviv Elany</h2>
                     <h3 className='developer-title'>Full Stack Developer</h3>
-                    <p className='developer-tagline'>יוצר חוויות דיגיטליות חדשניות</p>
+                    <p className='developer-tagline'>
+                        יוצר חוויות דיגיטליות חדשניות<br />
+                        מתשאל קרבי עם חיבה לשפה הערבית<br />
+                        בעיקר .. מזהה את הצורך בשטח.
+                    </p>
                     <div className='availability-status'>
                         <span className='status-dot'></span>
                         זמין לפרויקטים חדשים
