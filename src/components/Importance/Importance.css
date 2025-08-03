@@ -1,7 +1,6 @@
 .Importance {
     background-color: rgba(182, 244, 148, 0.3);
     border-radius: 10px;
-    margin: 20px auto;
     max-width: 800px;
     text-align: center;
     direction: rtl;
@@ -9,6 +8,9 @@
     box-shadow: 0 4px 8px rgba(152, 18, 18, 0.2);
     font-family: 'assistant', sans-serif;
     font-weight: 500;
+    border-top: #0d940b 3px solid;
+    border-bottom: #0d940b 3px solid;
+
 }
 
 .Importance h2 {
