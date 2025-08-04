@@ -241,5 +241,44 @@ export const vocabulary = [
             { hebrew: "אני צריך רופא", taatik: "בִּדִי טַבִּיב", arabic: "بدي طبيب", english: "I need a doctor" }
         ]
     },
+    {
+        category: "צבעים בזכר ובנקבה",
+        words: [
+            { hebrew: "לבן", taatik: "אַבּיַד", arabic: "أبيض", english: "white (m)" },
+            { hebrew: "לבנה", taatik: "בֵּיְדַה", arabic: "بيضا", english: "white (f)" },
 
+            { hebrew: "שחור", taatik: "אַסְוַד", arabic: "أسود", english: "black (m)" },
+            { hebrew: "שחורה", taatik: "סוּדַה", arabic: "سودا", english: "black (f)" },
+
+            { hebrew: "אדום", taatik: "אַחְמַר", arabic: "أحمر", english: "red (m)" },
+            { hebrew: "אדומה", taatik: "חַמְרַה", arabic: "حمرا", english: "red (f)" },
+
+            { hebrew: "כחול", taatik: "אַזְרַק", arabic: "أزرق", english: "blue (m)" },
+            { hebrew: "כחולה", taatik: "זַרְקַה", arabic: "زرقا", english: "blue (f)" },
+
+            { hebrew: "ירוק", taatik: "אַח׳ְדַר", arabic: "أخضر", english: "green (m)" },
+            { hebrew: "ירוקה", taatik: "ח׳ַדְרַה", arabic: "خضرا", english: "green (f)" },
+
+            { hebrew: "צהוב", taatik: "אַסְפַר", arabic: "أصفر", english: "yellow (m)" },
+            { hebrew: "צהובה", taatik: "צַ׳פְרַה", arabic: "صفرا", english: "yellow (f)" },
+
+            { hebrew: "כתום", taatik: "בּוּרְתֻקַאלִי", arabic: "برتقالي", english: "orange (m)" },
+            { hebrew: "כתומה", taatik: "בּוּרְתֻקַאלִיֶּה", arabic: "برتقالية", english: "orange (f)" },
+
+            { hebrew: "ורוד", taatik: "זַהְרִי", arabic: "زهري", english: "pink (m)" },
+            { hebrew: "ורודה", taatik: "זַהְרִיֶּה", arabic: "زهرية", english: "pink (f)" },
+
+            { hebrew: "אפור", taatik: "רַמַאדִי", arabic: "رمادي", english: "gray (m)" },
+            { hebrew: "אפורה", taatik: "רַמַאדִיֶּה", arabic: "رمادية", english: "gray (f)" },
+
+            { hebrew: "חום", taatik: "בֻּנִי", arabic: "بني", english: "brown (m)" },
+            { hebrew: "חומה", taatik: "בֻּנִיֶּה", arabic: "بنية", english: "brown (f)" },
+
+            { hebrew: "זהב", taatik: "דַ'הַבִּי", arabic: "ذهبي", english: "gold (m)" },
+            { hebrew: "זהובה", taatik: "דַ'הַבִּיֶּה", arabic: "ذهبية", english: "gold (f)" },
+
+            { hebrew: "כסף", taatik: "פִצ׳ִי", arabic: "فضي", english: "silver (m)" },
+            { hebrew: "כסופה", taatik: "פִצ׳ִיֶּה", arabic: "فضية", english: "silver (f)" }
+        ]
+    }
 ];
