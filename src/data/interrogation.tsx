@@ -1,6 +1,6 @@
 export const interrogation = [
   {
-    category: "שאלות לתשאול קרבי",
+    category: "שאלות בסיסיות לתשאול קרבי",
     words: [
       { hebrew: "איך קוראים לך?", taatik: "שוּ אִסְמַכּ?", arabic: "شو اسمك؟", english: "What’s your name?" },
       { hebrew: "בן כמה אתה?", taatik: "אַדֵّיש עֻמְרַכּ?", arabic: "قديش عمرك؟", english: "How old are you?" },
