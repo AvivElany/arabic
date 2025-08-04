@@ -1,5 +1,5 @@
+import Title from '../../components/Title/Title';
 import './ArabicAlphabetTable.css'
-import SectionTitle from '../../components/SectionTitle/SectionTitle'
 
 export default function ArabicAlphabetTable() {
 
@@ -38,11 +38,7 @@ export default function ArabicAlphabetTable() {
 
     return (
         <div className="alphabet-container">
-            <SectionTitle 
-                title="אלפבית ערבי" 
-                subtitle="כל האותיות בערבית עם צורותיהן השונות"
-                size="large"
-            />
+            <Title title="טבלת האלפבית הערבי" />
             {/* מידע כללי */}
             <div className="alphabet-info">
                 <div className="info-card">

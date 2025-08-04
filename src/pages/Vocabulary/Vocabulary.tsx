@@ -1,9 +1,9 @@
 import './Vocabulary.css'
 import { vocabulary } from '../../data/vocabulary'
-import SectionTitle from '../../components/SectionTitle/SectionTitle'
 import WordTable from '../../components/WordTable/WordTable'
 import SearchFilter from '../../components/SearchFilter/SearchFilter'
 import { useState } from 'react'
+import Title from '../../components/Title/Title'
 
 export default function Vocabulary() {
     const [searchTerm, setSearchTerm] = useState('');
@@ -30,11 +30,7 @@ export default function Vocabulary() {
     return (
         <div className='Vocabulary'>
             <div className="Vocabulary-search">
-            <SectionTitle 
-                title="אוצר המילים שלי" 
-                subtitle="כל המילים והביטויים בערבית שרלוונטיים לנו"
-                size="large"
-            />
+            <Title title="אוצר מילים" />
             
             {/* חיפוש */}
             <SearchFilter 
@@ -53,23 +49,23 @@ export default function Vocabulary() {
             
             <div className="Vocabulary-tables">
 
-            {/* תוכן עיקרי */}
-            <div className="Vocabulary__content">
-                {(searchTerm ? filteredVocabulary : vocabulary).map((categoryData, index) => (
-                    <WordTable 
-                        key={index}
-                        category={categoryData.category}
-                        words={categoryData.words}
-                    />
-                ))}
-                
-                {searchTerm && filteredVocabulary.length === 0 && (
-                    <div className="Vocabulary__no-results">
-                        <h3>לא נמצאו תוצאות</h3>
-                        <p>נסה לחפש במילה אחרת או נקה את החיפוש</p>
+                {/* תוכן עיקרי */}
+                <div className="Vocabulary__content">
+                    {(searchTerm ? filteredVocabulary : vocabulary).map((categoryData, index) => (
+                        <WordTable 
+                            key={index}
+                            category={categoryData.category}
+                            words={categoryData.words}
+                        />
+                    ))}
+                    
+                    {searchTerm && filteredVocabulary.length === 0 && (
+                        <div className="Vocabulary__no-results">
+                            <h3>לא נמצאו תוצאות</h3>
+                            <p>נסה לחפש במילה אחרת או נקה את החיפוש</p>
+                        </div>
+                    )}
                     </div>
-                )}
-                </div>
                 </div>
         </div>
     )

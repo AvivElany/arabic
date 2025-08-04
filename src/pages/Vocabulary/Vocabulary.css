@@ -12,6 +12,10 @@
 .Vocabulary__content {
     max-width: 1200px;
     margin: 0 auto;
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
 }
 
 .Vocabulary__search-results {
