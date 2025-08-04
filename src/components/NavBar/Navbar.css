@@ -97,3 +97,49 @@
 
 }
 
+/* התאמה למסכים קטנים מ-430px */
+@media (max-width: 430px) {
+    .navbar-brand {
+        flex-shrink: 0;
+        min-width: 0;
+    }
+    
+    .main-symbol {
+        width: 32px;
+        height: 32px;
+    }
+    
+    .nav-name {
+        font-size: 0.85rem;
+        margin-left: 6px;
+        padding: 6px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        max-width: 200px;
+    }
+    
+    .container-fluid {
+        padding-left: 8px;
+        padding-right: 8px;
+        flex-wrap: nowrap;
+    }
+    
+    .navbar-toggler {
+        padding: 4px 6px;
+        font-size: 1rem;
+        border: none;
+        flex-shrink: 0;
+    }
+    
+    .bottom-navbar {
+        padding: 0.25rem 0;
+    }
+    
+    /* הקטנת הפונט בכל הקישורים במובייל */
+    .bottom-navbar .nav-link {
+        padding: 6px 10px;
+        font-size: 0.85rem;
+    }
+}
+
