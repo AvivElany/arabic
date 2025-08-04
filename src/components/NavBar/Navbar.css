@@ -34,7 +34,7 @@
     backdrop-filter: blur(10px);
     font-weight: 600;
     letter-spacing: 0.5px;
-    font-size: 1rem;
+    font-size: 1.2rem;
     transform: translateY(10%);
 }
 
@@ -313,7 +313,7 @@
     }
     
     .nav-name {
-        font-size: 0.9rem;
+        font-size: 1.1rem;
         padding: 6px 12px;
         margin-left: 8px;
     }
@@ -338,10 +338,10 @@
     }
     
     .nav-name {
-        font-size: 0.85rem;
+        font-size: 1rem;
         padding: 5px 10px;
         margin-left: 6px;
-        max-width: 180px;
+        max-width: 200px;
         white-space: nowrap;
         overflow: hidden;
         text-overflow: ellipsis;
@@ -379,10 +379,10 @@
     }
     
     .nav-name {
-        font-size: 0.8rem;
+        font-size: 0.95rem;
         padding: 4px 8px;
         margin-left: 5px;
-        max-width: 160px;
+        max-width: 180px;
     }
     
     .main-symbol {
@@ -416,10 +416,10 @@
     }
     
     .nav-name {
-        font-size: 0.75rem;
+        font-size: 0.9rem;
         padding: 3px 6px;
         margin-left: 4px;
-        max-width: 140px;
+        max-width: 160px;
     }
     
     .main-symbol {
@@ -465,4 +465,54 @@
 
 .navbar-brand:hover .nav-name::before {
     left: 100%;
+}
+
+/* עיצוב למסכים גדולים */
+@media (min-width: 992px) {
+    .navbar-toggler {
+        display: none !important;
+    }
+    
+    .bottom-navbar .navbar-collapse {
+        display: flex !important;
+        position: static;
+        background: transparent;
+        box-shadow: none;
+        border-radius: 0;
+        margin-bottom: 0;
+        transform: none !important;
+        opacity: 1 !important;
+        visibility: visible !important;
+        border: none;
+        overflow: visible;
+    }
+    
+    .navbar-nav {
+        display: flex !important;
+        flex-direction: row;
+        gap: 0.5rem;
+        padding: 0;
+        margin-left: auto;
+    }
+    
+    .nav-item {
+        opacity: 1 !important;
+        transform: translateY(0) !important;
+        animation: none !important;
+        transition-delay: 0s !important;
+    }
+    
+    .bottom-navbar .nav-link {
+        padding: 8px 12px;
+        margin: 0 4px;
+        border-radius: 8px;
+        font-size: 0.9rem;
+        background: none;
+        border: none;
+    }
+    
+    .bottom-navbar .nav-link:hover {
+        background: linear-gradient(135deg, rgba(76, 175, 80, 0.2) 0%, rgba(76, 175, 80, 0.1) 100%);
+        transform: translateY(-2px);
+    }
 }

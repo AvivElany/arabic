@@ -3,31 +3,46 @@ import { motion } from "motion/react"
 import type { Variants } from "motion/react"
 import { useState } from 'react';
 import { ImHappy } from "react-icons/im";
+import Title from '../Title/Title';
 
 const fadeLabel: Variants = {
-    hidden: { opacity: 0, x: -200 },
+    hidden: { opacity: 0, y: 30 },
     visible: {
         opacity: 1,
-        x: 0,
-        transition: { duration: 0.8, ease: [0.25, 0.1, 0.25, 1], delay: 0.5 },
+        y: 0,
+        transition: { 
+            duration: 0.8, 
+            ease: [0.25, 0.46, 0.45, 0.94],
+            delay: 0.1 
+        },
     }
 };
 
 const fadeSubmit: Variants = {
-    hidden: { opacity: 0, x: 0, y: 0 },
+    hidden: { opacity: 0, scale: 0.9, y: 20 },
     visible: {
         opacity: 1,
-        x: 0,
-        transition: { duration: 0.8, ease: "easeInOut", delay: 0.4 },
+        scale: 1,
+        y: 0,
+        transition: { 
+            duration: 0.7, 
+            ease: [0.25, 0.46, 0.45, 0.94],
+            delay: 0.4 
+        },
     }
 };
 
 const fadeInput: Variants = {
-    hidden: { opacity: 0, x: 200 },
+    hidden: { opacity: 0, x: 20, scale: 0.98 },
     visible: {
         opacity: 1,
         x: 0,
-        transition: { duration: 0.8, ease: [0.25, 0.1, 0.25, 1], delay: 0.4 },
+        scale: 1,
+        transition: { 
+            duration: 0.6, 
+            ease: [0.25, 0.46, 0.45, 0.94],
+            delay: 0.2 
+        },
     }
 };
 
@@ -95,25 +110,84 @@ export default function Contact() {
     };
 
     return (
-        <div className='Contact'>
-            <h1 className='Contact-title' id="contact-heading">צור קשר</h1>
-            <p className="contact-paragragh">אם יש לכם שאלות, הערות, בקשות או סתם רוצים לדבר על ערבית, אתם מוזמנים לפנות אליי ואחזור בהקדם</p>
+        <motion.div 
+            className='Contact'
+            initial={{ opacity: 0, y: 60, scale: 0.95 }}
+            animate={{ opacity: 1, y: 0, scale: 1 }}
+            transition={{ 
+                duration: 0.8, 
+                ease: [0.25, 0.46, 0.45, 0.94] 
+            }}
+        >
+            <Title title="צור קשר" />
+            
+            <motion.p 
+                className="contact-paragragh"
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ 
+                    duration: 0.7, 
+                    ease: [0.25, 0.46, 0.45, 0.94], 
+                    delay: 0.5 
+                }}
+            >
+                אם יש לכם שאלות, הערות, בקשות או סתם רוצים לדבר על ערבית, אתם מוזמנים לפנות אליי ואחזור בהקדם
+            </motion.p>
             
             {isSent ? (
                 <motion.div
                     className='Contact-message' 
                     role="status" 
                     aria-live="polite"
-                    initial={{ opacity: 0, scale: 0.8 }}
-                    animate={{ opacity: 1, scale: 1 }}
-                    transition={{ duration: 0.5 }}
+                    initial={{ opacity: 0, scale: 0.3, rotateX: -90 }}
+                    animate={{ 
+                        opacity: 1, 
+                        scale: 1, 
+                        rotateX: 0,
+                    }}
+                    transition={{ 
+                        duration: 0.8, 
+                        ease: [0.175, 0.885, 0.32, 1.275],
+                        type: "spring",
+                        stiffness: 120,
+                        damping: 10
+                    }}
+                    whileHover={{ 
+                        scale: 1.02,
+                        boxShadow: "0 12px 40px rgba(26, 35, 126, 0.2)"
+                    }}
                 >
-                    חִילוּ! <br />
-                    ההודעה נשלחה בהצלחה!&ensp;<br />
-                    ארְג'ַע עַלֵיכ בִסֻרְעָה <ImHappy />
+                    <motion.div
+                        initial={{ opacity: 0, y: 10 }}
+                        animate={{ opacity: 1, y: 0 }}
+                        transition={{ delay: 0.5, duration: 0.6 }}
+                    >
+                        חִילוּ! <br />
+                        ההודעה נשלחה בהצלחה!
+                    </motion.div>
+                    <motion.div
+                        initial={{ opacity: 0, scale: 0 }}
+                        animate={{ opacity: 1, scale: 1 }}
+                        transition={{ delay: 0.7, duration: 0.4 }}
+                        style={{ marginTop: '0.5rem' }}
+                    >
+                        ארְג'ַע עַלֵיכ בִסֻרְעָה <ImHappy />
+                    </motion.div>
                 </motion.div>
             ) : (
-                <form className='Contact-form' onSubmit={handleSubmit} role="form" aria-labelledby="contact-heading">
+                <motion.form 
+                    className='Contact-form' 
+                    onSubmit={handleSubmit} 
+                    role="form" 
+                    aria-labelledby="contact-heading"
+                    initial={{ opacity: 0, y: 40 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    transition={{ 
+                        duration: 0.8, 
+                        ease: [0.25, 0.46, 0.45, 0.94], 
+                        delay: 0.6 
+                    }}
+                >
                     <motion.div
                         variants={fadeLabel}
                         initial="hidden"
@@ -121,7 +195,7 @@ export default function Contact() {
                         viewport={{ once: true }}
                     >
                         <label htmlFor="name">
-                            שם מלא <span aria-label="שדה חובה">*</span>
+                            שם מלא 
                         </label>
                         <motion.input
                             variants={fadeInput}
@@ -154,7 +228,7 @@ export default function Contact() {
                         viewport={{ once: true }}
                     >
                         <label htmlFor="phone">
-                            טלפון <span aria-label="שדה חובה">*</span>
+                            טלפון 
                         </label>
                         <motion.input
                             variants={fadeInput}
@@ -187,7 +261,7 @@ export default function Contact() {
                         viewport={{ once: true }}
                     >
                         <label htmlFor="email">
-                            כתובת מייל <span aria-label="שדה חובה">*</span>
+                            כתובת מייל 
                         </label>
                         <motion.input
                             variants={fadeInput}
@@ -220,7 +294,7 @@ export default function Contact() {
                         viewport={{ once: true }}
                     >
                         <label htmlFor="message">
-                            הודעה <span aria-label="שדה חובה">*</span>
+                            הודעה 
                         </label>
                         <motion.textarea
                             variants={fadeInput}
@@ -258,12 +332,23 @@ export default function Contact() {
                     </motion.button>
 
                     {isError && (
-                        <div role="alert" aria-live="assertive" className='Contact-message error'>
+                        <motion.div 
+                            role="alert" 
+                            aria-live="assertive" 
+                            className='Contact-message error'
+                            initial={{ opacity: 0, scale: 0.8, x: -20 }}
+                            animate={{ opacity: 1, scale: 1, x: 0 }}
+                            transition={{ 
+                                duration: 0.5, 
+                                ease: [0.25, 0.46, 0.45, 0.94] 
+                            }}
+                            exit={{ opacity: 0, scale: 0.8, x: 20 }}
+                        >
                             אירעה שגיאה בשליחת ההודעה. אנא נסה שנית.
-                        </div>
+                        </motion.div>
                     )}
-                </form>
+                </motion.form>
             )}
-        </div>
+        </motion.div>
     );
 }
