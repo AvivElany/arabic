@@ -1,8 +1,16 @@
 import { Link } from 'react-router-dom'
 import { useState } from 'react'
 import './Navbar.css'
-/* import { useEffect, useState } from 'react'
-import { BsFillMoonStarsFill, BsFillSunFill } from 'react-icons/bs' */
+import { 
+    FaHome, 
+    FaUser, 
+    FaSearch, 
+    FaExclamationTriangle, 
+    FaShieldAlt, 
+    FaBook, 
+    FaLanguage, 
+    FaPhone 
+} from 'react-icons/fa'
 
 /*interface INavbarProps {
 
@@ -54,45 +62,68 @@ export default function Navbar(/*props: INavbarProps*/) {
                     <img src="/picture/symbol_white.jpg" alt="9311_unit_logo" className="main-symbol" />
                     <h5 className="nav-name">פק"ל ערבית עם גדוד 9311</h5>
                 </Link>
-                <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded={isNavOpen} aria-label="Toggle navigation" onClick={toggleNavbar}>
-                <span className="navbar-toggler-icon"></span>
+                <button 
+                    className="navbar-toggler" 
+                    type="button" 
+                    data-bs-toggle="collapse" 
+                    data-bs-target="#navbarNavDropdown" 
+                    aria-controls="navbarNavDropdown" 
+                    aria-expanded={isNavOpen} 
+                    aria-label="Toggle navigation" 
+                    onClick={toggleNavbar}
+                >
+                    <span className="navbar-toggler-icon"></span>
                 </button>
                 <div className={`collapse navbar-collapse ${isNavOpen ? 'show' : ''}`} id="navbarNavDropdown">
                     <ul className="navbar-nav">
-                        <li className="nav-item ">
-                            <Link className="nav-link active homePage" aria-current="page" to="/" onClick={closeNavbar}>עמוד הבית</Link>
+                        <li className="nav-item">
+                            <Link className="nav-link active homePage" aria-current="page" to="/" onClick={closeNavbar}>
+                                עמוד הבית
+                                <FaHome className="nav-icon" />
+                            </Link>
                         </li>
-                        <li><Link className="nav-link" to="/DevPage" onClick={closeNavbar}>אודות</Link></li>
-                        <li><Link className="nav-link" to="/suspect" onClick={closeNavbar}>נוהל מעצר חשוד</Link></li>
-                        <li><Link className="nav-link" to="/arrest" onClick={closeNavbar}>מעצר מבוקש</Link></li>
-                        <li><Link className="nav-link" to="/checkpost" onClick={closeNavbar}>צ'קפוסט</Link></li>
-                        <li><Link className="nav-link" to="/vocabulary" onClick={closeNavbar}>אוצר מילים</Link></li>
-                        <li><Link className="nav-link" to="/arabic-alphabet" onClick={closeNavbar}>אלפבית ערבי</Link></li>
-                        {/* <li><Link className="nav-link" to="/combat-interrogation" onClick={closeNavbar}>מבוא לתשאול קרבי</Link></li> */}
-                        <li><Link className="nav-link" to="/contact" onClick={closeNavbar}>צור קשר</Link></li>
-                        {/* <li className="nav-item dropdown">
-                        <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            מבצעי
-                        </a>
-                        <ul className="dropdown-menu dropdown-menu-up">
-                            <li><Link className="nav-link" to="/Suspect">נוהל מעצר חשוד</Link></li>
-                            <li><Link className="nav-link" to="/arrest">מעצר</Link></li>
-                            <li><Link className="nav-link" to="/Checkpost">צ'קפוסט</Link></li>
-                        </ul>
-                        </li> */}
-
-                        {/* 
-                        <li className="nav-link dmBtn">
-                            <button type="button" className='dark-light-mode-button' onClick={() => toggleTheme()}>
-                                
-                                {
-                                theme === 'light' ?
-                                    <BsFillMoonStarsFill size={18} fill='#000070'/>
-                                :
-                                    <BsFillSunFill size={18} fill='#FFFFB0'/>
-                                }
-                            </button>
-                        </li> */}
+                        <li className="nav-item">
+                            <Link className="nav-link" to="/DevPage" onClick={closeNavbar}>
+                                אודות
+                                <FaUser className="nav-icon" />
+                            </Link>
+                        </li>
+                        <li className="nav-item">
+                            <Link className="nav-link" to="/suspect" onClick={closeNavbar}>
+                                נוהל מעצר חשוד
+                                <FaSearch className="nav-icon" />
+                            </Link>
+                        </li>
+                        <li className="nav-item">
+                            <Link className="nav-link" to="/arrest" onClick={closeNavbar}>
+                                מעצר מבוקש
+                                <FaExclamationTriangle className="nav-icon" />
+                            </Link>
+                        </li>
+                        <li className="nav-item">
+                            <Link className="nav-link" to="/checkpost" onClick={closeNavbar}>
+                                צ'קפוסט
+                                <FaShieldAlt className="nav-icon" />
+                            </Link>
+                        </li>
+                        <li className="nav-item">
+                            <Link className="nav-link" to="/vocabulary" onClick={closeNavbar}>
+                                אוצר מילים
+                                <FaBook className="nav-icon" />
+                            </Link>
+                        </li>
+                        <li className="nav-item">
+                            <Link className="nav-link" to="/arabic-alphabet" onClick={closeNavbar}>
+                                אלפבית ערבי
+                                <FaLanguage className="nav-icon" />
+                            </Link>
+                        </li>
+                        <li className="nav-item">
+                            <Link className="nav-link" to="/contact" onClick={closeNavbar}>
+                                צור קשר
+                                <FaPhone className="nav-icon" />
+                            </Link>
+                        </li>
                     </ul>
                 </div>
             </div>

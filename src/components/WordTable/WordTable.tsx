@@ -23,19 +23,19 @@ export default function WordTable({ words, category }: IWordTableProps) {
                 <table className="WordTable__table">
                     <thead>
                         <tr>
-                            <th>עברית</th>
-                            <th>תעתיק</th>
-                            <th>ערבית</th>
                             <th>אנגלית</th>
+                            <th>ערבית</th>
+                            <th>תעתיק</th>
+                            <th>עברית</th>
                         </tr>
                     </thead>
                     <tbody>
                         {words.map((word, index) => (
                             <tr key={index} className="WordTable__row">
-                                <td className="WordTable__cell WordTable__cell--hebrew">{word.hebrew}</td>
-                                <td className="WordTable__cell WordTable__cell--taatik">{word.taatik}</td>
-                                <td className="WordTable__cell WordTable__cell--arabic">{word.arabic}</td>
                                 <td className="WordTable__cell WordTable__cell--english">{word.english}</td>
+                                <td className="WordTable__cell WordTable__cell--arabic">{word.arabic}</td>
+                                <td className="WordTable__cell WordTable__cell--taatik">{word.taatik}</td>
+                                <td className="WordTable__cell WordTable__cell--hebrew">{word.hebrew}</td>
                             </tr>
                         ))}
                     </tbody>

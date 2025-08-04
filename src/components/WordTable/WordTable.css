@@ -31,6 +31,7 @@
     border-collapse: collapse;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     min-width: 100%;
+    direction: ltr;
 }
 
 .WordTable__table thead th {
@@ -47,11 +48,11 @@
 }
 
 .WordTable__table thead th:first-child {
-    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
 }
 
 .WordTable__table thead th:last-child {
-    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
 }
 
 .WordTable__row {
@@ -82,6 +83,7 @@
     font-weight: 600;
     color: #1976d2;
     direction: rtl;
+    text-align: right;
 }
 
 .WordTable__cell--taatik {
@@ -89,6 +91,7 @@
     color: #2e7d32;
     font-weight: 500;
     direction: rtl;
+    text-align: right;
 }
 
 .WordTable__cell--arabic {
@@ -97,12 +100,14 @@
     color: #d32f2f;
     font-weight: 600;
     direction: rtl;
+    text-align: right;
 }
 
 .WordTable__cell--english {
+    color: #5d4037;
+    font-weight: 500;
     direction: ltr;
-    color: #424242;
-    font-weight: 400;
+    text-align: left;
 }
 
 /* אנימציה של הופעה */
