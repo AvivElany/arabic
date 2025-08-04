@@ -15,7 +15,7 @@ export default function Summary(props: ISummaryProps) {
             transition={{ duration: 0.8, delay: 0.2 }}
         >
             <div className="summary-container">
-                <div className="summary-icon">💡</div>
+                <div className="summary-icon">🎯</div>
                 <p className="summary-text">{props.summary}</p>
             </div>
         </motion.div>

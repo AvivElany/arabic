@@ -211,6 +211,35 @@ export const vocabulary = [
             { hebrew: "טנק", taatik: "דַּבַּאבֶּה", arabic: "دبابة", english: "tank" },
             { hebrew: "טרקטור", taatik: "טְרַאכְּטוֹר", arabic: "تراكتور", english: "tractor" }
         ]
-    }
+    },
+    {
+        category: "רגשות ומצבים",
+        words: [
+            { hebrew: "רעב", taatik: "גַ'וְעַאן", arabic: "جوعان", english: "hungry" },
+            { hebrew: "צמא", taatik: "עַטְשַאן", arabic: "عطشان", english: "thirsty" },
+            { hebrew: "עייף", taatik: "תַעְבַּאן", arabic: "تعبان", english: "tired" },
+            { hebrew: "חולה", taatik: "מַרִיד", arabic: "مريض", english: "sick" },
+            { hebrew: "מפחד", taatik: "חַ'איֵף", arabic: "خايف", english: "afraid" },
+            { hebrew: "עצוב", taatik: "זַעְלַאן", arabic: "زعلان", english: "sad" },
+            { hebrew: "כואב לי", taatik: "בִּיִוְגַ'עְנִי", arabic: "بيوجعني", english: "it hurts" },
+            { hebrew: "עצבים", taatik: "עַצַבִּי", arabic: "عصبي", english: "nervous / angry" },
+            { hebrew: "שקט", taatik: "הֻדוּא", arabic: "هدوء", english: "silence" },
+            { hebrew: "רעש", taatik: "צַוְתַה", arabic: "صوت / ضجة", english: "noise" }
+        ]
+    },
+    {
+        category: "בריאות ומצב רפואי",
+        words: [
+            { hebrew: "פציעה", taatik: "גַ'רֶח", arabic: "جرح", english: "wound" },
+            { hebrew: "דם", taatik: "דַם", arabic: "دم", english: "blood" },
+            { hebrew: "כאב", taatik: "וַגַ'ע", arabic: "وجع", english: "pain" },
+            { hebrew: "חום", taatik: "חַרָארַה", arabic: "حرارة", english: "fever" },
+            { hebrew: "תרופה", taatik: "דַוַא", arabic: "دواء", english: "medicine" },
+            { hebrew: "כדורים", taatik: "חַבּוּבּ", arabic: "حبوب", english: "pills" },
+            { hebrew: "אמבולנס", taatik: "אַמְבּוּלַנְס", arabic: "إسعاف / أمبولانس", english: "ambulance" },
+            { hebrew: "חובש", taatik: "מֻסְעֵף", arabic: "مسعف", english: "medic" },
+            { hebrew: "אני צריך רופא", taatik: "בִּדִי טַבִּיב", arabic: "بدي طبيب", english: "I need a doctor" }
+        ]
+    },
 
 ];

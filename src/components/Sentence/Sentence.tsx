@@ -9,17 +9,13 @@ interface ISentenceProps {
 }
 
 export default function Sentence(props: ISentenceProps) {
-  
-
   return (
-    <div className='Sentence'>
-      <div className="sentence-body">
-        <p className="hebrew">{props.hebrew}</p>
-        <p className="taatik">{props.taatik}</p>
-        <p className="arabic">{props.arabic}</p>
-        {props.english && <p className="english">{props.english}</p>}
-        {props.notice && <p className="notice">{props.notice}</p>}
-      </div>
+    <div className='sentence-card'>
+      <p className="sentence hebrew">{props.hebrew}</p>
+      <p className="sentence taatik">{props.taatik}</p>
+      <p className="sentence arabic">{props.arabic}</p>
+      {props.english && <p className="sentence english">{props.english}</p>}
+      {props.notice && <p className="sentence notice">{props.notice}</p>}
     </div>
   )
 }
