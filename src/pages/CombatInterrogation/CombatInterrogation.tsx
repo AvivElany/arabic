@@ -3,7 +3,7 @@ import './CombatInterrogation.css';
 export default function CombatInterrogation() {
     return (
         <div className="combat-interrogation">
-            <h1><span className='symbol'>🛡️</span>תשאול קרבי</h1>
+            <h1><span className='symbol'>🛡️</span>מבוא לתשאול קרבי</h1>
             
             <div className="content-container">
                 <section className="intro">
