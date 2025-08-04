@@ -63,7 +63,7 @@ export default function DeveloperCard(/*props: IDeveloperCardProps*/) {
             {/* Current Project */}
             <div className='current-project'>
                 <h4>🚀 הפרויקט הנוכחי</h4>
-                <p>אפליקציית למידת ערבית אינטראקטיבית עם React + TypeScript</p>
+                <p>אפליקציית לימוד ערבית ושיחון מבצעי ואינטראקטיבי אשר נבנה באמצעות React + TypeScript</p>
             </div>
 
             {/* Contact Links */}
