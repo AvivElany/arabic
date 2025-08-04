@@ -1,113 +1,157 @@
-@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans+Hebrew:wght@100..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;500;600;700;800;900&display=swap');
+
+:root {
+    /* Clean Green Theme for Titles */
+    --title-primary-green: #065f46;
+    --title-secondary-green: #047857;
+    --title-accent-green: #10b981;
+    --title-light-green: #34d399;
+    --title-shadow: rgba(6, 95, 70, 0.15);
+    --title-glow: rgba(16, 185, 129, 0.3);
+}
 
 .Title {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 40px 0;
+    margin: 50px 0;
     direction: rtl;
+    position: relative;
 }
 
 .title-container {
     text-align: center;
     position: relative;
-    padding: 20px 0;
+    padding: 0;
 }
 
 .title-accent {
-    width: 80px;
-    height: 4px;
-    background: linear-gradient(90deg, #57cf33 0%, #28a745 100%);
-    margin: 0 auto 15px auto;
+    width: 60px;
+    height: 3px;
+    background: linear-gradient(90deg, 
+        var(--title-accent-green) 0%, 
+        var(--title-light-green) 100%);
+    margin: 0 auto 25px auto;
     border-radius: 2px;
-    box-shadow: 0 2px 8px rgba(87, 207, 51, 0.3);
+    transition: all 0.3s ease;
 }
 
 .title-text {
-    font-family: "Playpen Sans Hebrew", cursive;
-    font-weight: 800;
-    color: #57cf33;
+    font-family: "Heebo", sans-serif;
+    font-weight: 700;
+    color: var(--title-primary-green);
     text-align: center;
-    font-size: clamp(2rem, 5vw, 3.5rem);
-    line-height: 1.3;
+    font-size: clamp(2.5rem, 5vw, 4rem);
+    line-height: 1.1;
     margin: 0;
-    text-shadow: 0 2px 4px rgba(87, 207, 51, 0.2);
-    letter-spacing: 1px;
+    letter-spacing: -0.5px;
     position: relative;
+    transition: all 0.3s ease;
 }
 
 .title-underline {
-    width: 120px;
+    width: 80px;
     height: 2px;
-    background: linear-gradient(90deg, transparent 0%, #57cf33 50%, transparent 100%);
-    margin: 15px auto 0 auto;
-    opacity: 0.7;
+    background: var(--title-accent-green);
+    margin: 25px auto 0 auto;
+    border-radius: 1px;
+    transition: all 0.3s ease;
 }
 
-/* אפקטים מתקדמים */
-.title-text::before {
-    content: '';
-    position: absolute;
-    top: -10px;
-    left: -10px;
-    right: -10px;
-    bottom: -10px;
-    background: linear-gradient(45deg, rgba(87, 207, 51, 0.1), transparent);
-    border-radius: 15px;
-    z-index: -1;
-    opacity: 0;
-    transition: opacity 0.3s ease;
-}
-
-.title-container:hover .title-text::before {
-    opacity: 1;
-}
-
+/* Clean hover effects */
 .title-container:hover .title-text {
+    color: var(--title-secondary-green);
     transform: translateY(-2px);
-    transition: transform 0.3s ease;
 }
 
 .title-container:hover .title-accent {
+    width: 80px;
+    background: linear-gradient(90deg, 
+        var(--title-secondary-green) 0%, 
+        var(--title-accent-green) 100%);
+}
+
+.title-container:hover .title-underline {
     width: 100px;
-    transition: width 0.3s ease;
+    background: var(--title-secondary-green);
 }
 
 /* Responsive Design */
 @media (max-width: 768px) {
     .Title {
-        margin: 30px 0;
-    }
-    
-    .title-container {
-        padding: 15px 0;
+        margin: 40px 0;
     }
     
     .title-accent {
-        width: 60px;
-        height: 3px;
+        width: 50px;
+        margin-bottom: 20px;
     }
     
     .title-text {
-        font-size: clamp(1.5rem, 6vw, 2.5rem);
-        letter-spacing: 0.5px;
+        font-size: clamp(2rem, 6vw, 3rem);
+        letter-spacing: -0.3px;
     }
     
     .title-underline {
+        width: 60px;
+        margin-top: 20px;
+    }
+    
+    .title-container:hover .title-accent {
+        width: 65px;
+    }
+    
+    .title-container:hover .title-underline {
         width: 80px;
     }
 }
 
 @media (max-width: 480px) {
     .Title {
-        margin: 20px 0;
+        margin: 30px 0;
     }
     
     .title-accent {
-        width: 50px;
+        width: 40px;
+        margin-bottom: 15px;
+    }
+    
+    .title-text {
+        font-size: clamp(1.8rem, 7vw, 2.5rem);
+        letter-spacing: -0.2px;
     }
     
     .title-underline {
-        width: 60px;
+        width: 50px;
+        margin-top: 15px;
+    }
+    
+    .title-container:hover .title-accent {
+        width: 55px;
+    }
+    
+    .title-container:hover .title-underline {
+        width: 70px;
+    }
+}
+
+/* Extra small screens */
+@media (max-width: 320px) {
+    .Title {
+        margin: 25px 0;
+    }
+    
+    .title-accent {
+        width: 35px;
+        margin-bottom: 12px;
+    }
+    
+    .title-text {
+        font-size: clamp(1.5rem, 8vw, 2rem);
+    }
+    
+    .title-underline {
+        width: 40px;
+        margin-top: 12px;
     }
 }
