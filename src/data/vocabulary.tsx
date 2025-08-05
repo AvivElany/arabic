@@ -1,10 +1,9 @@
 export const vocabulary = [
-    {
-        category: "תכולת בית",
+    {category: "תכולת בית",
         words: [
             { hebrew: "בית", taatik: "בֵּית", arabic: "بيت", english: "house" },
             { hebrew: "דלת", taatik: "בַּאבּ", arabic: "باب", english: "door" },
-            { hebrew: "כסף", taatik: "מַצָארִי", arabic: "مصاري", english: "money" },
+            { hebrew: "כסף", taatik: "מַסַארִי", arabic: "مصاري", english: "money" },
             { hebrew: "מיטה", taatik: "תַחְת", arabic: "تخت", english: "bed" },
             { hebrew: "מזרון", taatik: "פַרְשֶה", arabic: "فرشة", english: "mattress" },
             { hebrew: "ארון", taatik: "חְזַאנֶה", arabic: "خزانة", english: "closet / wardrobe" },
@@ -28,8 +27,7 @@ export const vocabulary = [
         ]
     },
 
-    {
-        category: "בגדים",
+    {category: "בגדים",
         words: [
             { hebrew: "בגד", taatik: "מַלַאבֶּס", arabic: "ملابس", english: "clothing" },
             { hebrew: "חולצה", taatik: "קַמִיס", arabic: "قميص", english: "shirt" },
@@ -60,8 +58,7 @@ export const vocabulary = [
         ]
     },
 
-    {
-        category: "מילים בסיסיות",
+    {category: "מילים בסיסיות",
         words: [
             { hebrew: "שלום", taatik: "סַלַאם", arabic: "سلام", english: "hello / peace" },
             { hebrew: "מה שלומך?", taatik: "כִּיף חַאלַכּ?", arabic: "كيف حالك؟", english: "how are you?" },
@@ -86,8 +83,7 @@ export const vocabulary = [
         ]
     },
 
-    {
-        category: "הרכב משפחה",
+    {category: "הרכב משפחה",
         words: [
             { hebrew: "משפחה", taatik: "עַיְלֶה", arabic: "عيلة", english: "family" },
             { hebrew: "אבא", taatik: "אַבּוּ", arabic: "أبّو", english: "father" },
@@ -98,8 +94,8 @@ export const vocabulary = [
             { hebrew: "אחות", taatik: "אֻחְ'ת", arabic: "أخت", english: "sister" }
         ]
     },
-    {
-        category: "מספרים",
+
+    {category: "מספרים",
         words: [
             { hebrew: "אחד", taatik: "וַחִד", arabic: "واحد", english: "one" },
             { hebrew: "שניים", taatik: "תִנְנֵין", arabic: "اتنين", english: "two" },
@@ -114,8 +110,7 @@ export const vocabulary = [
         ]
     },
 
-    {
-        category: "מילות יחס",
+    {category: "מילות יחס",
         words: [
             { hebrew: "על", taatik: "עַלַא", arabic: "على", english: "on / about" },
             { hebrew: "מתחת ל", taatik: "תַחְתַ'", arabic: "تحت", english: "under" },
@@ -128,11 +123,10 @@ export const vocabulary = [
         ]
     },
 
-    {
-        category: "מילות תיאור",
+    {category: "מילות תיאור",
         words: [
             { hebrew: "גדול", taatik: "כַבִּיר", arabic: "كبير", english: "big" },
-            { hebrew: "קטן", taatik: "צַרִ'יר", arabic: "صغير", english: "small" },
+            { hebrew: "קטן", taatik: "סַעְ'יר", arabic: "صغير", english: "small" },
             { hebrew: "חדש", taatik: "ג'אדִיד", arabic: "جديد", english: "new" },
             { hebrew: "ישן", taatik: "קַדִים", arabic: "قديم", english: "old" },
             { hebrew: "יפה", taatik: "ג'אמִיל", arabic: "جميل", english: "beautiful" },
@@ -153,10 +147,9 @@ export const vocabulary = [
         ]
     },
 
-    {
-        category: "זמנים ביום",
+    {category: "זמנים ביום",
         words: [
-            { hebrew: "בוקר", taatik: "צַבַּאח", arabic: "صباح", english: "morning" },
+            { hebrew: "בוקר", taatik: "סַבַּאח", arabic: "صباح", english: "morning" },
             { hebrew: "ערב", taatik: "מַסַאא'", arabic: "مسا", english: "evening" },
             { hebrew: "לילה", taatik: "לֵיל", arabic: "ليل", english: "night" },
             { hebrew: "היום", taatik: "אִלְיוֹם", arabic: "اليوم", english: "today" },
@@ -169,8 +162,7 @@ export const vocabulary = [
         ]
     },
 
-    {
-        category: "מזג אוויר",
+    {category: "מזג אוויר",
         words: [
             { hebrew: "שמש", taatik: "שַמְס", arabic: "شمس", english: "sun" },
             { hebrew: "גשם", taatik: "מַטַר", arabic: "مطر", english: "rain" },
@@ -180,8 +172,7 @@ export const vocabulary = [
         ]
     },
 
-    {
-        category: "מקומות",
+    {category: "מקומות",
         words: [
             { hebrew: "בית חולים", taatik: "מֻסְתַשְפַא", arabic: "مستشفى", english: "hospital" },
             { hebrew: "בית ספר", taatik: "מַדְרַסֶה", arabic: "مدرسة", english: "school" },
@@ -192,8 +183,7 @@ export const vocabulary = [
         ]
     },
 
-    {
-        category: "כלי תחבורה",
+    {category: "כלי תחבורה",
         words: [
             { hebrew: "מכונית", taatik: "סַיַّארַה", arabic: "سيارة", english: "car" },
             { hebrew: "אוטובוס", taatik: "בַּּאס", arabic: "باص", english: "bus" },
@@ -212,8 +202,8 @@ export const vocabulary = [
             { hebrew: "טרקטור", taatik: "טְרַאכְּטוֹר", arabic: "تراكتور", english: "tractor" }
         ]
     },
-    {
-        category: "רגשות ומצבים",
+
+    {category: "רגשות ומצבים",
         words: [
             { hebrew: "רעב", taatik: "גַ'וְעַאן", arabic: "جوعان", english: "hungry" },
             { hebrew: "צמא", taatik: "עַטְשַאן", arabic: "عطشان", english: "thirsty" },
@@ -222,13 +212,13 @@ export const vocabulary = [
             { hebrew: "מפחד", taatik: "חַ'איֵף", arabic: "خايف", english: "afraid" },
             { hebrew: "עצוב", taatik: "זַעְלַאן", arabic: "زعلان", english: "sad" },
             { hebrew: "כואב לי", taatik: "בִּיִוְגַ'עְנִי", arabic: "بيوجعني", english: "it hurts" },
-            { hebrew: "עצבים", taatik: "עַצַבִּי", arabic: "عصبي", english: "nervous / angry" },
+            { hebrew: "עצבים", taatik: "עַסַבִּי", arabic: "عصبي", english: "nervous / angry" },
             { hebrew: "שקט", taatik: "הֻדוּא", arabic: "هدوء", english: "silence" },
-            { hebrew: "רעש", taatik: "צַוְתַה", arabic: "صوت / ضجة", english: "noise" }
+            { hebrew: "רעש", taatik: "סַוְתַה", arabic: "صوت / ضجة", english: "noise" }
         ]
     },
-    {
-        category: "בריאות ומצב רפואי",
+
+    {category: "בריאות ומצב רפואי",
         words: [
             { hebrew: "פציעה", taatik: "גַ'רֶח", arabic: "جرح", english: "wound" },
             { hebrew: "דם", taatik: "דַם", arabic: "دم", english: "blood" },
@@ -241,8 +231,8 @@ export const vocabulary = [
             { hebrew: "אני צריך רופא", taatik: "בִּדִי טַבִּיב", arabic: "بدي طبيب", english: "I need a doctor" }
         ]
     },
-    {
-        category: "צבעים בזכר ובנקבה",
+
+    {category: "צבעים בזכר ובנקבה",
         words: [
             { hebrew: "לבן", taatik: "אַבּיַד", arabic: "أبيض", english: "white (m)" },
             { hebrew: "לבנה", taatik: "בֵּיְדַה", arabic: "بيضا", english: "white (f)" },
@@ -260,7 +250,7 @@ export const vocabulary = [
             { hebrew: "ירוקה", taatik: "ח׳ַדְרַה", arabic: "خضرا", english: "green (f)" },
 
             { hebrew: "צהוב", taatik: "אַסְפַר", arabic: "أصفر", english: "yellow (m)" },
-            { hebrew: "צהובה", taatik: "צַ׳פְרַה", arabic: "صفرا", english: "yellow (f)" },
+            { hebrew: "צהובה", taatik: "סַ׳פְרַה", arabic: "صفرا", english: "yellow (f)" },
 
             { hebrew: "כתום", taatik: "בּוּרְתֻקַאלִי", arabic: "برتقالي", english: "orange (m)" },
             { hebrew: "כתומה", taatik: "בּוּרְתֻקַאלִיֶּה", arabic: "برتقالية", english: "orange (f)" },
@@ -281,4 +271,5 @@ export const vocabulary = [
             { hebrew: "כסופה", taatik: "פִצ׳ִיֶּה", arabic: "فضية", english: "silver (f)" }
         ]
     }
+    
 ];
