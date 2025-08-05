@@ -61,7 +61,7 @@ export default function Navbar(/*props: INavbarProps*/) {
             <div className="container-fluid">
                 <Link to="/" className="navbar-brand">
                     <img src="/picture/symbol_white.jpg" alt="9311_unit_logo" className="main-symbol" />
-                    <h5 className="nav-name">פק"ל ערבית עם גדוד 9311</h5>
+                    <h5 className="nav-name">פק"ל ערבית ללוחמי חי"ר</h5>
                 </Link>
                 <button 
                     className="navbar-toggler" 

@@ -13,7 +13,17 @@
     margin-bottom: 10px;
 }
 
-.DevPage p {
+.greeting {
     font-size: 16px;
     line-height: 1.5;
+    margin-bottom: 10px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 1px solid #000;
+    padding: 15px;
+    border-radius: 8px;
+    background-color: #e0f7fa;
+    color: #006064;
 }
