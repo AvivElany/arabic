@@ -32,7 +32,7 @@ export default function Footer(/*props: IFooterProps*/) {
             <div className="footer-credits">
                 <p>
                     כל הזכויות שמורות
-                    <Link className="god" to="/DevPage">לאביב אילני מפתח פולסטאק</Link>
+                    &nbsp;<Link className="god" to="/DevPage">לאביב אילני מפתח פולסטאק</Link>&nbsp;
                     | © {new Date().getFullYear()}</p>
             </div>
         </div>
