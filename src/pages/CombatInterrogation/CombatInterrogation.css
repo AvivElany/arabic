@@ -104,7 +104,7 @@
 
 
 .db::before {
-    content: '▶';
+    content: '◀';
     color: #0ea5e9;
     font-weight: 600;
     margin-left: 1rem;

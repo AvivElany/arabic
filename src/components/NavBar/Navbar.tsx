@@ -11,6 +11,7 @@ import {
     FaLanguage, 
     FaPhone 
 } from 'react-icons/fa'
+/* import { GiInternalInjury } from 'react-icons/gi'; */
 
 /*interface INavbarProps {
 
@@ -118,6 +119,12 @@ export default function Navbar(/*props: INavbarProps*/) {
                                 <FaLanguage className="nav-icon" />
                             </Link>
                         </li>
+                        {/* <li className="nav-item">
+                            <Link className="nav-link" to="/combat-interrogation" onClick={closeNavbar}>
+                                מבוא לתשאול קרבי
+                                <GiInternalInjury className="nav-icon" />
+                            </Link>
+                        </li> */}
                         <li className="nav-item">
                             <Link className="nav-link" to="/contact" onClick={closeNavbar}>
                                 צור קשר
