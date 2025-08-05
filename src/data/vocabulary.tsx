@@ -192,7 +192,7 @@ export const vocabulary = [
             { hebrew: "אופנוע", taatik: "מֻטוֹר", arabic: "موتور", english: "motorcycle" },
             { hebrew: "אופניים", taatik: "בִּסְכְלֵיט", arabic: "بسكليت", english: "bicycle" },
             { hebrew: "משאית", taatik: "סַّאח'נֶה", arabic: "سَّاخْنِة", english: "truck" },
-            { hebrew: "אמבולנס", taatik: "אַמְבּוּלַנְס", arabic: "إسعاف / أمبولانس", english: "ambulance" },
+            { hebrew: "אמבולנס", taatik: "אַמְבּוּלַנְס", arabic: "أمبولانس", english: "ambulance" },
             { hebrew: "רכב פרטי", taatik: "סַיַّארַה שַחְסִיֶּה", arabic: "سيارة شخصية", english: "private vehicle" },
             { hebrew: "רכבת", taatik: "קִטַאר", arabic: "قطار", english: "train" },
             { hebrew: "מטוס", taatik: "טַיַّארַה", arabic: "طيارة", english: "airplane" },
