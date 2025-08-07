@@ -97,16 +97,81 @@ export const vocabulary = [
 
     {category: "מספרים",
         words: [
-            { hebrew: "אחד", taatik: "וַחִד", arabic: "واحد", english: "one" },
-            { hebrew: "שניים", taatik: "תִנְנֵין", arabic: "اتنين", english: "two" },
-            { hebrew: "שלושה", taatik: "תַלַאתֶה", arabic: "ثلاثة", english: "three" },
-            { hebrew: "ארבעה", taatik: "אַרְבַּעַה", arabic: "أربعة", english: "four" },
-            { hebrew: "חמישה", taatik: "חַמְסַה", arabic: "خمسة", english: "five" },
-            { hebrew: "שישה", taatik: "סִתַּה", arabic: "ستة", english: "six" },
-            { hebrew: "שבעה", taatik: "סַבְעַה", arabic: "سبعة", english: "seven" },
-            { hebrew: "שמונה", taatik: "ת'מַאנִיֶה / ת'מַאנִיֵן", arabic: "ثمانية / ثمانين", english: "eight" },
-            { hebrew: "תשעה", taatik: "תִּשְׁעַה / תִּשְׁעִין", arabic: "تسعة / تسعين", english: "nine" },
-            { hebrew: "עשרה / עשר", taatik: "עַשַר / עַשְּׂרֵין", arabic: "عشرة / عشرين", english: "ten / twenty" }
+            { hebrew: "אפס", taatik: "סִפֶר", arabic: "صفر", english: "zero" },
+            { hebrew: "אחד", taatik: "וַאחֵד", arabic: "واحد", english: "one" },
+            { hebrew: "שתיים", taatik: "תְנֵין", arabic: "اتنين", english: "two" },
+            { hebrew: "שלוש", taatik: "תַלַאתֵה", arabic: "تلاتة", english: "three" },
+            { hebrew: "ארבע", taatik: "אַרְבַּעַה", arabic: "أربعة", english: "four" },
+            { hebrew: "חמש", taatik: "חַמְסַה", arabic: "خمسة", english: "five" },
+            { hebrew: "שש", taatik: "סִתֵّה", arabic: "ستة", english: "six" },
+            { hebrew: "שבע", taatik: "סַבַּעַה", arabic: "سبعة", english: "seven" },
+            { hebrew: "שמונה", taatik: "תַמַנְיֵה", arabic: "تمانية", english: "eight" },
+            { hebrew: "תשע", taatik: "תִסְעַה", arabic: "تسعة", english: "nine" },
+            { hebrew: "עשר", taatik: "עַשַרַה", arabic: "عشرة", english: "ten" },
+
+            { hebrew: "אחת עשרה", taatik: "חְדַעַש", arabic: "حدعش", english: "eleven" },
+            { hebrew: "שתים עשרה", taatik: "תְנַעַש", arabic: "تنعش", english: "twelve" },
+            { hebrew: "שלוש עשרה", taatik: "תַלַתַעַש", arabic: "تلتعش", english: "thirteen" },
+            { hebrew: "ארבע עשרה", taatik: "אַרְבַּעְתַעַש", arabic: "أربعتعش", english: "fourteen" },
+            { hebrew: "חמש עשרה", taatik: "חַמְסְתַעַש", arabic: "خمستعش", english: "fifteen" },
+            { hebrew: "שש עשרה", taatik: "סִתַّעַש", arabic: "ستعش", english: "sixteen" },
+            { hebrew: "שבע עשרה", taatik: "סַבַּעְתַעַש", arabic: "سبعتعش", english: "seventeen" },
+            { hebrew: "שמונה עשרה", taatik: "תַמַנְתַעַש", arabic: "تممنتعش", english: "eighteen" },
+            { hebrew: "תשע עשרה", taatik: "תִסְעַתַעַש", arabic: "تسعتعش", english: "nineteen" },
+            { hebrew: "עשרים", taatik: "עִשְרִין", arabic: "عشرين", english: "twenty" },
+
+            { hebrew: "עשרים ואחד", taatik: "וַאחֵד וְעִשְרִין", arabic: "واحد وعشرين", english: "twenty-one" },
+            { hebrew: "עשרים ושתיים", taatik: "תְנֵין וְעִשְרִין", arabic: "اتنين وعشرين", english: "twenty-two" },
+            { hebrew: "עשרים ושלוש", taatik: "תַלַאתֵה וְעִשְרִין", arabic: "تلاتة وعشرين", english: "twenty-three" },
+            { hebrew: "עשרים וארבע", taatik: "אַרְבַּעַה וְעִשְרִין", arabic: "أربعة وعشرين", english: "twenty-four" },
+            { hebrew: "עשרים וחמש", taatik: "חַמְסַה וְעִשְרִין", arabic: "خمسة وعشرين", english: "twenty-five" },
+            { hebrew: "עשרים ושש", taatik: "סִתֵّה וְעִשְרִין", arabic: "ستة وعشرين", english: "twenty-six" },
+            { hebrew: "עשרים ושבע", taatik: "סַבַּעַה וְעִשְרִין", arabic: "سبعة وعشرين", english: "twenty-seven" },
+            { hebrew: "עשרים ושמונה", taatik: "תַמַנְיֵה וְעִשְרִין", arabic: "تمانية وعشرين", english: "twenty-eight" },
+            { hebrew: "עשרים ותשע", taatik: "תִסְעַה וְעִשְרִין", arabic: "تسعة وعشرين", english: "twenty-nine" },
+            { hebrew: "שלושים", taatik: "תַלַאתִין", arabic: "تلاتين", english: "thirty" },
+
+            { hebrew: "ארבעים", taatik: "אַרְבְּעִין", arabic: "أربعين", english: "forty" },
+            { hebrew: "חמישים", taatik: "חַמְסִין", arabic: "خمسين", english: "fifty" },
+            { hebrew: "שישים", taatik: "סִתִּין", arabic: "ستين", english: "sixty" },
+            { hebrew: "שבעים", taatik: "סַבְּעִין", arabic: "سبعين", english: "seventy" },
+            { hebrew: "שמונים", taatik: "תַמַאנִין", arabic: "تمانين", english: "eighty" },
+            { hebrew: "תשעים", taatik: "תִסְעִין", arabic: "تسعين", english: "ninety" },
+            { hebrew: "מאה", taatik: "מִיֶّה", arabic: "مية", english: "one hundred" },
+
+            { hebrew: "חצי", taatik: "נוֹסְ", arabic: "نص", english: "half" },
+            { hebrew: "רבע", taatik: "רוֹבֶּע", arabic: "ربع", english: "quarter" }
+        ]
+    },
+
+
+    {category: "כיוונים ומרחב",
+        words: [
+            { hebrew: "צפון", taatik: "שְמַל", arabic: "شمال", english: "north" },
+            { hebrew: "דרום", taatik: "גַ'נוּב", arabic: "جنوب", english: "south" },
+            { hebrew: "מזרח", taatik: "שַרְאֵק", arabic: "شرق", english: "east" },
+            { hebrew: "מערב", taatik: "עַ'רְבּ", arabic: "غرب", english: "west" },
+
+            { hebrew: "קדימה", taatik: "לְקוּדָّאם", arabic: "لقدّام", english: "forward" },
+            { hebrew: "אחורה", taatik: "לוּרַא", arabic: "لورا", english: "backward" },
+            { hebrew: "למעלה", taatik: "לְפוֹק", arabic: "لفوق", english: "up" },
+            { hebrew: "למטה", taatik: "לְתַחֵת", arabic: "لتحت", english: "down" },
+
+            { hebrew: "ימינה", taatik: "יַמִין", arabic: "عاليمين", english: "to the right" },
+            { hebrew: "שמאלה", taatik: "יַסַאר", arabic: "عاليسار", english: "to the left" },
+
+            { hebrew: "בצד ימין", taatik: "בִּגִ׳ّאןֵב אִל־יַמִין", arabic: "بجانب اليمين", english: "on the right side" },
+            { hebrew: "בצד שמאל", taatik: "בִּגִ׳ّאןֵב אִל־יַסַאר", arabic: "بجانب اليسار", english: "on the left side" },
+
+            { hebrew: "כיוון", taatik: "אִתִّיגַ'ה", arabic: "اتجاه", english: "direction" },
+            { hebrew: "אמצע", taatik: "וַסֶט", arabic: "وسط", english: "middle / center" },
+
+            { hebrew: "המרכז", taatik: "אִל־וַסֶט", arabic: "الوسط", english: "the center" },
+            { hebrew: "המרחב", taatik: "אִל־מַסַאחַה", arabic: "المساحة", english: "area / space" },
+
+            { hebrew: "המזרח התיכון", taatik: "אִל־שַרְאֶק אִל־אַוְסַט", arabic: "الشرق الأوسط", english: "Middle East" },
+            { hebrew: "הגדה המערבית", taatik: "אִל־דַ׳פֵה אִל־עַ׳רְבִּיֶה", arabic: "الضفة الغربية", english: "West Bank" },
+            { hebrew: "מזרח ירושלים", taatik: "קֻדְס אִשְּרְאִיֶה", arabic: "القدس الشرقية", english: "East Jerusalem" }
         ]
     },
 
