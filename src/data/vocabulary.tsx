@@ -36,7 +36,7 @@ export const vocabulary = [
             { hebrew: "מדי צבא", taatik: "לִבּאס עַסְכַּרִי", arabic: "لباس عسكري", english: "military uniform" },
             { hebrew: "מגפיים", taatik: "בּוּט", arabic: "بوط", english: "boots" },
             { hebrew: "כובע", taatik: "טַאקִיֶּה / כֻּבַּע", arabic: "طاقية / قبعة", english: "hat / cap" },
-            { hebrew: "נעליים", taatik: "כַּנְדַרַה / שַרַאטִי", arabic: "كندرة / شَرَاطي", english: "shoes" },
+            { hebrew: "נעליים", taatik: "כַּנְַדרַה / שַרַאטִי", arabic: "كندرة / شَرَاطي", english: "shoes" },
             { hebrew: "גרביים", taatik: "כַלְסֵין", arabic: "كلسات", english: "socks" },
             { hebrew: "חולצה קצרה", taatik: "קַמִיס נֻסַסַיֶר", arabic: "قميص نصير", english: "T-shirt / short-sleeved shirt" },
             { hebrew: "חולצה ארוכה", taatik: "קַמִיס אִידֵין טְוִילַאת", arabic: "قميص إيدين طويلات", english: "long-sleeved shirt" },
@@ -62,13 +62,10 @@ export const vocabulary = [
         words: [
             { hebrew: "שלום", taatik: "סַלַאם", arabic: "سلام", english: "hello / peace" },
             { hebrew: "מה שלומך?", taatik: "כִּיף חַאלַכּ?", arabic: "كيف حالك؟", english: "how are you?" },
-            { hebrew: "אני בסדר", taatik: "אַנַא מְנִיח", arabic: "أنا منيح", english: "I'm fine" },
             { hebrew: "תודה", taatik: "שֻכְּרַן", arabic: "شكراً", english: "thank you" },
-            { hebrew: "בבקשה", taatik: "תְפַצַ'ّל", arabic: "تفضل", english: "please / go ahead" },
+            { hebrew: "בבקשה", taatik: "תְפַדְ'ל", arabic: "تفضل", english: "please / go ahead" },
             { hebrew: "כן", taatik: "אַיְוַה", arabic: "ايوه", english: "yes" },
             { hebrew: "לא", taatik: "לַא", arabic: "لا", english: "no" },
-            { hebrew: "איפה?", taatik: "וֵין?", arabic: "وين؟", english: "where?" },
-            { hebrew: "מתי?", taatik: "אֵימְתַא?", arabic: "إيمتى؟", english: "when?" },
             { hebrew: "עכשיו", taatik: "הַלַّא", arabic: "هلا", english: "now" },
             { hebrew: "מהר", taatik: "בִּסִרְעַה", arabic: "بسرعة", english: "quickly" },
             { hebrew: "שב", taatik: "אֻקְעֻד", arabic: "اقعد", english: "sit down" },
@@ -78,8 +75,9 @@ export const vocabulary = [
             { hebrew: "תעודת זהות", taatik: "הַוִיֶּה", arabic: "هوية", english: "ID card" },
             { hebrew: "אישור עבודה", taatik: "תַסְרִיח שֻעְ'ל", arabic: "تصريح شغل", english: "work permit" },
             { hebrew: "רישיון נהיגה", taatik: "רֻחְ'סַת סוַאקַה", arabic: "رخصة سواقة", english: "driver’s license" },
-            { hebrew: "אסור", taatik: "מַמְנוּע", arabic: "ممنوع", english: "forbidden" },
             { hebrew: "מותר / בסדר", taatik: "מַאשִי", arabic: "ماشي", english: "okay / allowed" },
+            { hebrew: "אסור", taatik: "מַמְנוּע", arabic: "ممنوع", english: "forbidden" },
+            { hebrew: "אני בסדר", taatik: "אַנַא מְנִיח", arabic: "أنا منيح", english: "I'm fine" },
             { hebrew: "לא הבנתי", taatik: "מִש פַאהֵם", arabic: "مش فاهم", english: "I didn’t understand" },
             { hebrew: "אתה מבין?", taatik: "פַאהֵם?", arabic: "فاهم؟", english: "do you understand?" }
         ]
@@ -111,7 +109,7 @@ export const vocabulary = [
             { hebrew: "תשע", taatik: "תִסְעַה", arabic: "تسعة", english: "nine" },
             { hebrew: "עשר", taatik: "עַשַרַה", arabic: "عشرة", english: "ten" },
 
-            { hebrew: "אחת עשרה", taatik: "חְדַעַש", arabic: "حدعش", english: "eleven" },
+            { hebrew: "אחת עשרה", taatik: "חְַדעַש", arabic: "حدعش", english: "eleven" },
             { hebrew: "שתים עשרה", taatik: "תְנַעַש", arabic: "تنعش", english: "twelve" },
             { hebrew: "שלוש עשרה", taatik: "תַלַתַעַש", arabic: "تلتعش", english: "thirteen" },
             { hebrew: "ארבע עשרה", taatik: "אַרְבַּעְתַעַש", arabic: "أربعتعش", english: "fourteen" },
@@ -287,7 +285,7 @@ export const vocabulary = [
             { hebrew: "כואב לי", taatik: "בִּיִוְגַ'עְנִי", arabic: "بيوجعني", english: "it hurts" },
             { hebrew: "עצבים", taatik: "עַסַבִּי", arabic: "عصبي", english: "nervous / angry" },
             { hebrew: "שקט", taatik: "הֻדוּא", arabic: "هدوء", english: "silence" },
-            { hebrew: "רעש", taatik: "סַוְתַה", arabic: "صوت / ضجة", english: "noise" }
+            { hebrew: "רעש", taatik: "סַוְתַה", arabic: "صوت", english: "noise" }
         ]
     },
 
@@ -340,8 +338,8 @@ export const vocabulary = [
             { hebrew: "זהב", taatik: "דַ'הַבִּי", arabic: "ذهبي", english: "gold (m)" },
             { hebrew: "זהובה", taatik: "דַ'הַבִּיֶּה", arabic: "ذهبية", english: "gold (f)" },
 
-            { hebrew: "כסף", taatik: "פִצ׳ִי", arabic: "فضي", english: "silver (m)" },
-            { hebrew: "כסופה", taatik: "פִצ׳ִיֶּה", arabic: "فضية", english: "silver (f)" }
+            { hebrew: "כסף", taatik: "פִד׳ִי", arabic: "فضي", english: "silver (m)" },
+            { hebrew: "כסופה", taatik: "פִד׳ִיֶּה", arabic: "فضية", english: "silver (f)" }
         ]
     }
     
