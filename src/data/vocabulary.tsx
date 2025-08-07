@@ -76,6 +76,8 @@ export const vocabulary = [
             { hebrew: "תעמוד פה", taatik: "וַאקֵף הוֹן", arabic: "واقف هون", english: "stand here" },
             { hebrew: "הראה לי", taatik: "פַרְגִ'ינִי", arabic: "فرجيني", english: "show me" },
             { hebrew: "תעודת זהות", taatik: "הַוִיֶּה", arabic: "هوية", english: "ID card" },
+            { hebrew: "אישור עבודה", taatik: "תַסְרִיח שֻעְ'ל", arabic: "تصريح شغل", english: "work permit" },
+            { hebrew: "רישיון נהיגה", taatik: "רֻחְ'סַת סוַאקַה", arabic: "رخصة سواقة", english: "driver’s license" },
             { hebrew: "אסור", taatik: "מַמְנוּע", arabic: "ممنوع", english: "forbidden" },
             { hebrew: "מותר / בסדר", taatik: "מַאשִי", arabic: "ماشي", english: "okay / allowed" },
             { hebrew: "לא הבנתי", taatik: "מִש פַאהֵם", arabic: "مش فاهم", english: "I didn’t understand" },
@@ -138,12 +140,18 @@ export const vocabulary = [
             { hebrew: "שמונים", taatik: "תַמַאנִין", arabic: "تمانين", english: "eighty" },
             { hebrew: "תשעים", taatik: "תִסְעִין", arabic: "تسعين", english: "ninety" },
             { hebrew: "מאה", taatik: "מִיֶّה", arabic: "مية", english: "one hundred" },
+            
+            { hebrew: "מאתיים", taatik: "מִיתֵין", arabic: "ميتين", english: "two hundred" },
+            { hebrew: "שלוש מאות", taatik: "תַלַאת מִיֶּה", arabic: "تلات ميه", english: "three hundred" },
+            { hebrew: "ארבע מאות", taatik: "אַרְבַּע מִיֶּה", arabic: "أربع ميه", english: "four hundred" },
+            { hebrew: "חמש מאות", taatik: "חַמְס מִיֶּה", arabic: "خمس ميه", english: "five hundred" },
+            { hebrew: "אלף", taatik: "אַלֶף", arabic: "ألف", english: "one thousand" },
+            { hebrew: "אלפיים", taatik: "אַלְפֵין", arabic: "ألفين", english: "two thousand" },
 
             { hebrew: "חצי", taatik: "נוֹסְ", arabic: "نص", english: "half" },
-            { hebrew: "רבע", taatik: "רוֹבֶּע", arabic: "ربع", english: "quarter" }
+            { hebrew: "רבע", taatik: "רוֹבֶּע", arabic: "ربع", english: "quarter" },
         ]
     },
-
 
     {category: "כיוונים ומרחב",
         words: [
