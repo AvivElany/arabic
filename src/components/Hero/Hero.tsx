@@ -9,7 +9,7 @@ import { useRef } from 'react'
 
 export default function Hero(/*props: IHeroProps*/) {
 
-    const developing = true;
+    const developing = false;
     const ref = useRef(null);
     const isInView = useInView(ref, { once: false, amount: 0.3 });
 
