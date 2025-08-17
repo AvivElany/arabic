@@ -11,7 +11,7 @@ export default function DeveloperCard(/*props: IDeveloperCardProps*/) {
             <div className='card-header'>
                 <div className='profile-image-container'>
                     <img 
-                        src="/picture/dev.jpg" 
+                        src="/picture/mainHero.jpg" 
                         alt="Developer Profile" 
                         className='profile-image'
                     />
@@ -74,7 +74,7 @@ export default function DeveloperCard(/*props: IDeveloperCardProps*/) {
                 <a href="https://github.com/AvivElany" className='contact-btn github' target="_blank" rel="noopener noreferrer">
                     🔗 GitHub
                 </a>
-                <a href="https://portfolio-avivelanys.vercel.app/" className='contact-btn portfolio' target="_blank" rel="noopener noreferrer">
+                <a href="https://www.avivelany.com/" className='contact-btn portfolio' target="_blank" rel="noopener noreferrer">
                     🌟 Portfolio
                 </a>
             </div>
