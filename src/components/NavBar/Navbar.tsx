@@ -60,7 +60,7 @@ export default function Navbar(/*props: INavbarProps*/) {
         <nav className="navbar navbar-expand-lg bg-body-tertiary bottom-navbar" data-bs-theme='dark'>
             <div className="container-fluid">
                 <Link to="/" className="navbar-brand">
-                    <img src="/picture/logo-salam.jpg" alt="logo" className="main-symbol" />
+                    <img src="/picture/symbol_white.jpg" alt="logo" className="main-symbol" />
                     <h5 className="nav-name">פק"ל ערבית ללוחמי גדוד 9311</h5>
                 </Link>
                 <button 
