@@ -40,7 +40,7 @@ export default function SayHallo(/*props: ISayHalloProps*/) {
             transition={{ duration: 1 }}
         >
             <img 
-                src="/picture/symbol-black.jpg" 
+                src="/picture/symbol_black.jpg" 
                 className="symbol"
             />
             <h1 className={showCursor ? 'typing-animation' : ''}>
