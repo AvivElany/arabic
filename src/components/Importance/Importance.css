@@ -1,7 +1,8 @@
 .Importance {
     background-color: rgba(182, 244, 148, 0.3);
     border-radius: 10px;
-    max-width: 800px;
+    max-width: 1200px;
+    width: 100%;
     text-align: center;
     direction: rtl;
     padding: 15px;
@@ -10,12 +11,15 @@
     font-weight: 500;
     border-top: #0d940b 3px solid;
     border-bottom: #0d940b 3px solid;
-
+    margin: 20px auto;
+    box-sizing: border-box;
 }
 
 .Importance h2 {
     font-size: 2rem;
     color: darkolivegreen;
+    margin-bottom: 20px;
+    line-height: 1.3;
 }
 
 .Importance p {
@@ -25,4 +29,92 @@
     border-radius: 15px;
     background-color: rgba(182, 244, 148, 0.3);
     box-shadow: 0 4px 8px rgba(152, 18, 18, 0.2);
+    line-height: 1.6;
+}
+
+/* מובייל - עד 650px */
+@media (max-width: 650px) {
+    .Importance {
+        padding: 12px;
+        margin: 15px auto;
+        border-radius: 8px;
+    }
+    
+    .Importance h2 {
+        font-size: 1.4rem;
+        margin-bottom: 15px;
+        line-height: 1.2;
+    }
+    
+    .Importance p {
+        padding: 8px;
+        font-size: 1rem;
+        margin: 12px 8px;
+        border-radius: 12px;
+        line-height: 1.5;
+    }
+}
+
+/* טאבלט - 651px עד 900px */
+@media (min-width: 651px) and (max-width: 900px) {
+    .Importance {
+        padding: 18px;
+        margin: 25px auto;
+        max-width: 95%;
+    }
+    
+    .Importance h2 {
+        font-size: 1.7rem;
+        margin-bottom: 18px;
+    }
+    
+    .Importance p {
+        padding: 12px;
+        font-size: 1.1rem;
+        margin: 18px 15px;
+        border-radius: 14px;
+        line-height: 1.5;
+    }
+}
+
+/* דסקטופ קטן - 901px עד 1200px */
+@media (min-width: 901px) and (max-width: 1200px) {
+    .Importance {
+        padding: 20px;
+        margin: 30px auto;
+        max-width: 90%;
+    }
+    
+    .Importance h2 {
+        font-size: 1.9rem;
+        margin-bottom: 20px;
+    }
+    
+    .Importance p {
+        padding: 12px;
+        font-size: 1.15rem;
+        margin: 20px 18px;
+        line-height: 1.6;
+    }
+}
+
+/* דסקטופ גדול - מעל 1200px */
+@media (min-width: 1201px) {
+    .Importance {
+        padding: 25px;
+        margin: 40px auto;
+        max-width: 1200px;
+    }
+    
+    .Importance h2 {
+        font-size: 2rem;
+        margin-bottom: 25px;
+    }
+    
+    .Importance p {
+        padding: 15px;
+        font-size: 1.2rem;
+        margin: 25px 20px;
+        line-height: 1.6;
+    }
 }

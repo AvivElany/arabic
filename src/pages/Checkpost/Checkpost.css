@@ -1,3 +1,139 @@
+.Checkpost {
+    min-height: 100vh;
+    padding: 20px;
+    direction: rtl;
+    font-family: 'Assistant', sans-serif;
+    max-width: 1400px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
 .Checkpost-regular {
     margin-bottom: 25px;
+}
+
+/* מובייל - עד 650px */
+@media (max-width: 650px) {
+    .Checkpost {
+        padding: 10px;
+        font-size: 0.9rem;
+    }
+    
+    .Checkpost-regular {
+        margin-bottom: 15px;
+    }
+    
+    .Checkpost h1 {
+        font-size: 1.8rem;
+        margin-bottom: 15px;
+    }
+    
+    .Checkpost h2 {
+        font-size: 1.4rem;
+        margin-bottom: 12px;
+    }
+    
+    .Checkpost p {
+        font-size: 0.9rem;
+        line-height: 1.5;
+        margin-bottom: 12px;
+    }
+    
+    .Checkpost table {
+        font-size: 0.8rem;
+    }
+    
+    .Checkpost table th,
+    .Checkpost table td {
+        padding: 6px 4px;
+        font-size: 0.75rem;
+    }
+}
+
+/* טאבלט - 651px עד 900px */
+@media (min-width: 651px) and (max-width: 900px) {
+    .Checkpost {
+        padding: 20px;
+        max-width: 95%;
+    }
+    
+    .Checkpost-regular {
+        margin-bottom: 20px;
+    }
+    
+    .Checkpost h1 {
+        font-size: 2.1rem;
+        margin-bottom: 18px;
+    }
+    
+    .Checkpost h2 {
+        font-size: 1.6rem;
+        margin-bottom: 15px;
+    }
+    
+    .Checkpost p {
+        font-size: 1rem;
+        line-height: 1.6;
+        margin-bottom: 15px;
+    }
+    
+    .Checkpost table th,
+    .Checkpost table td {
+        padding: 8px 6px;
+        font-size: 0.85rem;
+    }
+}
+
+/* דסקטופ קטן - 901px עד 1200px */
+@media (min-width: 901px) and (max-width: 1200px) {
+    .Checkpost {
+        padding: 30px;
+        max-width: 90%;
+    }
+    
+    .Checkpost h1 {
+        font-size: 2.4rem;
+        margin-bottom: 20px;
+    }
+    
+    .Checkpost h2 {
+        font-size: 1.8rem;
+        margin-bottom: 18px;
+    }
+    
+    .Checkpost table th,
+    .Checkpost table td {
+        padding: 10px 8px;
+        font-size: 0.9rem;
+    }
+}
+
+/* דסקטופ גדול - מעל 1200px */
+@media (min-width: 1201px) {
+    .Checkpost {
+        padding: 40px;
+        max-width: 1400px;
+    }
+    
+    .Checkpost h1 {
+        font-size: 2.6rem;
+        margin-bottom: 25px;
+    }
+    
+    .Checkpost h2 {
+        font-size: 2rem;
+        margin-bottom: 20px;
+    }
+    
+    .Checkpost p {
+        font-size: 1.1rem;
+        line-height: 1.7;
+        margin-bottom: 18px;
+    }
+    
+    .Checkpost table th,
+    .Checkpost table td {
+        padding: 12px 10px;
+        font-size: 1rem;
+    }
 }

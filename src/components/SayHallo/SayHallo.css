@@ -6,13 +6,16 @@
     align-items: center;
     text-align: center;
     height: 100vh;
-    width: 100vw;
-    max-width: 649px;
+    width: 100%;
+    max-width: 1440px;
     font-size: 40px;
     font-weight: 800;
     color: #fff;
     background-color: black;
     direction: rtl;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 20px;
 }
 
 .SayHallo h1 {
@@ -20,7 +23,113 @@
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: 700;
     font-size: 50px;
-    color:green
+    color: green;
+    word-wrap: break-word;
+    line-height: 1.2;
+}
+
+.symbol {
+    max-width: 200px;
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    border-radius: 15px;
+}
+
+.typing-animation::after {
+    content: '|';
+    animation: blink 1s infinite;
+    margin-left: 5px;
+}
+
+@keyframes blink {
+    0%, 50% { opacity: 1; }
+    51%, 100% { opacity: 0; }
+}
+
+/* מובייל - עד 650px */
+@media (max-width: 650px) {
+    .SayHallo {
+        font-size: 25px;
+        padding: 15px;
+        height: 100vh;
+        min-height: 500px;
+    }
+    
+    .SayHallo h1 {
+        font-size: 35px;
+        line-height: 1.1;
+    }
+    
+    .symbol {
+        max-width: 120px;
+        margin-bottom: 15px;
+        border-radius: 12px;
+    }
+    
+    .shabab {
+        display: block;
+        color: red;
+        font-size: 0.8em;
+    }
+}
+
+/* טאבלט - 651px עד 900px */
+@media (min-width: 651px) and (max-width: 900px) {
+    .SayHallo {
+        font-size: 35px;
+        padding: 25px;
+        max-width: 95%;
+    }
+    
+    .SayHallo h1 {
+        font-size: 45px;
+        line-height: 1.2;
+    }
+    
+    .symbol {
+        max-width: 160px;
+        margin-bottom: 18px;
+        border-radius: 14px;
+    }
+}
+
+/* דסקטופ קטן - 901px עד 1200px */
+@media (min-width: 901px) and (max-width: 1200px) {
+    .SayHallo {
+        font-size: 42px;
+        padding: 30px;
+        max-width: 90%;
+    }
+    
+    .SayHallo h1 {
+        font-size: 55px;
+        line-height: 1.3;
+    }
+    
+    .symbol {
+        max-width: 180px;
+        margin-bottom: 20px;
+    }
+}
+
+/* דסקטופ גדול - מעל 1200px */
+@media (min-width: 1201px) {
+    .SayHallo {
+        font-size: 50px;
+        padding: 40px;
+        max-width: 1400px;
+    }
+    
+    .SayHallo h1 {
+        font-size: 60px;
+        line-height: 1.3;
+    }
+    
+    .symbol {
+        max-width: 220px;
+        margin-bottom: 25px;
+    }
 }
 
 @media (max-width: 600px) {
@@ -29,7 +138,7 @@
     }
     .SayHallo h1 {
         font-size: 40px;
-        transform: translateY(-150px);
+        transform: translateY(-50px);
     }
     .shabab {
         display: block;

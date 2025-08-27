@@ -250,3 +250,123 @@
         font-size: 0.85rem;
     }
 }
+
+/* טאבלט - 651px עד 900px */
+@media (min-width: 651px) and (max-width: 900px) {
+    .NotFound {
+        padding: 2.5rem;
+    }
+    
+    .notfound-container {
+        max-width: 550px;
+    }
+    
+    .notfound-content {
+        min-height: 450px;
+    }
+    
+    .notfound-title {
+        font-size: 4.5rem;
+        margin-bottom: 1rem;
+    }
+    
+    .notfound-subtitle {
+        font-size: 1.6rem;
+        margin-bottom: 0.8rem;
+    }
+    
+    .notfound-description {
+        font-size: 1rem;
+        margin-bottom: 2rem;
+    }
+    
+    .notfound-text {
+        padding: 2rem 1.5rem;
+    }
+    
+    .btn-home,
+    .btn-back {
+        padding: 0.8rem 1.5rem;
+        font-size: 0.9rem;
+    }
+}
+
+/* דסקטופ קטן - 901px עד 1200px */
+@media (min-width: 901px) and (max-width: 1200px) {
+    .NotFound {
+        padding: 3rem;
+    }
+    
+    .notfound-container {
+        max-width: 650px;
+    }
+    
+    .notfound-content {
+        min-height: 500px;
+    }
+    
+    .notfound-title {
+        font-size: 5.5rem;
+        margin-bottom: 1.2rem;
+    }
+    
+    .notfound-subtitle {
+        font-size: 1.8rem;
+        margin-bottom: 1rem;
+    }
+    
+    .notfound-description {
+        font-size: 1.1rem;
+        margin-bottom: 2.5rem;
+    }
+    
+    .notfound-text {
+        padding: 2.5rem 2rem;
+    }
+    
+    .btn-home,
+    .btn-back {
+        padding: 1rem 1.8rem;
+        font-size: 1rem;
+    }
+}
+
+/* דסקטופ גדול - מעל 1200px */
+@media (min-width: 1201px) {
+    .NotFound {
+        padding: 4rem;
+    }
+    
+    .notfound-container {
+        max-width: 700px;
+    }
+    
+    .notfound-content {
+        min-height: 550px;
+    }
+    
+    .notfound-title {
+        font-size: 6rem;
+        margin-bottom: 1.5rem;
+    }
+    
+    .notfound-subtitle {
+        font-size: 2rem;
+        margin-bottom: 1.2rem;
+    }
+    
+    .notfound-description {
+        font-size: 1.2rem;
+        margin-bottom: 3rem;
+    }
+    
+    .notfound-text {
+        padding: 3rem 2.5rem;
+    }
+    
+    .btn-home,
+    .btn-back {
+        padding: 1.2rem 2rem;
+        font-size: 1.1rem;
+    }
+}

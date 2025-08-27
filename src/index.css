@@ -1,0 +1,141 @@
+/* עיצוב בסיסי רספונסיבי גלובלי */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Assistant', 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #fff;
+}
+
+/* מובייל - עד 650px */
+@media (max-width: 650px) {
+    body {
+        font-size: 14px;
+        line-height: 1.5;
+    }
+    
+    h1 {
+        font-size: 1.8rem;
+    }
+    
+    h2 {
+        font-size: 1.5rem;
+    }
+    
+    h3 {
+        font-size: 1.3rem;
+    }
+    
+    p {
+        font-size: 0.9rem;
+    }
+}
+
+/* טאבלט - 651px עד 900px */
+@media (min-width: 651px) and (max-width: 900px) {
+    body {
+        font-size: 15px;
+        line-height: 1.6;
+    }
+    
+    h1 {
+        font-size: 2.2rem;
+    }
+    
+    h2 {
+        font-size: 1.8rem;
+    }
+    
+    h3 {
+        font-size: 1.5rem;
+    }
+    
+    p {
+        font-size: 1rem;
+    }
+}
+
+/* דסקטופ קטן - 901px עד 1200px */
+@media (min-width: 901px) and (max-width: 1200px) {
+    body {
+        font-size: 16px;
+        line-height: 1.6;
+    }
+    
+    h1 {
+        font-size: 2.5rem;
+    }
+    
+    h2 {
+        font-size: 2rem;
+    }
+    
+    h3 {
+        font-size: 1.7rem;
+    }
+    
+    p {
+        font-size: 1.1rem;
+    }
+}
+
+/* דסקטופ גדול - מעל 1200px */
+@media (min-width: 1201px) {
+    body {
+        font-size: 16px;
+        line-height: 1.7;
+    }
+    
+    h1 {
+        font-size: 2.8rem;
+    }
+    
+    h2 {
+        font-size: 2.2rem;
+    }
+    
+    h3 {
+        font-size: 1.8rem;
+    }
+    
+    p {
+        font-size: 1.1rem;
+    }
+}
+
+/* שיפורים נוספים לרספונסיביות */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+table {
+    width: 100%;
+    overflow-x: auto;
+    display: block;
+    white-space: nowrap;
+}
+
+@media (max-width: 768px) {
+    table {
+        font-size: 0.8rem;
+    }
+    
+    table th,
+    table td {
+        padding: 0.5rem 0.3rem;
+        min-width: 80px;
+    }
+}

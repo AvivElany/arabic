@@ -1,0 +1,99 @@
+.Arrest {
+    min-height: 100vh;
+    padding: 20px;
+    direction: rtl;
+    font-family: 'Assistant', sans-serif;
+    max-width: 1400px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+/* מובייל - עד 650px */
+@media (max-width: 650px) {
+    .Arrest {
+        padding: 10px;
+        font-size: 0.9rem;
+    }
+    
+    .Arrest h1 {
+        font-size: 1.8rem;
+        margin-bottom: 15px;
+    }
+    
+    .Arrest h2 {
+        font-size: 1.4rem;
+        margin-bottom: 12px;
+    }
+    
+    .Arrest p {
+        font-size: 0.9rem;
+        line-height: 1.5;
+        margin-bottom: 12px;
+    }
+}
+
+/* טאבלט - 651px עד 900px */
+@media (min-width: 651px) and (max-width: 900px) {
+    .Arrest {
+        padding: 20px;
+        max-width: 95%;
+    }
+    
+    .Arrest h1 {
+        font-size: 2.1rem;
+        margin-bottom: 18px;
+    }
+    
+    .Arrest h2 {
+        font-size: 1.6rem;
+        margin-bottom: 15px;
+    }
+    
+    .Arrest p {
+        font-size: 1rem;
+        line-height: 1.6;
+        margin-bottom: 15px;
+    }
+}
+
+/* דסקטופ קטן - 901px עד 1200px */
+@media (min-width: 901px) and (max-width: 1200px) {
+    .Arrest {
+        padding: 30px;
+        max-width: 90%;
+    }
+    
+    .Arrest h1 {
+        font-size: 2.4rem;
+        margin-bottom: 20px;
+    }
+    
+    .Arrest h2 {
+        font-size: 1.8rem;
+        margin-bottom: 18px;
+    }
+}
+
+/* דסקטופ גדול - מעל 1200px */
+@media (min-width: 1201px) {
+    .Arrest {
+        padding: 40px;
+        max-width: 1400px;
+    }
+    
+    .Arrest h1 {
+        font-size: 2.6rem;
+        margin-bottom: 25px;
+    }
+    
+    .Arrest h2 {
+        font-size: 2rem;
+        margin-bottom: 20px;
+    }
+    
+    .Arrest p {
+        font-size: 1.1rem;
+        line-height: 1.7;
+        margin-bottom: 18px;
+    }
+}

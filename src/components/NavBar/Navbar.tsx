@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import './Navbar.css'
 import { 
     FaHome, 
@@ -11,13 +11,12 @@ import {
     FaLanguage, 
     FaPhone 
 } from 'react-icons/fa'
-/* import { GiInternalInjury } from 'react-icons/gi'; */
 
 /*interface INavbarProps {
 
 }*/
 
-/* const elmDocument = document.querySelector('html') as HTMLHtmlElement */
+const elmDocument = document.querySelector('html') as HTMLHtmlElement
 
 export default function Navbar(/*props: INavbarProps*/) {
     const [isNavOpen, setIsNavOpen] = useState(false);
@@ -31,30 +30,18 @@ export default function Navbar(/*props: INavbarProps*/) {
         setIsNavOpen(!isNavOpen);
     };
 
-    /* const [theme, setTheme] = useState('dark') */
-
-
-    /* useEffect(()=>{
+    useEffect(()=>{
     const lsTheme = localStorage.getItem('theme')
 
     if (lsTheme) {
       // found theme key
         elmDocument.setAttribute('data-bs-theme',lsTheme)
-        setTheme(lsTheme)
     } else {
       // theme key not found
         localStorage.setItem('theme','light')
         elmDocument.setAttribute('data-bs-theme','light')
-        setTheme('light')
     }
-    },[]) */
-
-    /* const toggleTheme = () => {
-        const newTheme = theme === 'light' ? 'dark' : 'light'; // Determine the new theme based on the current one
-        setTheme(newTheme); // Update the state with the new theme
-        elmDocument.setAttribute('data-bs-theme', newTheme); // Set the attribute based on the new theme
-        localStorage.setItem('theme', newTheme)
-    } */
+    },[])
 
     return (
         <nav className="navbar navbar-expand-lg bg-body-tertiary bottom-navbar" data-bs-theme='dark'>

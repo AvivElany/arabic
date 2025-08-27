@@ -1,0 +1,127 @@
+.Suspect {
+    min-height: 100vh;
+    padding: 20px;
+    direction: rtl;
+    font-family: 'Assistant', sans-serif;
+    max-width: 1400px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+/* מובייל - עד 650px */
+@media (max-width: 650px) {
+    .Suspect {
+        padding: 10px;
+        font-size: 0.9rem;
+    }
+    
+    .Suspect h1 {
+        font-size: 1.8rem;
+        margin-bottom: 15px;
+    }
+    
+    .Suspect h2 {
+        font-size: 1.4rem;
+        margin-bottom: 12px;
+    }
+    
+    .Suspect p {
+        font-size: 0.9rem;
+        line-height: 1.5;
+        margin-bottom: 12px;
+    }
+    
+    .Suspect table {
+        font-size: 0.8rem;
+    }
+    
+    .Suspect table th,
+    .Suspect table td {
+        padding: 6px 4px;
+        font-size: 0.75rem;
+    }
+}
+
+/* טאבלט - 651px עד 900px */
+@media (min-width: 651px) and (max-width: 900px) {
+    .Suspect {
+        padding: 20px;
+        max-width: 95%;
+    }
+    
+    .Suspect h1 {
+        font-size: 2.1rem;
+        margin-bottom: 18px;
+    }
+    
+    .Suspect h2 {
+        font-size: 1.6rem;
+        margin-bottom: 15px;
+    }
+    
+    .Suspect p {
+        font-size: 1rem;
+        line-height: 1.6;
+        margin-bottom: 15px;
+    }
+    
+    .Suspect table th,
+    .Suspect table td {
+        padding: 8px 6px;
+        font-size: 0.85rem;
+    }
+}
+
+/* דסקטופ קטן - 901px עד 1200px */
+@media (min-width: 901px) and (max-width: 1200px) {
+    .Suspect {
+        padding: 30px;
+        max-width: 90%;
+    }
+    
+    .Suspect h1 {
+        font-size: 2.4rem;
+        margin-bottom: 20px;
+    }
+    
+    .Suspect h2 {
+        font-size: 1.8rem;
+        margin-bottom: 18px;
+    }
+    
+    .Suspect table th,
+    .Suspect table td {
+        padding: 10px 8px;
+        font-size: 0.9rem;
+    }
+}
+
+/* דסקטופ גדול - מעל 1200px */
+@media (min-width: 1201px) {
+    .Suspect {
+        padding: 40px;
+        max-width: 1400px;
+    }
+    
+    .Suspect h1 {
+        font-size: 2.6rem;
+        margin-bottom: 25px;
+    }
+    
+    .Suspect h2 {
+        font-size: 2rem;
+        margin-bottom: 20px;
+    }
+    
+    .Suspect p {
+        font-size: 1.1rem;
+        line-height: 1.7;
+        margin-bottom: 18px;
+    }
+    
+    .Suspect table th,
+    .Suspect table td {
+        padding: 12px 10px;
+        font-size: 1rem;
+    }
+}

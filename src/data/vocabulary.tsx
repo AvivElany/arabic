@@ -30,6 +30,7 @@ export const vocabulary = [
     {category: "בגדים",
         words: [
             { hebrew: "בגד", taatik: "מַלַאבֶּס", arabic: "ملابس", english: "clothing" },
+            { hebrew: "חולצה", taatik: "בּלוזה", arabic: "بلوزة", english: "shirt" },
             { hebrew: "חולצה", taatik: "קַמִיס", arabic: "قميص", english: "shirt" },
             { hebrew: "מכנסיים", taatik: "בַּנְטַלון", arabic: "بنطلون", english: "pants" },
             { hebrew: "מעיל", taatik: "גַ'אכֵּט", arabic: "جاكيت", english: "jacket / coat" },

@@ -1,10 +1,69 @@
 .App {
-    max-width: 650px;
     margin: 0 auto;
+    width: 100%;
+    max-width: 1440px;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
 }
 
-@media (min-width: 650px) {
+/* קבוצה גלובלית של media queries */
+
+/* מובייל - עד 650px */
+@media (max-width: 650px) {
     .App {
-        border: 7px solid #000;
+        padding: 0 10px;
+    }
+    
+    * {
+        box-sizing: border-box;
+    }
+    
+    html, body {
+        overflow-x: hidden;
+        width: 100%;
+    }
+}
+
+/* טאבלט - 651px עד 900px */
+@media (min-width: 651px) and (max-width: 900px) {
+    .App {
+        padding: 0 20px;
+        max-width: 100%;
+    }
+}
+
+/* דסקטופ קטן - 901px עד 1200px */
+@media (min-width: 901px) and (max-width: 1200px) {
+    .App {
+        padding: 0 30px;
+        max-width: 1200px;
+    }
+}
+
+/* דסקטופ גדול - מעל 1200px */
+@media (min-width: 1201px) {
+    .App {
+        padding: 0 40px;
+        max-width: 1440px;
+    }
+}
+
+/* עיצוב רספונסיבי כללי */
+@media (max-width: 480px) {
+    body {
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+    body {
+        font-size: 15px;
+    }
+}
+
+@media (min-width: 769px) {
+    body {
+        font-size: 16px;
     }
 }

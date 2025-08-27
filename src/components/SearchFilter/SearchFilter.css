@@ -172,3 +172,93 @@
         font-size: 9px;
     }
 }
+
+/* טאבלט - 651px עד 900px */
+@media (min-width: 651px) and (max-width: 900px) {
+    .SearchFilter {
+        margin: 1.8rem 0;
+        padding: 0 1.5rem;
+    }
+    
+    .SearchFilter__container {
+        max-width: 500px;
+    }
+    
+    .SearchFilter__input {
+        padding: 12px 50px 12px 18px;
+        border-radius: 22px;
+        font-size: 1rem;
+    }
+    
+    .SearchFilter__icon {
+        left: 12px;
+        font-size: 1.1rem;
+    }
+    
+    .SearchFilter__clear {
+        left: 35px;
+        width: 20px;
+        height: 20px;
+        font-size: 11px;
+    }
+}
+
+/* דסקטופ קטן - 901px עד 1200px */
+@media (min-width: 901px) and (max-width: 1200px) {
+    .SearchFilter {
+        margin: 2rem 0;
+        padding: 0 2rem;
+    }
+    
+    .SearchFilter__container {
+        max-width: 600px;
+    }
+    
+    .SearchFilter__input {
+        padding: 14px 55px 14px 20px;
+        border-radius: 25px;
+        font-size: 1.1rem;
+    }
+    
+    .SearchFilter__icon {
+        left: 15px;
+        font-size: 1.2rem;
+    }
+    
+    .SearchFilter__clear {
+        left: 40px;
+        width: 22px;
+        height: 22px;
+        font-size: 12px;
+    }
+}
+
+/* דסקטופ גדול - מעל 1200px */
+@media (min-width: 1201px) {
+    .SearchFilter {
+        margin: 2.5rem 0;
+        padding: 0 2.5rem;
+    }
+    
+    .SearchFilter__container {
+        max-width: 700px;
+    }
+    
+    .SearchFilter__input {
+        padding: 16px 60px 16px 22px;
+        border-radius: 28px;
+        font-size: 1.2rem;
+    }
+    
+    .SearchFilter__icon {
+        left: 18px;
+        font-size: 1.3rem;
+    }
+    
+    .SearchFilter__clear {
+        left: 45px;
+        width: 24px;
+        height: 24px;
+        font-size: 14px;
+    }
+}

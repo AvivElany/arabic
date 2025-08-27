@@ -1,6 +1,3 @@
-/* עיצוב חדש ומשודרג לסרגל הניווט */
-
-/* אלמנטים בסיסיים */
 .main-symbol {
     width: 42px;
     height: 42px;
@@ -513,5 +510,96 @@
     .bottom-navbar .nav-link:hover {
         background: linear-gradient(135deg, rgba(76, 175, 80, 0.2) 0%, rgba(76, 175, 80, 0.1) 100%);
         transform: translateY(-2px);
+    }
+}
+
+/* מובייל - עד 650px */
+@media (max-width: 650px) {
+    .container-fluid {
+        padding: 0.5rem 1rem;
+    }
+    
+    .main-symbol {
+        width: 35px;
+        height: 35px;
+    }
+    
+    .nav-name {
+        font-size: 1rem;
+        margin-left: 8px;
+        padding: 6px 12px;
+    }
+    
+    .dark-light-mode-button {
+        height: 38px;
+        width: 38px;
+        border-radius: 10px;
+    }
+}
+
+/* טאבלט - 651px עד 900px */
+@media (min-width: 651px) and (max-width: 900px) {
+    .container-fluid {
+        padding: 0.65rem 1.25rem;
+    }
+    
+    .main-symbol {
+        width: 40px;
+        height: 40px;
+    }
+    
+    .nav-name {
+        font-size: 1.1rem;
+        margin-left: 10px;
+        padding: 7px 14px;
+    }
+    
+    .dark-light-mode-button {
+        height: 42px;
+        width: 42px;
+    }
+}
+
+/* דסקטופ קטן - 901px עד 1200px */
+@media (min-width: 901px) and (max-width: 1200px) {
+    .container-fluid {
+        padding: 0.75rem 2rem;
+    }
+    
+    .main-symbol {
+        width: 44px;
+        height: 44px;
+    }
+    
+    .nav-name {
+        font-size: 1.25rem;
+        margin-left: 14px;
+        padding: 9px 18px;
+    }
+}
+
+/* דסקטופ גדול - מעל 1200px */
+@media (min-width: 1201px) {
+    .container-fluid {
+        padding: 1rem 3rem;
+        max-width: 1440px;
+        margin: 0 auto;
+    }
+    
+    .main-symbol {
+        width: 46px;
+        height: 46px;
+    }
+    
+    .nav-name {
+        font-size: 1.3rem;
+        margin-left: 16px;
+        padding: 10px 20px;
+    }
+    
+    .dark-light-mode-button {
+        height: 46px;
+        width: 46px;
+        border-radius: 14px;
     }
 }

@@ -1,10 +1,14 @@
 .WordTable {
-    margin: 1rem 0;
+    margin: 1rem auto;
     background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
     border-radius: 12px;
     overflow: hidden;
     box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
     border: 2px solid #e3f2fd;
+    width: 95%;
+    max-width: 1200px;
+    display: block;
+    text-align: center;
 }
 
 .WordTable__category {
@@ -24,14 +28,21 @@
 .WordTable__container {
     overflow-x: auto;
     padding: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    text-align: center;
 }
 
 .WordTable__table {
-    width: 100%;
+    width: auto;
+    max-width: 100%;
     border-collapse: collapse;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    min-width: 100%;
     direction: ltr;
+    margin: 0 auto;
+    table-layout: auto;
 }
 
 .WordTable__table thead th {
@@ -83,7 +94,7 @@
     font-weight: 600;
     color: #1976d2;
     direction: rtl;
-    text-align: right;
+    text-align: center;
 }
 
 .WordTable__cell--taatik {
@@ -91,7 +102,7 @@
     color: #2e7d32;
     font-weight: 500;
     direction: rtl;
-    text-align: right;
+    text-align: center;
 }
 
 .WordTable__cell--arabic {
@@ -100,14 +111,14 @@
     color: #d32f2f;
     font-weight: 600;
     direction: rtl;
-    text-align: right;
+    text-align: center;
 }
 
 .WordTable__cell--english {
     color: #5d4037;
     font-weight: 500;
     direction: ltr;
-    text-align: left;
+    text-align: center;
 }
 
 /* אנימציה של הופעה */
@@ -127,13 +138,24 @@
 }
 
 /* רספונסיביות משופרת למובייל */
-@media (max-width: 768px) {
+@media (max-width: 650px) {
     .WordTable {
-        margin: 0.8rem 0;
+        margin: 0.8rem auto;
+        width: 98%;
+        max-width: none;
+        text-align: center;
     }
     
     .WordTable__container {
         padding: 0.3rem;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .WordTable__table {
+        margin: 0 auto;
+        width: auto;
+        min-width: auto;
     }
     
     .WordTable__category-title {
@@ -211,5 +233,107 @@
     
     .WordTable__cell--arabic {
         font-size: 0.8rem;
+    }
+}
+
+/* טאבלט - 651px עד 900px */
+@media (min-width: 651px) and (max-width: 900px) {
+    .WordTable {
+        margin: 1.2rem auto;
+        width: 96%;
+        border-radius: 14px;
+        text-align: center;
+    }
+    
+    .WordTable__container {
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .WordTable__table {
+        margin: 0 auto;
+        width: auto;
+    }
+    
+    .WordTable__table thead th {
+        padding: 12px 10px;
+        font-size: 0.9rem;
+    }
+    
+    .WordTable__cell {
+        padding: 8px 6px;
+        font-size: 0.85rem;
+    }
+    
+    .WordTable__cell--arabic {
+        font-size: 0.95rem;
+    }
+}
+
+/* דסקטופ קטן - 901px עד 1200px */
+@media (min-width: 901px) and (max-width: 1200px) {
+    .WordTable {
+        margin: 1.5rem auto;
+        width: 94%;
+        border-radius: 16px;
+        text-align: center;
+    }
+    
+    .WordTable__container {
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .WordTable__table {
+        margin: 0 auto;
+        width: auto;
+    }
+    
+    .WordTable__table thead th {
+        padding: 14px 12px;
+        font-size: 1rem;
+    }
+    
+    .WordTable__cell {
+        padding: 10px 8px;
+        font-size: 0.9rem;
+    }
+    
+    .WordTable__cell--arabic {
+        font-size: 1.05rem;
+    }
+}
+
+/* דסקטופ גדול - מעל 1200px */
+@media (min-width: 1201px) {
+    .WordTable {
+        margin: 2rem auto;
+        width: 92%;
+        border-radius: 18px;
+        text-align: center;
+    }
+    
+    .WordTable__container {
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .WordTable__table {
+        margin: 0 auto;
+        width: auto;
+    }
+    
+    .WordTable__table thead th {
+        padding: 16px 14px;
+        font-size: 1.1rem;
+    }
+    
+    .WordTable__cell {
+        padding: 12px 10px;
+        font-size: 1rem;
+    }
+    
+    .WordTable__cell--arabic {
+        font-size: 1.15rem;
     }
 }

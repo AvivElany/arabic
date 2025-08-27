@@ -7,6 +7,8 @@
     margin: 14px auto;
     max-width: 95%;
     transition: transform 0.2s ease, box-shadow 0.2s ease;
+    box-sizing: border-box;
+    width: 100%;
 }
 
 .sentence-card:hover {
@@ -22,6 +24,8 @@
     font-size: 1.2rem;
     color: #f2f2f2;
     direction: rtl;
+    word-wrap: break-word;
+    hyphens: auto;
 }
 
 .hebrew {
@@ -57,4 +61,154 @@
     padding: 6px 10px;
     border-radius: 10px;
     font-weight: 500;
+}
+
+/* מובייל - עד 650px */
+@media (max-width: 650px) {
+    .sentence-card {
+        padding: 12px 15px;
+        margin: 10px auto;
+        max-width: 100%;
+        border-radius: 15px;
+    }
+    
+    .sentence {
+        font-size: 1rem;
+        line-height: 1.5;
+        margin: 5px 0;
+    }
+    
+    .hebrew {
+        font-size: 1rem;
+    }
+    
+    .taatik {
+        font-size: 1.1rem;
+    }
+    
+    .arabic {
+        font-size: 1rem;
+    }
+    
+    .english {
+        font-size: 0.9rem;
+    }
+    
+    .notice {
+        font-size: 0.85rem;
+        padding: 5px 8px;
+        margin-top: 6px;
+    }
+}
+
+/* טאבלט - 651px עד 900px */
+@media (min-width: 651px) and (max-width: 900px) {
+    .sentence-card {
+        padding: 14px 18px;
+        margin: 12px auto;
+        max-width: 98%;
+        border-radius: 16px;
+    }
+    
+    .sentence {
+        font-size: 1.1rem;
+        line-height: 1.5;
+    }
+    
+    .hebrew {
+        font-size: 1.1rem;
+    }
+    
+    .taatik {
+        font-size: 1.25rem;
+    }
+    
+    .arabic {
+        font-size: 1.1rem;
+    }
+    
+    .english {
+        font-size: 0.95rem;
+    }
+    
+    .notice {
+        font-size: 0.9rem;
+        padding: 6px 9px;
+    }
+}
+
+/* דסקטופ קטן - 901px עד 1200px */
+@media (min-width: 901px) and (max-width: 1200px) {
+    .sentence-card {
+        padding: 18px 22px;
+        margin: 16px auto;
+        max-width: 95%;
+        border-radius: 18px;
+    }
+    
+    .sentence {
+        font-size: 1.3rem;
+        line-height: 1.6;
+        margin: 7px 0;
+    }
+    
+    .hebrew {
+        font-size: 1.3rem;
+    }
+    
+    .taatik {
+        font-size: 1.5rem;
+    }
+    
+    .arabic {
+        font-size: 1.3rem;
+    }
+    
+    .english {
+        font-size: 1.05rem;
+    }
+    
+    .notice {
+        font-size: 1rem;
+        padding: 7px 11px;
+        margin-top: 9px;
+    }
+}
+
+/* דסקטופ גדול - מעל 1200px */
+@media (min-width: 1201px) {
+    .sentence-card {
+        padding: 20px 25px;
+        margin: 18px auto;
+        max-width: 90%;
+        border-radius: 20px;
+    }
+    
+    .sentence {
+        font-size: 1.4rem;
+        line-height: 1.7;
+        margin: 8px 0;
+    }
+    
+    .hebrew {
+        font-size: 1.4rem;
+    }
+    
+    .taatik {
+        font-size: 1.6rem;
+    }
+    
+    .arabic {
+        font-size: 1.4rem;
+    }
+    
+    .english {
+        font-size: 1.1rem;
+    }
+    
+    .notice {
+        font-size: 1.05rem;
+        padding: 8px 12px;
+        margin-top: 10px;
+    }
 }

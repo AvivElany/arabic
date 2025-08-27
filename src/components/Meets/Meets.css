@@ -1,5 +1,6 @@
 .Meets {
     width: 100%;
+    max-width: 1200px;
     padding: 20px;
     background-color: #f9f9f9;
     border-radius: 15px;
@@ -7,34 +8,49 @@
     font-family: "Assistant", sans-serif;
     color: #666;
     overflow-x: hidden;
+    margin: 20px auto;
+    box-sizing: border-box;
 }
 
 .theMeets {
     display: grid;
-    grid-template-columns: repeat(2, minmax(120px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 20px;
-    padding:  0 20px 0 20px;
+    padding: 0 20px;
     border-radius: 15px;
 }
+
 .Meets p {
     font-size: 1.2em;
     color: #333;
     direction: rtl;
+    margin-bottom: 20px;
+    line-height: 1.5;
 }
 
 .meet-item {
     display: flex;
     justify-content: end;
     align-items: center;
-    padding: 10px;
+    padding: 15px;
     border-radius: 10px;
     gap: 20px;
     flex-direction: row-reverse;
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.meet-item:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
 .meet-icon {
     font-size: 2em;
     color: #a15353;
+    min-width: 50px;
+    text-align: center;
 }
 
 .meet-info {
@@ -42,5 +58,134 @@
     color: #333;
     font-family: "Assistant", sans-serif;
     font-size: 1.2em;
+    text-align: right;
+    flex: 1;
+}
 
+/* מובייל - עד 650px */
+@media (max-width: 650px) {
+    .Meets {
+        padding: 15px 10px;
+        margin: 15px auto;
+        border-radius: 12px;
+    }
+    
+    .theMeets {
+        grid-template-columns: 1fr;
+        gap: 15px;
+        padding: 0 10px;
+    }
+    
+    .Meets p {
+        font-size: 1rem;
+        margin-bottom: 15px;
+        padding: 0 5px;
+    }
+    
+    .meet-item {
+        padding: 12px;
+        gap: 15px;
+        border-radius: 8px;
+    }
+    
+    .meet-icon {
+        font-size: 1.5em;
+        min-width: 40px;
+    }
+    
+    .meet-info {
+        font-size: 1rem;
+    }
+}
+
+/* טאבלט - 651px עד 900px */
+@media (min-width: 651px) and (max-width: 900px) {
+    .Meets {
+        padding: 25px 20px;
+        margin: 25px auto;
+        max-width: 95%;
+    }
+    
+    .theMeets {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 18px;
+        padding: 0 15px;
+    }
+    
+    .Meets p {
+        font-size: 1.1em;
+        margin-bottom: 18px;
+    }
+    
+    .meet-item {
+        padding: 15px;
+        gap: 18px;
+    }
+    
+    .meet-icon {
+        font-size: 1.8em;
+        min-width: 45px;
+    }
+    
+    .meet-info {
+        font-size: 1.1em;
+    }
+}
+
+/* דסקטופ קטן - 901px עד 1200px */
+@media (min-width: 901px) and (max-width: 1200px) {
+    .Meets {
+        padding: 30px 25px;
+        margin: 30px auto;
+        max-width: 90%;
+    }
+    
+    .theMeets {
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+        gap: 20px;
+        padding: 0 20px;
+    }
+    
+    .meet-item {
+        padding: 18px;
+        gap: 22px;
+    }
+    
+    .meet-icon {
+        font-size: 2.2em;
+        min-width: 55px;
+    }
+    
+    .meet-info {
+        font-size: 1.3em;
+    }
+}
+
+/* דסקטופ גדול - מעל 1200px */
+@media (min-width: 1201px) {
+    .Meets {
+        padding: 35px 30px;
+        margin: 40px auto;
+        max-width: 1200px;
+    }
+    
+    .theMeets {
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 25px;
+        padding: 0 25px;
+    }
+    
+    .meet-item {
+        padding: 20px;
+        gap: 25px;
+    }
+    
+    .meet-icon {
+        font-size: 2.5em;
+        min-width: 60px;
+    }
+    
+    .meet-info {
+        font-size: 1.4em;
+    }
 }

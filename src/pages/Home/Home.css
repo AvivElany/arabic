@@ -1,5 +1,10 @@
 .Home {
     text-align: center;
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 20px;
+    box-sizing: border-box;
 }
 
 .Home h1 {
@@ -10,4 +15,55 @@
 .Home p {
     font-size: 1.2em;
     line-height: 1.5;
+}
+
+/* מובייל - עד 650px */
+@media (max-width: 650px) {
+    .Home {
+        padding: 0 15px;
+    }
+    
+    .Home h1 {
+        font-size: 1.8em;
+        margin-bottom: 15px;
+    }
+    
+    .Home p {
+        font-size: 1em;
+        line-height: 1.4;
+    }
+}
+
+/* טאבלט - 651px עד 900px */
+@media (min-width: 651px) and (max-width: 900px) {
+    .Home {
+        padding: 0 25px;
+    }
+    
+    .Home h1 {
+        font-size: 2.2em;
+        margin-bottom: 18px;
+    }
+    
+    .Home p {
+        font-size: 1.1em;
+        line-height: 1.5;
+    }
+}
+
+/* דסקטופ - מעל 900px */
+@media (min-width: 901px) {
+    .Home {
+        padding: 0 40px;
+    }
+    
+    .Home h1 {
+        font-size: 2.5em;
+        margin-bottom: 20px;
+    }
+    
+    .Home p {
+        font-size: 1.2em;
+        line-height: 1.5;
+    }
 }

@@ -28,3 +28,47 @@
 .scroll-to-top-btn:active {
     transform: translateY(0);
 }
+
+/* מובייל - עד 650px */
+@media (max-width: 650px) {
+    .scroll-to-top-btn {
+        bottom: 80px;
+        right: 15px;
+        width: 45px;
+        height: 45px;
+        font-size: 18px;
+    }
+}
+
+/* טאבלט - 651px עד 900px */
+@media (min-width: 651px) and (max-width: 900px) {
+    .scroll-to-top-btn {
+        bottom: 90px;
+        right: 18px;
+        width: 48px;
+        height: 48px;
+        font-size: 19px;
+    }
+}
+
+/* דסקטופ קטן - 901px עד 1200px */
+@media (min-width: 901px) and (max-width: 1200px) {
+    .scroll-to-top-btn {
+        bottom: 100px;
+        right: 25px;
+        width: 52px;
+        height: 52px;
+        font-size: 21px;
+    }
+}
+
+/* דסקטופ גדול - מעל 1200px */
+@media (min-width: 1201px) {
+    .scroll-to-top-btn {
+        bottom: 120px;
+        right: 30px;
+        width: 55px;
+        height: 55px;
+        font-size: 22px;
+    }
+}

@@ -263,3 +263,97 @@
         font-size: 1.2rem;
     }
 }
+
+/* טאבלט - 651px עד 900px */
+@media (min-width: 651px) and (max-width: 900px) {
+    .combat-interrogation {
+        max-width: 95%;
+        padding: 0 20px;
+    }
+    
+    .combat-interrogation h1 {
+        font-size: 2.5rem;
+        padding: 3rem 2rem;
+        letter-spacing: -0.5px;
+    }
+    
+    .content-container {
+        max-width: 90%;
+        padding: 2rem;
+    }
+    
+    .principles h2,
+    .importance h2 {
+        font-size: 1.8rem;
+        margin: 2rem 0 1rem;
+    }
+    
+    .principles p,
+    .importance p {
+        font-size: 1rem;
+        line-height: 1.6;
+        margin-bottom: 1.2rem;
+    }
+}
+
+/* דסקטופ קטן - 901px עד 1200px */
+@media (min-width: 901px) and (max-width: 1200px) {
+    .combat-interrogation {
+        max-width: 90%;
+        padding: 0 30px;
+    }
+    
+    .combat-interrogation h1 {
+        font-size: 3rem;
+        padding: 4rem 2.5rem;
+    }
+    
+    .content-container {
+        max-width: 95%;
+        padding: 2.5rem;
+    }
+    
+    .principles h2,
+    .importance h2 {
+        font-size: 2rem;
+        margin: 2.5rem 0 1.2rem;
+    }
+    
+    .principles p,
+    .importance p {
+        font-size: 1.05rem;
+        line-height: 1.7;
+        margin-bottom: 1.5rem;
+    }
+}
+
+/* דסקטופ גדול - מעל 1200px */
+@media (min-width: 1201px) {
+    .combat-interrogation {
+        max-width: 1400px;
+        padding: 0 40px;
+    }
+    
+    .combat-interrogation h1 {
+        font-size: 3.5rem;
+        padding: 5rem 3rem;
+    }
+    
+    .content-container {
+        max-width: 1000px;
+        padding: 3rem;
+    }
+    
+    .principles h2,
+    .importance h2 {
+        font-size: 2.2rem;
+        margin: 3rem 0 1.5rem;
+    }
+    
+    .principles p,
+    .importance p {
+        font-size: 1.1rem;
+        line-height: 1.8;
+        margin-bottom: 1.8rem;
+    }
+}

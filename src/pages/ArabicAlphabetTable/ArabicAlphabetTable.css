@@ -88,6 +88,7 @@
 
 /* טבלה */
 .alphabet-table-wrapper {
+    width: 95%;
     max-width: 1200px;
     margin: 2rem auto;
     background: white;
@@ -261,9 +262,13 @@
 }
 
 /* רספונסיביות */
-@media (max-width: 768px) {
+@media (max-width: 650px) {
     .alphabet-container {
         padding: 0.5rem;
+    }
+    
+    .alphabet-table-wrapper {
+        width: 98%;
     }
     
     .alphabet-search {
@@ -344,5 +349,116 @@
     
     .forms-explanation h3 {
         font-size: 1.3rem;
+    }
+}
+
+/* טאבלט - 651px עד 900px */
+@media (min-width: 651px) and (max-width: 900px) {
+    .alphabet-container {
+        padding: 1.5rem;
+    }
+    
+    .alphabet-table-wrapper {
+        width: 96%;
+    }
+    
+    .alphabet-search {
+        max-width: 500px;
+    }
+    
+    .alphabet-search-input {
+        padding: 14px 50px 14px 25px;
+        font-size: 1.1rem;
+    }
+    
+    .alphabet-table th,
+    .alphabet-table td {
+        padding: 12px 8px;
+        font-size: 0.9rem;
+    }
+    
+    .arabic-letter {
+        font-size: 2rem;
+    }
+    
+    .forms-explanation h3 {
+        font-size: 1.4rem;
+    }
+}
+
+/* דסקטופ קטן - 901px עד 1200px */
+@media (min-width: 901px) and (max-width: 1200px) {
+    .alphabet-container {
+        padding: 2rem;
+        max-width: 90%;
+        margin: 0 auto;
+    }
+    
+    .alphabet-table-wrapper {
+        width: 94%;
+    }
+    
+    .alphabet-search {
+        max-width: 600px;
+    }
+    
+    .alphabet-search-input {
+        padding: 15px 55px 15px 30px;
+        font-size: 1.1rem;
+    }
+    
+    .alphabet-table th,
+    .alphabet-table td {
+        padding: 14px 10px;
+        font-size: 1rem;
+    }
+    
+    .arabic-letter {
+        font-size: 2.2rem;
+    }
+    
+    .forms-explanation h3 {
+        font-size: 1.5rem;
+    }
+}
+
+/* דסקטופ גדול - מעל 1200px */
+@media (min-width: 1201px) {
+    .alphabet-container {
+        padding: 2.5rem;
+        max-width: 1400px;
+        margin: 0 auto;
+    }
+    
+    .alphabet-table-wrapper {
+        width: 92%;
+    }
+    
+    .alphabet-search {
+        max-width: 700px;
+    }
+    
+    .alphabet-search-input {
+        padding: 16px 60px 16px 35px;
+        font-size: 1.2rem;
+    }
+    
+    .alphabet-table th,
+    .alphabet-table td {
+        padding: 16px 12px;
+        font-size: 1.1rem;
+    }
+    
+    .arabic-letter {
+        font-size: 2.5rem;
+    }
+    
+    .forms-explanation h3 {
+        font-size: 1.6rem;
+    }
+    
+    .forms-explanation p {
+        font-size: 1.1rem;
+        line-height: 1.7;
     }
 }
