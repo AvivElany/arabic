@@ -68,7 +68,7 @@ export default function Hero(/*props: IHeroProps*/) {
                     whileHover={{ scale: 1.02 }}
                     transition={{ duration: 0.2 }}
                 >
-                    <span className='greeting-hero'>סַלָאם עֲלֵיכֻם</span> וברוכים הבאים לפק"ל שיחון ערבית<span className='unit'>ללוחמי חי"ר</span>
+                    <span className='greeting-hero'>סַלָאם עֲלֵיכֻם</span> וברוכים הבאים לפק"ל שיחון ערבית<span className='unit'>ללוחמי גדוד 9311</span>
                 </motion.h1>
                 {developing && (
                     <motion.div 
