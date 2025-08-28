@@ -275,6 +275,26 @@ export const vocabulary = [
         ]
     },
 
+    {
+        category: "חלקי גוף",
+        words: [
+            { hebrew: "ראש", taatik: "רַאס", arabic: "راس", english: "head" },
+            { hebrew: "פנים", taatik: "וְجְה", arabic: "وجه", english: "face" },
+            { hebrew: "עין", taatik: "עֵין", arabic: "عين", english: "eye" },
+            { hebrew: "אף", taatik: "אֻנְפ", arabic: "أنف", english: "nose" },
+            { hebrew: "פה", taatik: "פִּיّ", arabic: "فم", english: "mouth" },
+            { hebrew: "אוזן", taatik: "דַ'נֶה", arabic: "دَانِة", english: "ear" },
+            { hebrew: "שן", taatik: "סַנֶה", arabic: "سَانِة", english: "tooth" },
+            { hebrew: "צוואר", taatik: "רַקַבֶּה", arabic: "رقبة", english: "neck" },
+            { hebrew: "כתף", taatik: "כַּתֵّף", arabic: "كتف", english: "shoulder" },
+            { hebrew: "יד", taatik: "יַדّ", arabic: "يدّ", english: "hand / arm" },
+            { hebrew: "אצבע", taatik: "אִסְבַּעַה", arabic: "إصبع", english: "finger" },
+            { hebrew: "לב", taatik: "קַלְבּּ / לִבּّ", arabic: "قلب / لبّ", english: "heart" },
+            { hebrew: "בטן", taatik: "בַּטֶן / מַעִידֶה", arabic: "بطن / معدة", english: "stomach" },
+            { hebrew: "רגל", taatik: "רִגְלّ / סַاק", arabic: "رجل / ساقّ", english: "leg" }
+        ]
+    },
+
     {category: "רגשות ומצבים",
         words: [
             { hebrew: "רעב", taatik: "גַ'וְעַאן", arabic: "جوعان", english: "hungry" },
@@ -301,6 +321,53 @@ export const vocabulary = [
             { hebrew: "אמבולנס", taatik: "אַמְבּוּלַנְס", arabic: "إسعاف / أمبولانس", english: "ambulance" },
             { hebrew: "חובש", taatik: "מֻסְעֵף", arabic: "مسعف", english: "medic" },
             { hebrew: "אני צריך רופא", taatik: "בִּדִי טַבִּיב", arabic: "بدي طبيب", english: "I need a doctor" }
+        ]
+    },
+
+    {
+        category: "מצרכים",
+        words: [
+            { hebrew: "חלב", taatik: "חַלִיב", arabic: "حليب", english: "milk" },
+            { hebrew: "לבן (יוגורט)", taatik: "לַבַּן", arabic: "لبن", english: "yogurt" },
+            { hebrew: "לבנה", taatik: "לַבְּנֶה", arabic: "لبنة", english: "labneh" },
+
+            { hebrew: "לחם", taatik: "חֻ'בֵּז", arabic: "خبز", english: "bread" },
+            { hebrew: "פיתות", taatik: "חֻ'בֵּז עַרַבִּי", arabic: "خبز عربي", english: "pita breads" },
+            { hebrew: "לחמניות", taatik: "חֻ'בְּזַאת סְעַ׳אר", arabic: "خبزات صغار", english: "bread rolls" },
+
+            { hebrew: "מלפפון", taatik: "חִ׳יַאר", arabic: "خيار", english: "cucumber" },
+            { hebrew: "עגבנייה", taatik: "בַּנְדוֹרַה", arabic: "بندورة", english: "tomato" },
+            { hebrew: "חציל", taatik: "בַּאדִנְגַ׳אן", arabic: "باذنجان", english: "eggplant" },
+            { hebrew: "בצל", taatik: "בַּצַל", arabic: "بصل", english: "onion" },
+            { hebrew: "שום", taatik: "תּוּם", arabic: "ثوم", english: "garlic" },
+            { hebrew: "פלפל ירוק", taatik: "פִלְפֵל אַח׳דַר", arabic: "فلفل أخضر", english: "green pepper" },
+            { hebrew: "עגבניות שרי", taatik: "בַּנְדוֹרַה צְ׳רִי", arabic: "بندورة تشيري", english: "cherry tomatoes" },
+            { hebrew: "חמוצים", taatik: "מֻחַלַּלַּאת", arabic: "مخللات", english: "pickles" },
+            { hebrew: "תירס", taatik: "ד׳ֻרַה", arabic: "ذرة", english: "corn" },
+
+            { hebrew: "ממרח שוקולד", taatik: "שוֹקוֹלַאטַה לִלְדַּהְן", arabic: "شوكولاتة للدهن", english: "chocolate spread" },
+            { hebrew: "גבינה לבנה", taatik: "גִ׳בְּנֶה בַּיְדַ׳ה", arabic: "جبنة بيضا", english: "white cheese" },
+            { hebrew: "גבינה צהובה", taatik: "גִ׳בְּנֶה סַפְרַא", arabic: "جبنة صفرا", english: "yellow cheese" },
+            { hebrew: "חמאה", taatik: "זִבְּדַה", arabic: "زبدة", english: "butter" },
+            { hebrew: "ביצים", taatik: "בֵּיד׳", arabic: "بيض", english: "eggs" },
+
+            { hebrew: "עוף", taatik: "גַ׳אג׳ / דַגַ׳אג׳", arabic: "جاج / دجاج", english: "chicken" },
+            { hebrew: "בשר", taatik: "לַחְם", arabic: "لحم", english: "meat" },
+            { hebrew: "דג", taatik: "סַמַכּ", arabic: "سمك", english: "fish" },
+
+            { hebrew: "אורז", taatik: "רוּז", arabic: "رز", english: "rice" },
+            { hebrew: "פסטה", taatik: "מַעְכַּרוֹנֶה", arabic: "معكرونة", english: "pasta" },
+
+            { hebrew: "מלח", taatik: "מֶלֶח", arabic: "ملح", english: "salt" },
+            { hebrew: "סוכר", taatik: "סֻכַּר", arabic: "سكر", english: "sugar" },
+            { hebrew: "קפה", taatik: "קַהְוַה", arabic: "قهوة", english: "coffee" },
+            { hebrew: "תה", taatik: "שַאי", arabic: "شاي", english: "tea" },
+            { hebrew: "שמן (בישול)", taatik: "זֵית", arabic: "زيت", english: "oil" },
+            { hebrew: "שמן זית", taatik: "זֵית זֵיתוּן", arabic: "زيت زيتون", english: "olive oil" },
+            { hebrew: "מים", taatik: "מַי", arabic: "ميّ", english: "water" },
+            { hebrew: "מיץ", taatik: "עַצִיר", arabic: "عصير", english: "juice" },
+            { hebrew: "בירה", taatik: "בִּירַה", arabic: "بيرة", english: "beer" },
+            { hebrew: "יין", taatik: "נַבִּיד׳", arabic: "نبيذ", english: "wine" }
         ]
     },
 
